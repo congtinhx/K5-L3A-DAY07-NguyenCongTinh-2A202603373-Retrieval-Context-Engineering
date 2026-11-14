@@ -1,0 +1,73 @@
+[
+  {
+    "query_id": "t01",
+    "citation_support": [],
+    "context_grade": 2,
+    "reason": "Từ chối nhầm: model đã trả lời đúng nhưng thiếu marker [id] trong câu trả lời nên bộ kiểm tra v1 chuyển thành abstain (lỗi định dạng citation). Context có p030:c001 chứa \"1.75 percent ... in 2021\".",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [
+      true,
+      true
+    ],
+    "context_grade": 0,
+    "reason": "Không nêu con số \"as high as 5 percent of GDP\"; trả lời chung chung về rủi ro. Retrieval không lấy được chunk p39 chứa evidence. Các câu được trích đều có trong chunk được cite.",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng \"about double\"; câu phụ về carbon intensity cũng có trong p041:c002.",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [],
+    "context_grade": 0,
+    "reason": "Abstain sau 2 lượt search; context không có p033:c002 (82 percent) — lỗi retrieval dense.",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng \"about 75 percent\", p005 thuộc ch1 (filter đúng).",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t06",
+    "citation_support": [],
+    "context_grade": 2,
+    "reason": "Từ chối nhầm: model đã trả lời đúng nhưng thiếu marker [id] trong câu trả lời nên bộ kiểm tra v1 chuyển thành abstain (lỗi định dạng citation). Context có p037:c002 (Canada).",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "Từ chối đúng, không khẳng định năm nào.",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "Từ chối đúng.",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "abstention_correct": true
+  }
+]

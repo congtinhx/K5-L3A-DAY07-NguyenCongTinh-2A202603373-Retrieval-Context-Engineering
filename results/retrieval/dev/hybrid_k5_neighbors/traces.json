@@ -1,0 +1,2223 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "At what level of GDP per capita relative to the United States does the median growth slowdown episode occur?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 309.2,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p003:c000",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 3,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8845080870976407
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 18.78241257917555
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "rank": 2,
+        "score": 0.03178,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.9071033111687592
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 15.445101945940415
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c000",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8785032774802178
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 15.919546410766161
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c004",
+        "rank": 4,
+        "score": 0.03128,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8685423966868422
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 16.602303717028356
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p015:c000",
+        "rank": 5,
+        "score": 0.02971,
+        "page": 15,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.8609337633013436
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 15.576775613496343
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p003:c000",
+      "B:wdr2024_part1:p003:c001",
+      "B:wdr2024_part1:p014:c001",
+      "B:wdr2024_part1:p014:c000",
+      "B:wdr2024_part1:p014:c002",
+      "B:wdr2024_part1:p004:c000",
+      "B:wdr2024_part1:p014:c004"
+    ],
+    "context_chars": 6178,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p004:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p004:c000)"
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c003",
+        "reason": "budget (neighbour of B:wdr2024_part1:p014:c004)"
+      },
+      {
+        "id": "B:wdr2024_part1:p015:c000",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "How many middle-income economies have become high-income since 1990?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 226.6,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p005:c002",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.890972627285412
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 10.631597983182797
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c002",
+        "rank": 2,
+        "score": 0.03227,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8650608223604237
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 13.507808745984036
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c001",
+        "rank": 3,
+        "score": 0.032,
+        "page": 2,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8755334280590249
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 8.627455781352847
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c001",
+        "rank": 4,
+        "score": 0.03125,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8573944738633129
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 8.436254452904247
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p007:c001",
+        "rank": 5,
+        "score": 0.0303,
+        "page": 7,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.845506489276886
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 7.208292645402164
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p005:c002",
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p005:c003",
+      "B:wdr2024_part1:p006:c002",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p002:c001",
+      "B:wdr2024_part1:p002:c000"
+    ],
+    "context_chars": 6236,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p002:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p002:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p007:c001",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "By which year does Viet Nam plan to reach high-income status?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 291.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8652021884918213
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 18.76216915016414
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c001",
+        "rank": 2,
+        "score": 0.02996,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8283056225412401
+          },
+          "bm25": {
+            "rank": 11,
+            "score": 4.797972014530402
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c001",
+        "rank": 3,
+        "score": 0.02941,
+        "page": 3,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.8064891580634822
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 5.018256550627735
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c002",
+        "rank": 4,
+        "score": 0.02908,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8116631732388586
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 4.424642064536407
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c002",
+        "rank": 5,
+        "score": 0.02895,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8310401641082628
+          },
+          "bm25": {
+            "rank": 18,
+            "score": 3.970384993781369
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p003:c001",
+      "B:wdr2024_part1:p003:c000",
+      "B:wdr2024_part1:p003:c002",
+      "B:wdr2024_part1:p005:c002"
+    ],
+    "context_chars": 6113,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p005:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p005:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c003",
+        "reason": "budget (neighbour of B:wdr2024_part1:p005:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c002",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What income cutoff did the very first World Development Report use to separate poor countries from middle-income ones?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 188.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p004:c001",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8557312488555908
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 14.64179701244851
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c001",
+        "rank": 2,
+        "score": 0.03128,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8460125923156738
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 10.366128464280994
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p007:c004",
+        "rank": 3,
+        "score": 0.03101,
+        "page": 7,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8421444296836853
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 11.678217774960606
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c002",
+        "rank": 4,
+        "score": 0.03101,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8418563008308411
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 13.762023077065022
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c003",
+        "rank": 5,
+        "score": 0.03028,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.8253314703307841
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 17.51541360485036
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p004:c001",
+      "B:wdr2024_part1:p004:c000",
+      "B:wdr2024_part1:p004:c002",
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p005:c000",
+      "B:wdr2024_part1:p005:c002"
+    ],
+    "context_chars": 6010,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p007:c004",
+        "reason": "budget (rank 3)"
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c002",
+        "reason": "budget (rank 4)"
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c003",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "At what value was the high-income threshold originally set in the 1989 Board paper?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 309.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p009:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 9,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8500892609304646
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 22.288523415929703
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p009:c000",
+        "rank": 2,
+        "score": 0.03226,
+        "page": 9,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8300269740836141
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 13.837211459036684
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c002",
+        "rank": 3,
+        "score": 0.03058,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.7988985300720628
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 9.465820981321666
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c003",
+        "rank": 4,
+        "score": 0.0303,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8087289561356359
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 4.880011233050174
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p031:c003",
+        "rank": 5,
+        "score": 0.02899,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.7964416984985234
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 4.193431003574564
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p009:c001",
+      "B:wdr2024_part1:p009:c000",
+      "B:wdr2024_part1:p009:c002",
+      "B:wdr2024_part1:p008:c002",
+      "B:wdr2024_part1:p008:c001",
+      "B:wdr2024_part1:p008:c003"
+    ],
+    "context_chars": 5431,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p031:c003",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How does Turkiye's GDP per capita relative to the United States differ when adjusted for PPP versus using market exchange rates?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 474.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p010:c000",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 10,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.9180598630255685
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 33.03906967056116
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c001",
+        "rank": 2,
+        "score": 0.032,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8615635798497762
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 18.570703146130125
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p015:c000",
+        "rank": 3,
+        "score": 0.03105,
+        "page": 15,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.8410166942164371
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 24.645070844659777
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c000",
+        "rank": 4,
+        "score": 0.03078,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.841049470651276
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 17.496805322647266
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p010:c001",
+        "rank": 5,
+        "score": 0.03037,
+        "page": 10,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8569060138576076
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 11.65890109591026
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p010:c000",
+      "B:wdr2024_part1:p010:c001",
+      "B:wdr2024_part1:p008:c001",
+      "B:wdr2024_part1:p008:c000",
+      "B:wdr2024_part1:p008:c002",
+      "B:wdr2024_part1:p015:c000"
+    ],
+    "context_chars": 6284,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p015:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p015:c000)"
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c000",
+        "reason": "budget (rank 4)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "How much did Korea's R&D spending rise as a share of GDP between 1980 and 1990?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 311.0,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p012:c002",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.9214889407157898
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 33.191155262665895
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c001",
+        "rank": 2,
+        "score": 0.03226,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8746772073113089
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 17.099192042801544
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 3,
+        "score": 0.03126,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8319762945175171
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 13.98258594963877
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p025:c002",
+        "rank": 4,
+        "score": 0.03037,
+        "page": 25,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8448154833802884
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 6.951453167868884
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 5,
+        "score": 0.03012,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.8252997890293488
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 11.502300555865558
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p012:c001",
+      "B:wdr2024_part1:p012:c003",
+      "B:wdr2024_part1:p028:c003",
+      "B:wdr2024_part1:p028:c002",
+      "B:wdr2024_part1:p025:c002"
+    ],
+    "context_chars": 5925,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p025:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p025:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p025:c003",
+        "reason": "budget (neighbour of B:wdr2024_part1:p025:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "How do Eichengreen, Park, and Shin define a growth slowdown?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 496.2,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p013:c000",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8705409092033467
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 17.30219918243751
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c001",
+        "rank": 2,
+        "score": 0.03252,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8793994188308716
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 16.421464501500672
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "rank": 3,
+        "score": 0.03125,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8336503505706787
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 5.68082391365216
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c000",
+        "rank": 4,
+        "score": 0.03102,
+        "page": 3,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.835660457611084
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 4.112562590627444
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c000",
+        "rank": 5,
+        "score": 0.03077,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8304102622973665
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 5.479288282294269
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p013:c000",
+      "B:wdr2024_part1:p013:c001",
+      "B:wdr2024_part1:p014:c001",
+      "B:wdr2024_part1:p014:c000",
+      "B:wdr2024_part1:p014:c002",
+      "B:wdr2024_part1:p003:c000"
+    ],
+    "context_chars": 5786,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p003:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p003:c000)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Compared with rich countries, how much more prone are middle-income countries to growth slowdowns?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 336.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8933828536639913
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 13.581941159453908
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c002",
+        "rank": 2,
+        "score": 0.03175,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8830075929756422
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 11.16835618341603
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c000",
+        "rank": 3,
+        "score": 0.03151,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8751124218039277
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 12.197620434341161
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c000",
+        "rank": 4,
+        "score": 0.03054,
+        "page": 3,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8735235408828548
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 8.55755080929938
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c001",
+        "rank": 5,
+        "score": 0.02985,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.8733447269591867
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 8.36939947021504
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p014:c001",
+      "B:wdr2024_part1:p014:c000",
+      "B:wdr2024_part1:p014:c002",
+      "B:wdr2024_part1:p004:c002",
+      "B:wdr2024_part1:p004:c001",
+      "B:wdr2024_part1:p004:c000"
+    ],
+    "context_chars": 5630,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p003:c000",
+        "reason": "budget (rank 4)"
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c001",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "In the Spotlight section, how much of productivity growth in developing countries comes from efficient allocation of factors of production?",
+    "filter": {
+      "section": "spotlight"
+    },
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 160.2,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p017:c002",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 17,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8969009045480604
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 23.787668964851797
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p017:c001",
+        "rank": 2,
+        "score": 0.03226,
+        "page": 17,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8435191605377712
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.158747237182642
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p018:c001",
+        "rank": 3,
+        "score": 0.0315,
+        "page": 18,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.827995479106909
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 5.659752637731262
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p020:c001",
+        "rank": 4,
+        "score": 0.03102,
+        "page": 20,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8357272940007098
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 1.9723833372395116
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p017:c000",
+        "rank": 5,
+        "score": 0.03012,
+        "page": 17,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.8030123231999696
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 4.556449462657367
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p017:c002",
+      "B:wdr2024_part1:p017:c001",
+      "B:wdr2024_part1:p018:c001",
+      "B:wdr2024_part1:p018:c000",
+      "B:wdr2024_part1:p018:c002",
+      "B:wdr2024_part1:p020:c001",
+      "B:wdr2024_part1:p020:c000"
+    ],
+    "context_chars": 6011,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p020:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p020:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p017:c000",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "By 2008, how productive was the average Brazilian manufacturing worker compared with an American worker?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 156.5,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p021:c002",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 21,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8794247055739578
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 28.958643055338687
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p021:c003",
+        "rank": 2,
+        "score": 0.03226,
+        "page": 21,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8521230220794678
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 18.25710812857041
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c001",
+        "rank": 3,
+        "score": 0.02986,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.792287396924938
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 6.0261594290801295
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c002",
+        "rank": 4,
+        "score": 0.02986,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.7955532670021057
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 5.506380340658553
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c003",
+        "rank": 5,
+        "score": 0.02837,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 17,
+            "score": 0.7787675261497498
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 6.0261594290801295
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p021:c002",
+      "B:wdr2024_part1:p021:c001",
+      "B:wdr2024_part1:p021:c003",
+      "B:wdr2024_part1:p023:c001",
+      "B:wdr2024_part1:p023:c000",
+      "B:wdr2024_part1:p023:c002",
+      "B:wdr2024_part1:p013:c003"
+    ],
+    "context_chars": 5810,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p013:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p013:c003)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "If capital endowments were the only difference between middle-income and high-income countries, what would a typical middle-income country's GNI be relative to the United States?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 182.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p023:c000",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8868740403281394
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 37.96639835134819
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c001",
+        "rank": 2,
+        "score": 0.0308,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.8670304496866336
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 18.086126676237203
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p009:c001",
+        "rank": 3,
+        "score": 0.02971,
+        "page": 9,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8731736095936826
+          },
+          "bm25": {
+            "rank": 11,
+            "score": 11.865616045699586
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c002",
+        "rank": 4,
+        "score": 0.02964,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 14,
+            "score": 0.8510594545531983
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 18.27697244481736
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p007:c004",
+        "rank": 5,
+        "score": 0.02912,
+        "page": 7,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8793332720597721
+          },
+          "bm25": {
+            "rank": 17,
+            "score": 10.98118476595376
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p023:c000",
+      "B:wdr2024_part1:p023:c001",
+      "B:wdr2024_part1:p009:c001",
+      "B:wdr2024_part1:p009:c000",
+      "B:wdr2024_part1:p009:c002",
+      "B:wdr2024_part1:p023:c002",
+      "B:wdr2024_part1:p023:c003"
+    ],
+    "context_chars": 6093,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p007:c004",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What fraction of the world's science and engineering graduates now come from middle-income countries?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 161.0,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p027:c003",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.891600489616394
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 14.301315041396563
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p026:c000",
+        "rank": 2,
+        "score": 0.03178,
+        "page": 26,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8550065669421311
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 14.829347353021289
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p026:c001",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 26,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8640228767401841
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 12.064211528347869
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c004",
+        "rank": 4,
+        "score": 0.03151,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8703880569454452
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 8.652404094551255
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c001",
+        "rank": 5,
+        "score": 0.03055,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8600419163703918
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 6.560557658730341
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p027:c003",
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p027:c004",
+      "B:wdr2024_part1:p026:c000",
+      "B:wdr2024_part1:p026:c001",
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p005:c000"
+    ],
+    "context_chars": 5805,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p005:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p005:c001)"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 3,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "According to the Structural Stasis chapter, how did Korea subsidize the adoption of foreign technologies and innovation?",
+    "filter": {
+      "section": "ch2_structural_stasis"
+    },
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 172.3,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 1,
+        "score": 0.032,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8610944234672547
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 8.906394753210606
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p025:c002",
+        "rank": 2,
+        "score": 0.03178,
+        "page": 25,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.871696472167975
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 7.929012478359999
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p025:c001",
+        "rank": 3,
+        "score": 0.03154,
+        "page": 25,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8230080114002236
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 12.00041258769183
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p025:c003",
+        "rank": 4,
+        "score": 0.03105,
+        "page": 25,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.8144667369762972
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 9.446196049871636
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c001",
+        "rank": 5,
+        "score": 0.03055,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8382005884408249
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 6.7065431041933845
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p028:c003",
+      "B:wdr2024_part1:p028:c002",
+      "B:wdr2024_part1:p025:c002",
+      "B:wdr2024_part1:p025:c001",
+      "B:wdr2024_part1:p025:c003",
+      "B:wdr2024_part1:p028:c001"
+    ],
+    "context_chars": 5672,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p028:c000",
+        "reason": "budget (neighbour of B:wdr2024_part1:p028:c001)"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 3,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "How long is it estimated to take today's middle-income countries to move from an aging society to an aged society?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 198.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p036:c000",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 36,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8848381042480469
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 41.074577578573205
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c001",
+        "rank": 2,
+        "score": 0.03175,
+        "page": 2,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8836277986653988
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 10.445080295606207
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p037:c003",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 37,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8637340231258903
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 26.159775599300968
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p036:c001",
+        "rank": 4,
+        "score": 0.03175,
+        "page": 36,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8784993886947632
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 16.98159051612778
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c000",
+        "rank": 5,
+        "score": 0.02921,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.861509390979447
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 8.226514906190394
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p036:c000",
+      "B:wdr2024_part1:p036:c001",
+      "B:wdr2024_part1:p002:c001",
+      "B:wdr2024_part1:p002:c000",
+      "B:wdr2024_part1:p002:c002",
+      "B:wdr2024_part1:p037:c003",
+      "B:wdr2024_part1:p037:c002"
+    ],
+    "context_chars": 6259,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p008:c000",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "question": "How has the yearly count of new harmful trade measures changed over the past ten years?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 164.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p038:c002",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 38,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8807571672490698
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 14.845284279077195
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p039:c003",
+        "rank": 2,
+        "score": 0.03226,
+        "page": 39,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8531108673678856
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 13.486221843203044
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p038:c003",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 38,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8483097734082076
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 12.490450886450642
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p039:c002",
+        "rank": 4,
+        "score": 0.03055,
+        "page": 39,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8450599589836686
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 7.080923296922617
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p038:c001",
+        "rank": 5,
+        "score": 0.03009,
+        "page": 38,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.833966463691034
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 6.653873855749474
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p038:c002",
+      "B:wdr2024_part1:p038:c001",
+      "B:wdr2024_part1:p038:c003",
+      "B:wdr2024_part1:p039:c003",
+      "B:wdr2024_part1:p039:c002"
+    ],
+    "context_chars": 3696,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "By which year does Thailand aim to reach high-income status?",
+    "filter": null,
+    "answerable": false,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 140.2,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 1,
+        "score": 0.03227,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8265247448370028
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 5.61998211643226
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c001",
+        "rank": 2,
+        "score": 0.03126,
+        "page": 3,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.815594673156744
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 5.018256550627735
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c001",
+        "rank": 3,
+        "score": 0.03033,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8150400850105148
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 4.797972014530402
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c002",
+        "rank": 4,
+        "score": 0.02986,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.8096323722820075
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 4.873835581168841
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c002",
+        "rank": 5,
+        "score": 0.02946,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8224659283520126
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 3.970384993781369
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p003:c001",
+      "B:wdr2024_part1:p003:c000",
+      "B:wdr2024_part1:p003:c002",
+      "B:wdr2024_part1:p013:c002"
+    ],
+    "context_chars": 6175,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p013:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p013:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c003",
+        "reason": "budget (neighbour of B:wdr2024_part1:p013:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c002",
+        "reason": "budget (rank 5)"
+      }
+    ]
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "What was Bulgaria's R&D expenditure as a share of GDP in 2021?",
+    "filter": null,
+    "answerable": false,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 160.5,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8700434488084003
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 21.512612465539856
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c002",
+        "rank": 2,
+        "score": 0.03175,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8217929601669312
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 12.904338312999945
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "rank": 3,
+        "score": 0.03102,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8394656181335449
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 6.752162710664801
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p031:c003",
+        "rank": 4,
+        "score": 0.03062,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8407772278322456
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 6.475277180535211
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 5,
+        "score": 0.02996,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.8106067180633545
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 11.055947650948035
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000",
+      "B:wdr2024_part1:p030:c002",
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p012:c001",
+      "B:wdr2024_part1:p012:c003"
+    ],
+    "context_chars": 5687,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "reason": "budget (rank 3)"
+      },
+      {
+        "id": "B:wdr2024_part1:p031:c003",
+        "reason": "budget (rank 4)"
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "reason": "budget (rank 5)"
+      }
+    ]
+  }
+]

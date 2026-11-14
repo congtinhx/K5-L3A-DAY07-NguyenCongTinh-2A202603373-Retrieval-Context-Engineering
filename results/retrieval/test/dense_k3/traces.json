@@ -1,0 +1,388 @@
+[
+  {
+    "query_id": "n01",
+    "split": "test",
+    "question": "By 2021, what share of Western European income had Estonia reached?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 896.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "rank": 1,
+        "score": 0.85295,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p029:c002",
+        "rank": 2,
+        "score": 0.84411,
+        "page": 29,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 3,
+        "score": 0.83347,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p029:c002",
+      "B:wdr2024_part1:p030:c001"
+    ],
+    "context_chars": 3161,
+    "dropped": [],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "context_hit": true
+  },
+  {
+    "query_id": "n02",
+    "split": "test",
+    "question": "In Poland, what share of the contribution to total factor productivity growth came from labor alone?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 157.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p031:c001",
+        "rank": 1,
+        "score": 0.8978,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c001",
+        "rank": 2,
+        "score": 0.84125,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p031:c000",
+        "rank": 3,
+        "score": 0.8318,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p031:c001",
+      "B:wdr2024_part1:p023:c001",
+      "B:wdr2024_part1:p031:c000"
+    ],
+    "context_chars": 2656,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n03",
+    "split": "test",
+    "question": "Between 2000 and 2012, how did the proportion of 25- to 34-year-olds with a tertiary education change in Poland?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 229.9,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p031:c002",
+        "rank": 1,
+        "score": 0.85589,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c003",
+        "rank": 2,
+        "score": 0.80904,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "rank": 3,
+        "score": 0.80582,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p031:c002",
+      "B:wdr2024_part1:p030:c003",
+      "B:wdr2024_part1:p027:c002"
+    ],
+    "context_chars": 3058,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n04",
+    "split": "test",
+    "question": "What was Denmark's rank in the Economic Complexity Index in 2021?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 246.6,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p011:c001",
+        "rank": 1,
+        "score": 0.85155,
+        "page": 11,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p020:c001",
+        "rank": 2,
+        "score": 0.83441,
+        "page": 20,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p020:c000",
+        "rank": 3,
+        "score": 0.83284,
+        "page": 20,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p011:c001",
+      "B:wdr2024_part1:p020:c001",
+      "B:wdr2024_part1:p020:c000"
+    ],
+    "context_chars": 2803,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n05",
+    "split": "test",
+    "question": "What was the name of the Meiji-era Japanese government project to promote industrial development?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 159.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p028:c000",
+        "rank": 1,
+        "score": 0.86022,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p029:c001",
+        "rank": 2,
+        "score": 0.80526,
+        "page": 29,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c001",
+        "rank": 3,
+        "score": 0.80303,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p028:c000",
+      "B:wdr2024_part1:p029:c001",
+      "B:wdr2024_part1:p027:c001"
+    ],
+    "context_chars": 2138,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n06",
+    "split": "test",
+    "question": "In the Spotlight section, what shares of the global population and global GDP do the countries selected in table S.1 account for?",
+    "filter": {
+      "section": "spotlight"
+    },
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 156.4,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p018:c001",
+        "rank": 1,
+        "score": 0.83386,
+        "page": 18,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p019:c000",
+        "rank": 2,
+        "score": 0.82996,
+        "page": 19,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p019:c001",
+        "rank": 3,
+        "score": 0.82604,
+        "page": 19,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p018:c001",
+      "B:wdr2024_part1:p019:c000",
+      "B:wdr2024_part1:p019:c001"
+    ],
+    "context_chars": 2111,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "x01",
+    "split": "test",
+    "question": "What was Estonia's R&D intensity as a share of GDP in 2010?",
+    "filter": null,
+    "answerable": false,
+    "config": "dense_k3",
+    "latency_ms": 189.3,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 1,
+        "score": 0.87689,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c000",
+        "rank": 2,
+        "score": 0.82393,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c001",
+        "rank": 3,
+        "score": 0.81782,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000",
+      "B:wdr2024_part1:p012:c001"
+    ],
+    "context_chars": 2730,
+    "dropped": []
+  },
+  {
+    "query_id": "x02",
+    "split": "test",
+    "question": "What carbon tax rate does the report recommend for middle-income countries?",
+    "filter": null,
+    "answerable": false,
+    "config": "dense_k3",
+    "latency_ms": 167.9,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p005:c001",
+        "rank": 1,
+        "score": 0.85443,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p018:c001",
+        "rank": 2,
+        "score": 0.85336,
+        "page": 18,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p042:c003",
+        "rank": 3,
+        "score": 0.85111,
+        "page": 42,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p018:c001",
+      "B:wdr2024_part1:p042:c003"
+    ],
+    "context_chars": 2933,
+    "dropped": []
+  }
+]

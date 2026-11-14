@@ -1,0 +1,982 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test_v1",
+    "question": "What was Estonia's R&D intensity as a share of GDP in 2021?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 135.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8975682854652468
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 21.59586553380964
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c002",
+        "rank": 2,
+        "score": 0.03128,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8134853354999237
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 12.904338312999945
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c001",
+        "rank": 3,
+        "score": 0.03125,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8156591410738518
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 9.098778476563195
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "rank": 4,
+        "score": 0.03083,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8459223004625872
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 6.822194267961149
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 5,
+        "score": 0.02976,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.8026999948799628
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 11.055947650948035
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000",
+      "B:wdr2024_part1:p030:c002",
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p012:c001",
+      "B:wdr2024_part1:p012:c003"
+    ],
+    "context_chars": 5687,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "reason": "budget (rank 4)"
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "t02",
+    "split": "test_v1",
+    "question": "How expensive could technology decoupling be for many economies, in terms of output?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 133.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p038:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 38,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8651113155285167
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 14.078976012434634
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p035:c001",
+        "rank": 2,
+        "score": 0.03102,
+        "page": 35,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.832316239796139
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 7.139847954565411
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c002",
+        "rank": 3,
+        "score": 0.03077,
+        "page": 3,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.832375665619896
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 6.378256901757016
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p032:c003",
+        "rank": 4,
+        "score": 0.02912,
+        "page": 32,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 17,
+            "score": 0.8258145659190993
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.2620379989889585
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p039:c000",
+        "rank": 5,
+        "score": 0.02903,
+        "page": 39,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8399352121469014
+          },
+          "bm25": {
+            "rank": 16,
+            "score": 3.8002476959255027
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p038:c001",
+      "B:wdr2024_part1:p038:c000",
+      "B:wdr2024_part1:p038:c002",
+      "B:wdr2024_part1:p035:c001",
+      "B:wdr2024_part1:p035:c000",
+      "B:wdr2024_part1:p035:c002",
+      "B:wdr2024_part1:p003:c002"
+    ],
+    "context_chars": 6201,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p003:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p003:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p032:c003",
+        "reason": "budget (rank 4)"
+      },
+      {
+        "id": "B:wdr2024_part1:p039:c000",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": 5,
+    "context_hit": false
+  },
+  {
+    "query_id": "t03",
+    "split": "test_v1",
+    "question": "In the Shrinking Spaces chapter, how does energy intensity in middle-income countries compare with high-income countries?",
+    "filter": {
+      "section": "ch3_shrinking_spaces"
+    },
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 170.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p042:c000",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 42,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8995620608329837
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 14.002908765664621
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p041:c002",
+        "rank": 2,
+        "score": 0.03175,
+        "page": 41,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8930165831436779
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 12.83871838383332
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p035:c000",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 35,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8681647417250753
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 13.963114599970567
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p042:c001",
+        "rank": 4,
+        "score": 0.03077,
+        "page": 42,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.861229666398189
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 11.436167814903564
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p035:c002",
+        "rank": 5,
+        "score": 0.03048,
+        "page": 35,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.8475054088228453
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 15.737467718776928
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p042:c000",
+      "B:wdr2024_part1:p042:c001",
+      "B:wdr2024_part1:p041:c002",
+      "B:wdr2024_part1:p041:c001",
+      "B:wdr2024_part1:p035:c000",
+      "B:wdr2024_part1:p035:c001",
+      "B:wdr2024_part1:p035:c002",
+      "B:wdr2024_part1:p035:c003"
+    ],
+    "context_chars": 6212,
+    "dropped": [],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "context_hit": true
+  },
+  {
+    "query_id": "t04",
+    "split": "test_v1",
+    "question": "What share of transitions from middle-income to high-income status over the last three decades happened during or shortly after investment accelerations?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 231.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p033:c002",
+        "rank": 1,
+        "score": 0.03178,
+        "page": 33,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8483442248887748
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 40.55127925275167
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c001",
+        "rank": 2,
+        "score": 0.03175,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8519587185456675
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 13.670014095907545
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p033:c003",
+        "rank": 3,
+        "score": 0.03101,
+        "page": 33,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8505415916442931
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 13.221181657910718
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c001",
+        "rank": 4,
+        "score": 0.03062,
+        "page": 3,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8596482276916565
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 10.988396869122724
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p029:c002",
+        "rank": 5,
+        "score": 0.02971,
+        "page": 29,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.8412546108657586
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 13.398913056630171
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p033:c002",
+      "B:wdr2024_part1:p033:c001",
+      "B:wdr2024_part1:p033:c003",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c002",
+      "B:wdr2024_part1:p003:c001"
+    ],
+    "context_chars": 6121,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p003:c000",
+        "reason": "budget (neighbour of B:wdr2024_part1:p003:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p003:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p029:c002",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "t05",
+    "split": "test_v1",
+    "question": "In the Slowing Growth chapter, what share of the world's population lives in middle-income countries?",
+    "filter": {
+      "section": "ch1_slowing_growth"
+    },
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 216.6,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p004:c000",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8808471106473138
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 12.523061475201384
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c001",
+        "rank": 2,
+        "score": 0.03227,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8816701314842607
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 9.37846705469719
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c000",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8754974677862386
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 10.681725310073979
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c002",
+        "rank": 4,
+        "score": 0.03101,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8627422615596998
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 7.810183007392217
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "rank": 5,
+        "score": 0.0308,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8775938299186494
+          },
+          "bm25": {
+            "rank": 7,
+            "score": 6.15336705614005
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p004:c000",
+      "B:wdr2024_part1:p004:c001",
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p005:c000",
+      "B:wdr2024_part1:p005:c002",
+      "B:wdr2024_part1:p004:c002"
+    ],
+    "context_chars": 6010,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "t06",
+    "split": "test_v1",
+    "question": "Which country is given as an example of using immigration to cope with low fertility and labor shortages?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 225.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p037:c002",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 37,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8418682217597961
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 18.423063389714066
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c002",
+        "rank": 2,
+        "score": 0.02819,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.8049336671829224
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 4.833144987238187
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p022:c002",
+        "rank": 3,
+        "score": 0.01613,
+        "page": 22,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8182926882330975
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p032:c000",
+        "rank": 4,
+        "score": 0.01613,
+        "page": 32,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "bm25": {
+            "rank": 2,
+            "score": 9.267287111916595
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c002",
+        "rank": 5,
+        "score": 0.01587,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8121176362037659
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p037:c002",
+      "B:wdr2024_part1:p037:c001",
+      "B:wdr2024_part1:p037:c003",
+      "B:wdr2024_part1:p014:c002",
+      "B:wdr2024_part1:p014:c001",
+      "B:wdr2024_part1:p014:c003",
+      "B:wdr2024_part1:p022:c002",
+      "B:wdr2024_part1:p032:c000"
+    ],
+    "context_chars": 6386,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p022:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p022:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p022:c003",
+        "reason": "budget (neighbour of B:wdr2024_part1:p022:c002)"
+      },
+      {
+        "id": "B:wdr2024_part1:p032:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p032:c000)"
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c002",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "u03",
+    "split": "test_v1",
+    "question": "What is Indonesia's official target year for becoming a high-income country?",
+    "filter": null,
+    "answerable": false,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 331.5,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 1,
+        "score": 0.03202,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8457721471786499
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.694843984808815
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p043:c001",
+        "rank": 2,
+        "score": 0.03002,
+        "page": 43,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8350058197975159
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 4.924429961405264
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p017:c000",
+        "rank": 3,
+        "score": 0.02736,
+        "page": 17,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 19,
+            "score": 0.8092726469039917
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 5.216745575444128
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p011:c002",
+        "rank": 4,
+        "score": 0.02582,
+        "page": 11,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 16,
+            "score": 0.8102666622559241
+          },
+          "bm25": {
+            "rank": 19,
+            "score": 4.351947137921626
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "rank": 5,
+        "score": 0.01639,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "bm25": {
+            "rank": 1,
+            "score": 7.038735559290508
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p043:c001",
+      "B:wdr2024_part1:p043:c000",
+      "B:wdr2024_part1:p043:c002",
+      "B:wdr2024_part1:p017:c000",
+      "B:wdr2024_part1:p017:c001"
+    ],
+    "context_chars": 5879,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p011:c002",
+        "reason": "budget (rank 4)"
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "reason": "budget (rank 5)"
+      }
+    ]
+  },
+  {
+    "query_id": "u04",
+    "split": "test_v1",
+    "question": "What was Viet Nam's unemployment rate in 2022?",
+    "filter": null,
+    "answerable": false,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 400.5,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8505730032920837
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 7.784136120892853
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p019:c001",
+        "rank": 2,
+        "score": 0.032,
+        "page": 19,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8280693292617798
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 6.640957364272955
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c001",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8382511927782127
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 4.1370448161917235
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c003",
+        "rank": 4,
+        "score": 0.02896,
+        "page": 2,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8214295612913646
+          },
+          "bm25": {
+            "rank": 15,
+            "score": 2.8605102399780122
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p020:c000",
+        "rank": 5,
+        "score": 0.02879,
+        "page": 20,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.8005574941635132
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 3.799513370285397
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p019:c001",
+      "B:wdr2024_part1:p019:c000",
+      "B:wdr2024_part1:p019:c002",
+      "B:wdr2024_part1:p002:c003",
+      "B:wdr2024_part1:p002:c002",
+      "B:wdr2024_part1:p020:c000"
+    ],
+    "context_chars": 6386,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p020:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p020:c000)"
+      }
+    ]
+  }
+]

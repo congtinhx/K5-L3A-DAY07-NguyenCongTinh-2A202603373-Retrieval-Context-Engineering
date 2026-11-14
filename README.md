@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+> **Bài làm:** Nguyễn Công Tĩnh · 2A202603373 · L3A — cách chạy ở [RUN.md](RUN.md), báo cáo ở [report/individual/2A202603373_NguyenCongTinh.md](report/individual/2A202603373_NguyenCongTinh.md).
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

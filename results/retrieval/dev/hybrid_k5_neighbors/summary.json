@@ -1,0 +1,40 @@
+{
+  "config": "hybrid_k5_neighbors",
+  "split": "dev",
+  "settings": {
+    "index_strategy": "B",
+    "method": "hybrid",
+    "top_k": 5,
+    "candidates": 20,
+    "rrf_k": 60,
+    "budget_chars": 6400,
+    "context": "rank_neighbors",
+    "role": "Cải thiện 2: tăng top-k lên 5, context budget 6400 ký tự và thêm chunk lân cận cùng trang. Giả thuyết: tăng Context Evidence Rate cho câu mà evidence xếp hạng 4-5 hoặc nằm cạnh chunk tìm được; đổi lại context dài gấp ~2."
+  },
+  "run_at": "2026-11-14T22:37:01+07:00",
+  "answerable": 16,
+  "unanswerable_excluded": 2,
+  "hit1": {
+    "n": 14,
+    "N": 16,
+    "rate": 0.875
+  },
+  "evidence_hit3": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "context_evidence_rate": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "mrr_at_k": 0.9167,
+  "avg_context_chars": 5822.3,
+  "median_latency_ms": 193.4,
+  "p95_latency_ms": 474.1,
+  "build_seconds": 0.0,
+  "cost_usd": 0.0,
+  "misses_hit3": [],
+  "misses_context": []
+}

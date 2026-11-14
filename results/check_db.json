@@ -1,0 +1,37 @@
+{
+  "chunks": 157,
+  "benchmark": {
+    "dev": {
+      "answerable": 16,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 6,
+      "unanswerable": 2
+    },
+    "test_v1": {
+      "answerable": 6,
+      "unanswerable": 2
+    }
+  },
+  "db_chunks": 157,
+  "db_matches_file": true,
+  "embedder": {
+    "provider": "local sentence-transformers",
+    "model": "intfloat/multilingual-e5-small",
+    "dimensions": 384,
+    "max_seq_length": 512,
+    "query_prefix": "query: ",
+    "doc_prefix": "passage: ",
+    "normalized": true,
+    "device": "cpu",
+    "vector_store": "PostgreSQL + pgvector (Day 6)",
+    "index_strategy": "B",
+    "distance": "cosine <=> (exact)"
+  },
+  "dense_smoke_test": [
+    "B:wdr2024_part1:p023:c000",
+    "B:wdr2024_part1:p034:c000",
+    "B:wdr2024_part1:p003:c000"
+  ]
+}

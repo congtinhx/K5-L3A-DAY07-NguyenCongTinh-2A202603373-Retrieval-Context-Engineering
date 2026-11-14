@@ -1,0 +1,1359 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test_v1",
+    "question": "What was Estonia's R&D intensity as a share of GDP in 2021?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.012,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 327,
+          "completion_tokens": 24,
+          "total_tokens": 351,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Estonia R&D intensity share of GDP 2021",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.047,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 30,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c002",
+            "rank": 2,
+            "score": 0.0313,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p031:c003",
+            "rank": 3,
+            "score": 0.0304,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p028:c003",
+            "rank": 4,
+            "score": 0.0296,
+            "page": 28,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c002",
+            "rank": 5,
+            "score": 0.0288,
+            "page": 2,
+            "section": "part1_overview"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p030:c000",
+          "B:wdr2024_part1:p030:c002",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p027:c001",
+          "B:wdr2024_part1:p027:c003",
+          "B:wdr2024_part1:p031:c003"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p031:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p031:c003)"
+          },
+          {
+            "id": "B:wdr2024_part1:p028:c003",
+            "reason": "budget (rank 4)"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c002",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p030:c000",
+          "B:wdr2024_part1:p030:c002",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p027:c001",
+          "B:wdr2024_part1:p027:c003",
+          "B:wdr2024_part1:p031:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 2.87,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1819,
+          "completion_tokens": 56,
+          "total_tokens": 1875,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "raw_answer": "Estonia's R&D intensity as a share of GDP in 2021 was 1.75 percent.",
+        "raw_citations": [
+          "B:wdr2024_part1:p030:c001"
+        ]
+      }
+    ],
+    "context": "[B:wdr2024_part1:p030:c001 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nThe magnitude of FDI inflows to Estonia during the 1990s was seven times that to Bulgaria and three times that to Poland.c Estonia maintained its status as a leading innovator in the region, with the highest research and development (R&D) intensity—1.75 percent of its gross domestic product (GDP) in 2021—and a high ranking in the Global Innovation Index (GII).d As for Poland, early “big bang” reforms, trade competition, and hard budget constraints for state-owned enterprises (SOEs) systematically activated a cycle of creative destruction, closing the gap with advanced countries, as evidenced by an increase in R&D expenditure to 1.3 percent of GDP in 2021, as well as higher GII scores. Policy insight 2: Incentives for incumbents to drive innovation are crucial Productivity growth is a dominant driver of income convergence. Between 1996 and 2021, Estonia displayed robust annual productivity growth of 3.8 percent, followed by Poland at 2.6 percent and Bulgaria at 1.4 percent.\n\n[B:wdr2024_part1:p030:c000 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nHigher investment rates, a skilled labor force, low budget deficits, and lower tax burdens have been associated with accelerated economic growth. Estonian independence in 1991 catalyzed a swift transition to high levels of productivity growth driven by a strategic divestment of public sector assets, trade liberalization, and a flat tax system. These policies opened up the market for new entrants, attracted a surge in foreign direct investment (FDI), and boosted private sector productivity.\n\n[B:wdr2024_part1:p030:c002 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nLowering barriers to entry and streamlining regulation—enhanced by accession to the European Union (EU)—have initiated a virtuous cycle that has sustained productivity growth. In this cycle, competition spurs innovation, which then fuels further competition, ultimately raising societal well-being. During Bulgaria’s initial phase of its transition, many incumbent SOEs were shielded by regulatory safeguards and anticompetitive practices. This environment hampered productivity growth by delaying the shift of resources toward more productive sectors. Throughout much of the period preceding EU accession, growth among Bulgaria’s high-productivity industries was limited. At the same time, low-productivity sectors that relied on low-skilled labor—such as construction, retail, and ground transportation— continued to expand. Unlike Estonia and Poland, Bulgaria took nearly a decade longer to free up resources for more productive uses.\n\n[B:wdr2024_part1:p027:c002 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nTo reach this point, however, governments must have done everything possible in the infusion phase to not just prepare the economic structure for the different next stage, but also reform and strengthen supporting institutions. Those who falter in infusion or try to leapfrog will find it much more challenging to transition toward innovation. A comparison of Estonia, Poland, and Bulgaria is illustrative. Transitioning from central planning, Estonia reached 80 percent of Western European income by 2021, Poland 75 percent, and Bulgaria 50 percent (box 2.2). Estonian independence in 1991 catalyzed a swift transition to high levels of innovation. By contrast, Bulgaria pro-tected many incumbent state-owned enterprises (SOEs) from competition and stymied efficient resource allocation, preventing the contrac-tion of low- producti vity sectors. As for Poland, it privatized many of its SOEs and champi oned competition.\n\n[B:wdr2024_part1:p027:c001 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nAs an economy approaches the global technology frontier, policies that supported growth eventually become a burden for sustaining further development.14 When Samsung reached that point, it moved toward innovation—nudged by support from the Korean government, which had calibrated its incentives to encourage imitation first and support innovation much later (figure 2.5, panel b). To nurture innovation, institutions must give inventors and entrepreneurs incentives and ensure that they can acquire the technical and financial resources to carry out their designs.15 Once a middle-income country has infused its economy with technology from global innovators and is sustaining rapid growth, it can aspire to converge to the global technology frontier by preparing to join those innovators—that is, to become an innovation economy.\n\n[B:wdr2024_part1:p027:c003 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nMiddle-income countries lag noticeably behind high-income countries in terms of the “novelty” of their knowledge, as well as in producing new Source: WDR 2024 team. Note: The primary data for the calculation of the percentage share of science, technology, engineering, and mathematics (STEM) graduates in tertiary education are from UIS.Stat (dashboard), Institute for Statistics, United Nations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org/. The STEM data set covers 144 countries.\n\n[B:wdr2024_part1:p031:c003 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nGross national income (GNI) per capita and gross domestic product (GDP) per capita data in this report are as of July 2023. As of July 2023, Bulgaria was classified by the World Bank as an upper-middle-income country, with a GNI per capita (Atlas method, current US dollars) of US$13,350, short of crossing the high-income country threshold of US$13,846. b. These figures are measured using purchasing power parity for the four largest EU economies. c. These figures capture net FDI per capita accumulated by the end of 1999. d. See GII (Global Innovation Index) (dashboard), World Intellectual Property Organization, Geneva, https://www.wipo.int / global_inn ovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006). Box 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) (continued)",
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000",
+      "B:wdr2024_part1:p030:c002",
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p027:c001",
+      "B:wdr2024_part1:p027:c003",
+      "B:wdr2024_part1:p031:c003"
+    ],
+    "context_chars": 6252,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2146,
+      "completion_tokens": 80,
+      "model_calls": 2,
+      "cost_usd": 0.0003699
+    },
+    "elapsed_s": 3.929,
+    "context_has_evidence": true,
+    "agent_version": 1
+  },
+  {
+    "query_id": "t02",
+    "split": "test_v1",
+    "question": "How expensive could technology decoupling be for many economies, in terms of output?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Technology decoupling could lead to extensive costs and risks for many economies, particularly those reliant on technology-intensive industries such as information and communication technology (ICT) and smartphones. The fragmentation of international trade and rising geopolitical tensions threaten to reduce potential global output, which could further exacerbate the economic challenges faced by low- and middle-income countries. Additionally, the diffusion of knowledge may worsen due to increased protectionism, impacting growth prospects in these economies [B:wdr2024_part1:p038:c001][B:wdr2024_part1:p035:c000].",
+    "citations": [
+      "B:wdr2024_part1:p038:c001",
+      "B:wdr2024_part1:p035:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.926,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 327,
+          "completion_tokens": 20,
+          "total_tokens": 347,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "technology decoupling economic output cost",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.039,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p038:c001",
+            "rank": 1,
+            "score": 0.0325,
+            "page": 38,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p035:c001",
+            "rank": 2,
+            "score": 0.0313,
+            "page": 35,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p032:c000",
+            "rank": 3,
+            "score": 0.0278,
+            "page": 32,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p025:c002",
+            "rank": 4,
+            "score": 0.0274,
+            "page": 25,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p039:c001",
+            "rank": 5,
+            "score": 0.0164,
+            "page": 39,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p038:c001",
+          "B:wdr2024_part1:p038:c000",
+          "B:wdr2024_part1:p038:c002",
+          "B:wdr2024_part1:p035:c001",
+          "B:wdr2024_part1:p035:c000",
+          "B:wdr2024_part1:p035:c002",
+          "B:wdr2024_part1:p032:c000",
+          "B:wdr2024_part1:p032:c001"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p025:c002",
+            "reason": "budget (rank 4)"
+          },
+          {
+            "id": "B:wdr2024_part1:p039:c001",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p038:c001",
+          "B:wdr2024_part1:p038:c000",
+          "B:wdr2024_part1:p038:c002",
+          "B:wdr2024_part1:p035:c001",
+          "B:wdr2024_part1:p035:c000",
+          "B:wdr2024_part1:p035:c002",
+          "B:wdr2024_part1:p032:c000",
+          "B:wdr2024_part1:p032:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 3.098,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1682,
+          "completion_tokens": 159,
+          "total_tokens": 1841,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p038:c001 | data/raw/doc1.pdf | page 38 | section ch3_shrinking_spaces]\nFirst, declining potential global output threatens trade flows, compounding the blows dealt by the global financial crisis and the COVID-19 pandemic. 5 Second, rising geopolitical tensions have affected trade policy,6 and further protectionism could worsen the diffusion of knowledge to low- and middle-income countries. 7 Although there is limited evidence of widespread “friend-shoring” or realignment of trade along geopolitical lines beyond the United States–China decoupling, this situation could change in the near future if trade tensions continue to rise. 8 Many industries that use technology and innovation intensively will face extensive costs and risks if critical global links are reduced because these links are at the heart of technology-intensive industries such as information and communication technology (ICT) and smartphones. 9 Globally, since 2019 the number of harmful trade policies has exceeded the number of helpful trade policies, and the pace of their enactment is\n\n[B:wdr2024_part1:p038:c000 | data/raw/doc1.pdf | page 38 | section ch3_shrinking_spaces]\nFragmenting international trade Episodes of growth acceleration have been accompanied by trade integration. 2 The Republic of Korea’s economic metamorphosis was under-pinned by a licensing regime to import frontier technologies, followed by a shift toward promotion of research and development. 3 The Korean story suggests that catching up and eventually leading the pack requires trade liberalization to buy foreign technology and to sell a country’s own inventions. More broadly, globalization has increased incentives to adopt foreign technologies by enhancing international competition.4 But the international trade architecture that allowed countries such as Korea to ascend is facing challenges.\n\n[B:wdr2024_part1:p038:c002 | data/raw/doc1.pdf | page 38 | section ch3_shrinking_spaces]\nincreasing: the number of new harmful trade measures enacted per year doubled over the last decade (figure 3.1). Source: WDR 2024 team using the GTA (Global Trade Alert) database, St. Gallen Endowment for Prosperity through Trade, University of St. Gallen, St. Gallen, Switzerland, https://www.globaltradealert.org/data_extraction . Note: Measuring trade policies is fraught with challenges, and the GTA database may overrepresent countries that issue a relatively high quantity of legislative documents or those with greater regulatory transparency. The plotted lines indicate global trade policies that were introduced in the corresponding year. Helpful trade policies include interventions that liberalize on a nondiscriminatory basis or improve the transparency of a relevant policy. Harmful trade policies include interventions that discriminate against foreign commercial interests.\n\n[B:wdr2024_part1:p035:c001 | data/raw/doc1.pdf | page 35 | section ch3_shrinking_spaces]\nBut many face the rising cost of borrowing, high up-front infrastructure requirements, and high capital costs, all of which could increase the cost of low-carbon technologies and delay the diffusion of low-carbon energy.\n\n[B:wdr2024_part1:p035:c000 | data/raw/doc1.pdf | page 35 | section ch3_shrinking_spaces]\nShrinking Spaces Key messages • The growth prospects of middle-income countries are becoming more problematic because of an increasingly fragmented global economy, rapidly changing demographic trends, multiple crises, populist pressures, rising government debt, and climate change pressures. • Previous episodes of growth acceleration have been accompanied by trade integration, but rising geopolitical tensions have affected trade policy, and further protectionism can potentially worsen the diffusion of knowledge to low- and middle-income countries. • Many middle-income countries are severely indebted in the aftermath of the COVID-19 pandemic, and monetary tightening in high-income countries risks compounding the burden of high debt. • Middle-income countries will need significant resources to scale up reliable low- carbon energy.\n\n[B:wdr2024_part1:p035:c002 | data/raw/doc1.pdf | page 35 | section ch3_shrinking_spaces]\nIntroduction Growing past middle-income status has never been easy—slowing growth (chapter 1) and structural stasis (chapter 2) dampen growth prospects. This chapter asks whether growth in middle-income countries is becoming harder. The answer: it is. Two decades into the twenty-first century, the world is at a historic crossroads. Foreign trade and investment are in danger of becoming constricted by geopolitical tensions, and the room for governments to act is shrinking because of rising populism and public debt. As a result, economic growth in the remainder of this decade will likely be weaker than it was in the last two.1 For middle-income countries, this prospect means they are growing into shrinking spaces with the retrenchment of globalization (a force that has spurred infusion and innovation), difficulties in servicing debt obligations, and the additional economic and financial costs of climate change and climate action.\n\n[B:wdr2024_part1:p032:c000 | data/raw/doc1.pdf | page 32 | section ch2_structural_stasis]\nSource: WDR 2024 team. Note: The technology index is constructed using the number of granted patents per capita and network centrality. Network centrality is calculated to measure a country’s “frontierness” in technology and is defined by the citations in a country’s patents of other countries’ patents in a given period. Therefore, the technology index embeds both patent importance and scale.\n\n[B:wdr2024_part1:p032:c001 | data/raw/doc1.pdf | page 32 | section ch2_structural_stasis]\nFigure 2.6 The innovation gap between high-income countries and others is substantial Low-income Lower-middle-incomeUpper-middle-income High-income Technology index Source: WDR 2024 team. Note: The primary data for number of researchers per million inhabitants are from UIS.Stat (dashboard), Institute for Statistics, United Nations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org .",
+    "context_ids": [
+      "B:wdr2024_part1:p038:c001",
+      "B:wdr2024_part1:p038:c000",
+      "B:wdr2024_part1:p038:c002",
+      "B:wdr2024_part1:p035:c001",
+      "B:wdr2024_part1:p035:c000",
+      "B:wdr2024_part1:p035:c002",
+      "B:wdr2024_part1:p032:c000",
+      "B:wdr2024_part1:p032:c001"
+    ],
+    "context_chars": 6126,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2009,
+      "completion_tokens": 179,
+      "model_calls": 2,
+      "cost_usd": 0.00040874999999999993
+    },
+    "elapsed_s": 4.064,
+    "context_has_evidence": false,
+    "agent_version": 1
+  },
+  {
+    "query_id": "t03",
+    "split": "test_v1",
+    "question": "In the Shrinking Spaces chapter, how does energy intensity in middle-income countries compare with high-income countries?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Energy intensity in middle-income countries is about double that in high-income countries. Additionally, the carbon intensity of energy consumption in middle-income countries is also relatively inefficient compared to high-income countries [B:wdr2024_part1:p041:c002].",
+    "citations": [
+      "B:wdr2024_part1:p041:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.874,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 331,
+          "completion_tokens": 21,
+          "total_tokens": 352,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "energy intensity middle-income countries high-income countries",
+        "filter": {
+          "section": "ch3_shrinking_spaces"
+        },
+        "top_k": 5,
+        "latency_s": 0.048,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p042:c000",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 42,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p041:c002",
+            "rank": 2,
+            "score": 0.0323,
+            "page": 41,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p041:c001",
+            "rank": 3,
+            "score": 0.0312,
+            "page": 41,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p042:c001",
+            "rank": 4,
+            "score": 0.031,
+            "page": 42,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p035:c000",
+            "rank": 5,
+            "score": 0.0296,
+            "page": 35,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p042:c000",
+          "B:wdr2024_part1:p042:c001",
+          "B:wdr2024_part1:p041:c002",
+          "B:wdr2024_part1:p041:c001",
+          "B:wdr2024_part1:p035:c000",
+          "B:wdr2024_part1:p035:c001"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p042:c000",
+          "B:wdr2024_part1:p042:c001",
+          "B:wdr2024_part1:p041:c002",
+          "B:wdr2024_part1:p041:c001",
+          "B:wdr2024_part1:p035:c000",
+          "B:wdr2024_part1:p035:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 2.044,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1389,
+          "completion_tokens": 84,
+          "total_tokens": 1473,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p042:c000 | data/raw/doc1.pdf | page 42 | section ch3_shrinking_spaces]\nFigure 3.5 In middle-income countries, the energy intensity and carbon intensity of energy consumption are quite high Source: WDR 2024 team using data from Energy Institute (2023); WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: Data for low-income countries are not available. GtCO 2 = gigatons of carbon dioxide; HICs = high-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries. a. Energy intensity b.\n\n[B:wdr2024_part1:p042:c001 | data/raw/doc1.pdf | page 42 | section ch3_shrinking_spaces]\nCarbon intensity of energy consumption LMICs UMICs HICs Energy intensity (exajoules/trillion US$) LMICs UMICs HICs Carbon intensity of energy consumption (GtCO2 equivalent/exajoule) require considerable up-front capital despite lower operating expenses.19 Thus middle-income countries need access to low-cost capital to increase the affordability of low-carbon energy transitions because considerable improvement of capital-intensive clean energy assets—such as wind power, solar photovoltaic (PV), electric vehicles, and hydrogen electrolyzers—is required.\n\n[B:wdr2024_part1:p041:c002 | data/raw/doc1.pdf | page 41 | section ch3_shrinking_spaces]\nEnergy intensity (panel a) in middle-income countries is about double that in high-income countries, and the carbon intensity of their energy consumption (panel b) is also relatively inefficient. At the same time, reliable cheap energy is critical to supporting industrial activities and powering businesses. It is also correlated with higher living standards. But over 300 million people in middle-income countries still lack access to electricity. Moreover, blackouts and brownouts are common in middle- income countries. As energy demand rises with income, expanding access to reliable energy will be as critical as transi tioning to lower-carbon energy.18 Today, energy transition technologies con-stitute the largest investment gap. Significant resources are needed to scale up reliable, low-carbon energy. Low-carbon energy technologies\n\n[B:wdr2024_part1:p041:c001 | data/raw/doc1.pdf | page 41 | section ch3_shrinking_spaces]\nProjected Percent Interest expense (% of GDP) Interest expense (% of general government revenues) Climate action Fossil fuels—coal, oil, and natural gas—are the major contributors to global climate change, accounting for over three-fourths of total green-house gas emissions and about 90 percent of carbon dioxide (CO2) emissions.16 The International Energy Agency has announced that achieving net zero emissions by 2050 will require reducing between 2020 and 2050 the global demand for coal by 90 percent, oil by 75 percent, and natural gas by 55 percent. 17 Therefore, climate action—measures to mitigate climate change— requires changing the way energy is produced and consumed. Because middle-income countries pres-ently account for about two-thirds of global CO2 emissions, their decarbonization is mate-rial to the world’s ability to meet its climate goals. Today, both energy intensity and carbon intensity are quite high in middle-income countries (figure 3.5).\n\n[B:wdr2024_part1:p035:c000 | data/raw/doc1.pdf | page 35 | section ch3_shrinking_spaces]\nShrinking Spaces Key messages • The growth prospects of middle-income countries are becoming more problematic because of an increasingly fragmented global economy, rapidly changing demographic trends, multiple crises, populist pressures, rising government debt, and climate change pressures. • Previous episodes of growth acceleration have been accompanied by trade integration, but rising geopolitical tensions have affected trade policy, and further protectionism can potentially worsen the diffusion of knowledge to low- and middle-income countries. • Many middle-income countries are severely indebted in the aftermath of the COVID-19 pandemic, and monetary tightening in high-income countries risks compounding the burden of high debt. • Middle-income countries will need significant resources to scale up reliable low- carbon energy.\n\n[B:wdr2024_part1:p035:c001 | data/raw/doc1.pdf | page 35 | section ch3_shrinking_spaces]\nBut many face the rising cost of borrowing, high up-front infrastructure requirements, and high capital costs, all of which could increase the cost of low-carbon technologies and delay the diffusion of low-carbon energy.",
+    "context_ids": [
+      "B:wdr2024_part1:p042:c000",
+      "B:wdr2024_part1:p042:c001",
+      "B:wdr2024_part1:p041:c002",
+      "B:wdr2024_part1:p041:c001",
+      "B:wdr2024_part1:p035:c000",
+      "B:wdr2024_part1:p035:c001"
+    ],
+    "context_chars": 4512,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1720,
+      "completion_tokens": 105,
+      "model_calls": 2,
+      "cost_usd": 0.000321
+    },
+    "elapsed_s": 2.966,
+    "context_has_evidence": true,
+    "agent_version": 1
+  },
+  {
+    "query_id": "t04",
+    "split": "test_v1",
+    "question": "What share of transitions from middle-income to high-income status over the last three decades happened during or shortly after investment accelerations?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.113,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 335,
+          "completion_tokens": 27,
+          "total_tokens": 362,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "share of transitions from middle-income to high-income status during investment accelerations",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.043,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p024:c003",
+            "rank": 1,
+            "score": 0.0323,
+            "page": 24,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p033:c002",
+            "rank": 2,
+            "score": 0.032,
+            "page": 33,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p022:c003",
+            "rank": 3,
+            "score": 0.031,
+            "page": 22,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p003:c001",
+            "rank": 4,
+            "score": 0.0303,
+            "page": 3,
+            "section": "part1_overview"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c001",
+            "rank": 5,
+            "score": 0.0289,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p024:c003",
+          "B:wdr2024_part1:p024:c002",
+          "B:wdr2024_part1:p033:c002",
+          "B:wdr2024_part1:p033:c001",
+          "B:wdr2024_part1:p033:c003",
+          "B:wdr2024_part1:p022:c003",
+          "B:wdr2024_part1:p022:c002",
+          "B:wdr2024_part1:p003:c001"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p003:c000",
+            "reason": "budget (neighbour of B:wdr2024_part1:p003:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p003:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p003:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c001",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p024:c003",
+          "B:wdr2024_part1:p024:c002",
+          "B:wdr2024_part1:p033:c002",
+          "B:wdr2024_part1:p033:c001",
+          "B:wdr2024_part1:p033:c003",
+          "B:wdr2024_part1:p022:c003",
+          "B:wdr2024_part1:p022:c002",
+          "B:wdr2024_part1:p003:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.581,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1743,
+          "completion_tokens": 63,
+          "total_tokens": 1806,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "raw_answer": "82 percent of the transitions from middle-income status to high-income status that occurred over the last three decades happened during or shortly after investment accelerations.",
+        "raw_citations": [
+          "B:wdr2024_part1:p033:c002"
+        ]
+      }
+    ],
+    "context": "[B:wdr2024_part1:p024:c003 | data/raw/doc1.pdf | page 24 | section ch2_structural_stasis]\nFigure 2.2 A middle-income country will need to engineer two successive transitions to achieve high-income status: Infusion, followed by innovation 2i Investment + Infusion 1i Investment 3i Investment + Infusion + Innovation Capital Productivity Relative contribution to growth Proximity to the frontier\n\n[B:wdr2024_part1:p024:c002 | data/raw/doc1.pdf | page 24 | section ch2_structural_stasis]\nNot surprisingly, countries that have been relatively open to economic developments abroad and have been successful at instituting general secondary education and technical and vocational training programs at home have done better than those that failed to do one or both. Source: WDR 2024 team. Note: The curves illustrate the relative contributions of capital and productivity to economic growth (y-axis) according to countries’ proximity to the frontier (represented by leading economies). Countries farther out on the x-axis are closer to the frontier.\n\n[B:wdr2024_part1:p033:c002 | data/raw/doc1.pdf | page 33 | section ch2_structural_stasis]\nMore broadly, across a sample of 104 economies, including 69 emerging market and developing economies (EMDEs) and 35 advanced economies covering the years 1950 to 2022, 192 episodes of investment acceleration occurred in which per capita investment growth averaged at least 4 percent per year over at least six years.a On average, an EMDE has experienced about 1.7 investment accelerations. During these accelerations, investment growth more than tripled to 10 percent a year over that of nonacceleration years; output growth increased by 2 percentage points; and productivity growth quadrupled to 1.7 percent per year. In the sample of 104 economies, 82 percent of the transitions from middle-income status to high-income status that occurred over the last three decades happened during or shortly after investment accelerations.\n\n[B:wdr2024_part1:p033:c001 | data/raw/doc1.pdf | page 33 | section ch2_structural_stasis]\nSimilarly, in the early 2000s Türkiye implemented a primary surplus target, the central bank became indepen-dent, and reforms to improve the business climate and liberalize the banking sector were adopted. Earlier, Korea implemented two rounds of reform packages. In the mid-1980s, Korea adopted a balanced budget, improved the business climate by promoting competition, and liberalized trade. A second round of reforms in the late 1990s improved the independence of the central bank, consolidated government finances, strengthened the financial sector, and liberalized the capital account. Following these reform efforts, all three countries experienced investment accelerations: Colombia from 2001 to 2007, Türkiye from 2003 to 2008, and Korea in 1985–96 and from 1999 to 2007 . Investment accelerations are periods with a sustained increase in investment growth. During these periods, investment as well as productivity grew much faster than in nonacceleration years (figure B2.3.1).\n\n[B:wdr2024_part1:p033:c003 | data/raw/doc1.pdf | page 33 | section ch2_structural_stasis]\nSectoral shifts gained momentum during investment accelerations because output grew substantially faster in the manufacturing and services sectors than before the acceleration. Accelerations were also often periods during which more progress was made in reducing poverty, living standards improved, and the pace of convergence to advanced economy income per capita levels increased.\n\n[B:wdr2024_part1:p022:c003 | data/raw/doc1.pdf | page 22 | section ch2_structural_stasis]\nTable 2.1 Middle-income countries will need to engineer two successive transitions to develop economic structures that can sustain high-income status INCOME CLASSIFICATION INVESTMENT INFUSION INNOVATION Low-income Higher priority Lower priority Lower priority Lower-middle-income Higher priority Higher priority Lower priority Upper-middle-income Higher priority Higher priority Higher priority Source: WDR 2024 team. Note: The orange dials indicate a strategy that is a priority for that particular income group. The blue dials indicate a strategy that is less of a priority for that particular income group until the priority strategy is successfully achieved.\n\n[B:wdr2024_part1:p022:c002 | data/raw/doc1.pdf | page 22 | section ch2_structural_stasis]\nInfusion is powered mainly by technology transfers embodied in flows of physical and financial capital, while innovation requires both of these flows, as well as increasingly vigorous exchanges of human capital through engagement with the diaspora and the emigration of talented workers. However, these are not hard-and-fast rules. Some countries have succeeded in attaining high income levels without instituting the structural prerequisites needed to sustain them. They did so by getting rid of obsolete economic arrangements, by weakening the forces of preservation, and by creating the necessary new ones. However, it appears that these countries—such as Argentina and República Bolivariana de Venezuela—also find it difficult to ensure that their income gains are durable, and even more difficult to continue to close the gaps in living standards with economies at the global economic frontier.\n\n[B:wdr2024_part1:p003:c001 | data/raw/doc1.pdf | page 3 | section part1_overview]\nPolicy and institutional deficiencies exacerbate growth slowdowns; countries with weaker political institutions experience a growth slowdown much earlier, and at lower incomes, than countries with stronger institutions. Chapter 2 identifies the two successive transitions that middle-income countries must undergo to achieve high-income status. Specifically, countries need to recalibrate their mix of investment, infusion, and innovation as they move through the middle-income status. Pathways to high-income status can differ among countries sectorally and spatially. But they generally involve transitioning first from relying largely on investment in physical and human capital—the mainstay of successful growth at low-income levels of development —to combin-ing investment with the infusion of global technologies and know-how, which applies largely to lower-middle-income countries. This transition is necessary, but it is not enough to move to the high-income level.",
+    "context_ids": [
+      "B:wdr2024_part1:p024:c003",
+      "B:wdr2024_part1:p024:c002",
+      "B:wdr2024_part1:p033:c002",
+      "B:wdr2024_part1:p033:c001",
+      "B:wdr2024_part1:p033:c003",
+      "B:wdr2024_part1:p022:c003",
+      "B:wdr2024_part1:p022:c002",
+      "B:wdr2024_part1:p003:c001"
+    ],
+    "context_chars": 6317,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2078,
+      "completion_tokens": 90,
+      "model_calls": 2,
+      "cost_usd": 0.0003657
+    },
+    "elapsed_s": 2.737,
+    "context_has_evidence": true,
+    "agent_version": 1
+  },
+  {
+    "query_id": "t05",
+    "split": "test_v1",
+    "question": "In the Slowing Growth chapter, what share of the world's population lives in middle-income countries?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "About 75 percent of the world’s population lives in middle-income countries, according to the World Bank’s 2023 income classifications, which include 108 current middle-income countries that are split evenly between lower- and upper-middle-income countries [B:wdr2024_part1:p005:c001].",
+    "citations": [
+      "B:wdr2024_part1:p005:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.027,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 329,
+          "completion_tokens": 23,
+          "total_tokens": 352,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "share of the world's population lives in middle-income countries",
+        "filter": {
+          "section": "ch1_slowing_growth"
+        },
+        "top_k": 5,
+        "latency_s": 0.043,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p005:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 5,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p007:c004",
+            "rank": 2,
+            "score": 0.032,
+            "page": 7,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p004:c000",
+            "rank": 3,
+            "score": 0.0318,
+            "page": 4,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p008:c002",
+            "rank": 4,
+            "score": 0.0303,
+            "page": 8,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p005:c000",
+            "rank": 5,
+            "score": 0.0294,
+            "page": 5,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p005:c000",
+          "B:wdr2024_part1:p005:c002",
+          "B:wdr2024_part1:p007:c004",
+          "B:wdr2024_part1:p007:c003",
+          "B:wdr2024_part1:p004:c000",
+          "B:wdr2024_part1:p004:c001"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p008:c002",
+            "reason": "budget (rank 4)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p005:c000",
+          "B:wdr2024_part1:p005:c002",
+          "B:wdr2024_part1:p007:c004",
+          "B:wdr2024_part1:p007:c003",
+          "B:wdr2024_part1:p004:c000",
+          "B:wdr2024_part1:p004:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 2.128,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1738,
+          "completion_tokens": 95,
+          "total_tokens": 1833,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p005:c001 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nAccording to the World Bank’s 2023 income classifications, the 108 current middle-income countries are split evenly between lower- and upper-middle-income countries. Representing about 40 percent of the global economy, middle-income countries are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor. In other words, more than 400 million of the extreme poor globally live in middle-income countries, a statistic that should concern wealth-ier countries. They also contribute nearly two-thirds of global carbon dioxide (CO 2) emissions (see table P1.1), a statistic that is of global concern. Over the last three decades, the world’s two most populous countries, China and India, joined the club of middle-income countries, in 1997 and 2007 , respectively. It is not surprising, then, that growth in middle-income countries will play a pivotal role in international development.\n\n[B:wdr2024_part1:p005:c000 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nabout 11 percent of the gross domestic product (GDP) per capita of the United States. This chapter also documents that countries with weaker institutions—and especially those with lower levels of economic and political freedo m—are susceptible to slowdowns at even lower levels of income. Chapter 2 explores a related but relatively qualitative question: Is economic growth during the middle-income stage systematically different from growth in low- and high-income countries? Chapter 3 examines the growing concern that rapidly changing economic conditions and policies in the advanced economies of the North Atlantic will make development in middle- income c ountries even more difficult. Growth in middle-income countries The share of middle-income countries in the global economy has increased rapidly since the 1990s, suggesting that it is easier to enter the middle-income stage than to exit it.\n\n[B:wdr2024_part1:p005:c002 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nSince 1990, 34 middle-income economies have transitioned to high-income status (figure 1.1).5 Thirteen benefited from deep integration with the European Union (EU)—whose economic model features vigorous trade and capital flows, freer enterprise, free worker mobility, stronger institutions, and social inclusion—at a time of relatively rapid economic growth in Western Europe. They benefited greatly from institutional and regulatory reforms that enabled transitions to a market economy, incentivized emerging economies to attract foreign direct investment and infuse new technologies into their production structures while pushing advanced economies to innovate, and fostered an environment for developing a skilled workforce. Among the other newcomers to high-income status, resource-rich economies such as Chile and Saudi Arabia benefited when they timed policy reforms to coincide with high commodity prices.\n\n[B:wdr2024_part1:p007:c004 | data/raw/doc1.pdf | page 7 | section ch1_slowing_growth]\nCountry definitions are based on the first World Development Report (World Bank 1978), in which low-income countries have gross national income (GNI) per capita of US$250 or less, and middle-income countries have GNI per capita of more than US$250; industrialized (high-income) countries consist of member countries of the Organisation for Economic Co-operation and Development (OECD), except for Greece, Portugal, Spain, and Türkiye, which are classified as middle-income countries. Share of US GNI per capita (%) Middle-income countries Middle-income countries, excluding China\n\n[B:wdr2024_part1:p007:c003 | data/raw/doc1.pdf | page 7 | section ch1_slowing_growth]\nFigure 1.2 Income per capita of middle-income countries relative to that of the United States has been stagnant for decades Source: WDR 2024 team using data from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: The plotted lines indicate the trend of average income per capita in middle-income countries and in middle-income countries, excluding China, relative to income per capita in the United States (considered as the economic frontier country).\n\n[B:wdr2024_part1:p004:c000 | data/raw/doc1.pdf | page 4 | section ch1_slowing_growth]\nSlowing Growth Key messages • Today’s 108 middle-income countries represent about 40 percent of the global economy, are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor, and contribute nearly two-thirds of global carbon dioxide emissions. • Middle-income countries are prone to systematic growth slowdowns—a concept termed the “middle-income trap.” The median growth slowdown episode occurs when a country reaches about 11 percent of the gross domestic product per capita of the United States. • Although income per capita is the metric most commonly used to measure the pace of economic development, measures of average income can differ greatly, depending on the measure. • Countries with weaker institutions—and especially those with lower levels of economic and political freedom—are more susceptible to slowdowns at even lower levels of income.\n\n[B:wdr2024_part1:p004:c001 | data/raw/doc1.pdf | page 4 | section ch1_slowing_growth]\nIntroduction The problem of economic growth in middle- inco me economies has been a concern of development policy practitioners for at least five decades. In the first World Development Report, published in 1978, “middle-income” was an omnibus term applied to countries with diverse economic characteristics at various stages of development.1 Middle-income countries were defined as those with annual income per capita of over US$250.2 By that definition, 58 countries, home to about 900 million people, were designated middle-income. Despite the diversity, World Development Report 1978 identified two characteristics that distinguished middle-income from low- incom e countries: • Their growth prospects were more sen-sitive to economic conditions in the industrialized (high-income) countries, particularly the environment for trade and commercial capital flows. • They had more resources available to raise the living standards of the poor.",
+    "context_ids": [
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p005:c000",
+      "B:wdr2024_part1:p005:c002",
+      "B:wdr2024_part1:p007:c004",
+      "B:wdr2024_part1:p007:c003",
+      "B:wdr2024_part1:p004:c000",
+      "B:wdr2024_part1:p004:c001"
+    ],
+    "context_chars": 6312,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2067,
+      "completion_tokens": 118,
+      "model_calls": 2,
+      "cost_usd": 0.00038085
+    },
+    "elapsed_s": 3.199,
+    "context_has_evidence": true,
+    "agent_version": 1
+  },
+  {
+    "query_id": "t06",
+    "split": "test_v1",
+    "question": "Which country is given as an example of using immigration to cope with low fertility and labor shortages?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Canada is given as an example of using immigration to cope with low fertility rates and labor shortages [B:wdr2024_part1:p037:c002].",
+    "citations": [
+      "B:wdr2024_part1:p037:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.17,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 329,
+          "completion_tokens": 21,
+          "total_tokens": 350,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "immigration low fertility labor shortages example country",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.051,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p037:c002",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 37,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p010:c001",
+            "rank": 2,
+            "score": 0.028,
+            "page": 10,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p026:c001",
+            "rank": 3,
+            "score": 0.0263,
+            "page": 26,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p031:c002",
+            "rank": 4,
+            "score": 0.0161,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p043:c001",
+            "rank": 5,
+            "score": 0.0161,
+            "page": 43,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p037:c002",
+          "B:wdr2024_part1:p037:c001",
+          "B:wdr2024_part1:p037:c003",
+          "B:wdr2024_part1:p010:c001",
+          "B:wdr2024_part1:p010:c000",
+          "B:wdr2024_part1:p010:c002",
+          "B:wdr2024_part1:p026:c001"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p026:c000",
+            "reason": "budget (neighbour of B:wdr2024_part1:p026:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p026:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p026:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p031:c002",
+            "reason": "budget (rank 4)"
+          },
+          {
+            "id": "B:wdr2024_part1:p043:c001",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p037:c002",
+          "B:wdr2024_part1:p037:c001",
+          "B:wdr2024_part1:p037:c003",
+          "B:wdr2024_part1:p010:c001",
+          "B:wdr2024_part1:p010:c000",
+          "B:wdr2024_part1:p010:c002",
+          "B:wdr2024_part1:p026:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.683,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1878,
+          "completion_tokens": 66,
+          "total_tokens": 1944,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p037:c002 | data/raw/doc1.pdf | page 37 | section ch3_shrinking_spaces]\nFinally, the booming populations in low-income countries and lower-middle-income countries in Sub-Saharan Africa and elsewhere will need to be integrated into graying societies’ labor markets (especially those in middle-income countries).f Canada has successfully relied on immigration as a strategy to manage its low fertility rates and labor shortages.g World Development Report 2023: Migrants, Refugees, and Societies argues that if managed effectively, migration could unlock further growth for destination countries.h And this migration need not be a brain drain imposed on lower-income countries with high population growth rates. For example, professional links established between expat scientists and those they leave behind may generate knowledge spillovers in their countries of origin.i a. UN DESA (2022). Dependency ratios refer to the number of children (ages 0–14) and older persons (age 65 and over) to the working-age population (ages 15–64). b.\n\n[B:wdr2024_part1:p037:c001 | data/raw/doc1.pdf | page 37 | section ch3_shrinking_spaces]\nMeanwhile, countries will need to invest in upgrading skills of their workforce and ensuring that everyone’s talent is used appropriately and efficiently. Furthermore, automation and other productivity-enhancing technologies to compensate for a shrinking workforce will have to be deployed and have been prioritized by aging countries such as Japan. e The path from imitative to innovative growth is the key for middle-income countries to address the needs of their aging populations.\n\n[B:wdr2024_part1:p037:c003 | data/raw/doc1.pdf | page 37 | section ch3_shrinking_spaces]\nLee and Mason (2006); UN DESA (2022). c. Aging society and aged society thresholds are based on the definition of the Population Division of the United Nations Department of Economic and Social Affairs (UN DESA). According to the definition, the share of people age 65 and older exceeds 7 percent of the population in an aging society, and a country qualifies as an aged society if this share exceeds 14 percent. d. UN DESA (2022). e. Moss (2017). f. Wakeman-Linn et al. (2015). g. Green (2023). h. World Bank (2023b). i. Prato (2023). Box 3.1 Graying growth (continued)\n\n[B:wdr2024_part1:p010:c001 | data/raw/doc1.pdf | page 10 | section ch1_slowing_growth]\nA comparison of countries using PPP adjustments could produce a better understanding of the distance to the technology frontier than gross national income. However, income or GDP per capita does not reflect the wide array of growth challenges that countries face. Two high-income countries provide an example. In 2022, Qatar’s GDP per capita was US$88,046, driven mostly by exports of hydrocarbons from its abundant reserves of oil and natural gas. The same year, Denmark’s GDP per capita was US$66,983, and its services sector employs about 80 percent of labor. Meanwhile, Nielsen (2011) suggests the need to introduce a development taxonomy to classify countries based on a variety of existing development proxies (the Human Development Index, lifetime income measure, and so on) rather than income levels. Even the World Bank Group Strategy adopted in 2013 recognizes the need for an approach that pays more attention to the multiple facets and fragility across the development spectrum.k a.\n\n[B:wdr2024_part1:p010:c000 | data/raw/doc1.pdf | page 10 | section ch1_slowing_growth]\nhigh-income country. Yet when adjusted for purchasing power, Türkiye’s GDP per capita is higher than Chile’s. The country for which both measures are defined as identical is the United States because purchasing power in any country is measured relative to what a dollar can buy in the United States. Türkiye’s GDP per capita relative to that of the United States is nearly 50 percent when adjusted for PPP but less than 15 percent using market exchange rates. For Chile, the numbers are, respectively, 40 percent and 20 percent. PPP adjustments have been criticized for their inability to reflect the complexity and diversity of economic production and capabilities in indi-vidual economies.12 The adjustments do not consider quality or productivity differences among countries in the production of tradable as well as nontradable goods and services, including infrastructure, health care, and education. However, recent assessments of PPPs appear to be highly correlated with economic activity.\n\n[B:wdr2024_part1:p010:c002 | data/raw/doc1.pdf | page 10 | section ch1_slowing_growth]\nWorld Bank (1978). b. For more on the Atlas method, see World Bank Atlas Method: Detailed Methodology (Data Help Desk), Data, World Bank, Washington, DC, https://datahelpdesk.worldbank.org/knowledgebase / artic les/378 832-what-is-the-world-bank-atlas-method. c. Ravallion (2013). d. Ravallion (2012). e. World Bank (1983). f. World Bank (1989). g. Dolan (2016). h. Summers and Pritchett (2014). i. Operationally, borrower countries are distinguished by their lending category within the World Bank: IDA-only; blend (both IDA and IBRD ); and IBRD-only . IDA provides countries with the most difficulty borrowing externally with grants and concessional loans. IBRD offers nonconcessional loans to countries that it finds creditworthy. Because IBRD terms are “harder” (more market-based) than those of IDA, IBRD borrowers tend to be perceived as more developed than IDA borrowers. But graduating from low-income status is not the same as graduating from IDA.\n\n[B:wdr2024_part1:p026:c001 | data/raw/doc1.pdf | page 26 | section ch2_structural_stasis]\nEncouragingly, three-quarters of STEM graduates are now in middle-income countries, and Chinese and Indian STEM graduates make up about half of global STEM graduates (figure 2.4). The example of Korea, the only country ever to sustain economic growth that averaged more than 5 percent for more than 50 years, is especially illustrative. How did Korean industry do it? Domestic firms such as Samsung embarked on a journey that began with infusion. By licensing technologies from Sanyo and NEC in Japan, Samsung transitioned from making noodles Source: WDR 2024 team using DataBank: Jobs, World Bank, Washington, DC, https://databank.worldbank.org/source / jobs; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org / search/dataset/0037712 .",
+    "context_ids": [
+      "B:wdr2024_part1:p037:c002",
+      "B:wdr2024_part1:p037:c001",
+      "B:wdr2024_part1:p037:c003",
+      "B:wdr2024_part1:p010:c001",
+      "B:wdr2024_part1:p010:c000",
+      "B:wdr2024_part1:p010:c002",
+      "B:wdr2024_part1:p026:c001"
+    ],
+    "context_chars": 6391,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2207,
+      "completion_tokens": 87,
+      "model_calls": 2,
+      "cost_usd": 0.00038325
+    },
+    "elapsed_s": 2.904,
+    "context_has_evidence": true,
+    "agent_version": 1
+  },
+  {
+    "query_id": "u03",
+    "split": "test_v1",
+    "question": "What is Indonesia's official target year for becoming a high-income country?",
+    "answerable": false,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "The documents do not contain enough evidence regarding Indonesia's official target year for becoming a high-income country.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.932,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 324,
+          "completion_tokens": 19,
+          "total_tokens": 343,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Indonesia high-income country target year",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.051,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p043:c001",
+            "rank": 1,
+            "score": 0.0318,
+            "page": 43,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p036:c002",
+            "rank": 2,
+            "score": 0.0313,
+            "page": 36,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c000",
+            "rank": 3,
+            "score": 0.0291,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p019:c001",
+            "rank": 4,
+            "score": 0.0275,
+            "page": 19,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p017:c000",
+            "rank": 5,
+            "score": 0.0268,
+            "page": 17,
+            "section": "spotlight"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p043:c001",
+          "B:wdr2024_part1:p043:c000",
+          "B:wdr2024_part1:p043:c002",
+          "B:wdr2024_part1:p036:c002",
+          "B:wdr2024_part1:p036:c001",
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p019:c001"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p019:c000",
+            "reason": "budget (neighbour of B:wdr2024_part1:p019:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p019:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p019:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p017:c000",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p043:c001",
+          "B:wdr2024_part1:p043:c000",
+          "B:wdr2024_part1:p043:c002",
+          "B:wdr2024_part1:p036:c002",
+          "B:wdr2024_part1:p036:c001",
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p019:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.19,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 1996,
+          "completion_tokens": 19,
+          "total_tokens": 2015,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Indonesia target year high-income country",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.052,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p043:c001",
+            "rank": 1,
+            "score": 0.0318,
+            "page": 43,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p036:c002",
+            "rank": 2,
+            "score": 0.0313,
+            "page": 36,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c000",
+            "rank": 3,
+            "score": 0.0289,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p019:c001",
+            "rank": 4,
+            "score": 0.0275,
+            "page": 19,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p017:c000",
+            "rank": 5,
+            "score": 0.0272,
+            "page": 17,
+            "section": "spotlight"
+          }
+        ],
+        "added_to_context": [],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p017:c000",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p043:c001",
+          "B:wdr2024_part1:p043:c000",
+          "B:wdr2024_part1:p043:c002",
+          "B:wdr2024_part1:p036:c002",
+          "B:wdr2024_part1:p036:c001",
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p019:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.269,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 2144,
+          "completion_tokens": 42,
+          "total_tokens": 2186,
+          "prompt_tokens_details": {
+            "cached_tokens": 1920,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "context": "[B:wdr2024_part1:p043:c001 | data/raw/doc1.pdf | page 43 | section ch3_shrinking_spaces]\nIndonesia South Africa Colombia Brazil Bulgaria Russian Federation Mexico Kazakhstan Malaysia China Argentina Türkiye Chile HungaryPoland Slovak Republic Czechia SpainItalyJapanFrance Germany United Kingdom Australia United States Low-income Lower-middle-income Upper-middle-incomeH igh-income Weighted average cost of capital (%) GDP per capita (constant 2015 US$) pressures and domestic pledges for climate action will require these countries to allocate substa ntial investment to adaptation and mitigation. With many middle-income economies facing high debt and higher borrowing costs, a policy dilemma arises between achieving ambitious climat e actions that pay off in the longer term and avert-ing short-term macroeconomic imbalances. The constraints facing middle-income countries and the extensive and frenetic pace of change required for them to transition to high-income status make policy making more challenging than at the low- or high-income stage.\n\n[B:wdr2024_part1:p043:c000 | data/raw/doc1.pdf | page 43 | section ch3_shrinking_spaces]\nFigure 3.6 In middle-income countries, the weighted average cost of capital for utility-scale solar power projects is substantially higher than the cost in high-income countries Source: WDR 2024 team using IRENA (2023); WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: GDP = gross domestic product; WACC = weighted average cost of capital. GDP per capita Upper-middle-income WACC average Low-income WACC average Lower-middle-income WACC average Weighted average cost of capital (right axis) High-income WACC average Burkina Faso EthiopiaUgandaRwanda Yemen, Rep. SenegalPakistanKenya Bangladesh GhanaIndia Viet NamSri Lanka Algeria Egypt, Arab Rep.Iran, Islamic Rep.\n\n[B:wdr2024_part1:p043:c002 | data/raw/doc1.pdf | page 43 | section ch3_shrinking_spaces]\nThe chapters that follow focus on feasible steps that could aid this transition.\n\n[B:wdr2024_part1:p036:c002 | data/raw/doc1.pdf | page 36 | section ch3_shrinking_spaces]\nFrance United States High-income Argentina United Kingdom Lower-middle-income Upper-middle-income Middle-income Japan China India Indonesia Malaysia Brazil Türkiye Bangladesh Korea, Rep.\n\n[B:wdr2024_part1:p036:c001 | data/raw/doc1.pdf | page 36 | section ch3_shrinking_spaces]\nFigure B3.1.1 Today’s middle-income countries are aging more rapidly than high-income countries did in the past Sources: WDR 2024 team using data of World Population Prospects (dashboard), Population Division, Department of Economic and Social Affairs, United Nations, New York, https://population .un.org/wpp/; World Bank (2016). Note: The bars indicate beginning and end years for transitioning from 7 percent (aging) to 14 percent (aged) of the population age 65 and older. The number corresponding to each bar shows total number of years to transition from aging to aged. Aging and aged thresholds are based on definitions by the Population Division of the United Nations Department of Economic and Social Affairs (UN DESA). Bars for income groups represent the averages of countries included in the corresponding income group. The dashed vertical line indicates the year 2023.\n\n[B:wdr2024_part1:p006:c000 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nthe nation into a developed economy by 2047— the hundredth year of independence. In Viet Nam, its Socio-Economic Development Strategy 2021–2030 outlines a plan to sustain GDP per capita growth of 7 percent through this decade, with a transition to high-income status by 2045. In South Africa, the 2030 National Development Plan has prioritized raising its income per capita from US$2,800 in 2010 to US$7 ,000 by 2030. Other middle-income countries have similar aspirations. But the growth prospects of middle-income countries are not improving. Over the last decade, the global economy has gone from healthy to hobbling and from largely integrated to increasingly fragmented.7 Foreign trade and investment channels are also becoming more constricted—or at least encumbered—by geopolitical tensions.\n\n[B:wdr2024_part1:p006:c001 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nFigure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712 . Note: Each scatter point indicates an economy’ s 1 990 and 2022 gross national income ( GNI) per capita in current US dollar terms (using the World Bank Atlas method). The blue vertical lines show thresholds to transition to lower-middle-income status, upper-middle-income status, and high-income status in 1990 (US$610, US$2,465, and US$7,620, respectively), while the blue horizontal lines show these thresholds in 2022 (US$1,135, US$4,465, and US$13,845, respectively) based on the World Bank income classifications (https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country -and-lending-groups). The figure includes only economies at middle-income levels in 1990.\n\n[B:wdr2024_part1:p019:c001 | data/raw/doc1.pdf | page 19 | section spotlight]\nSuggested indicators provide a clear picture of the underlying structure of an economy Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Pakistan LMIC 1,500 –0.6 0.47 0.0 23.25 0.23 394.9 24.20 9.57 0.12 India LMIC 2,540 0.5 0.36 1.0 54.40 0.23 255.7 12.60 10.77 0.09 Viet Nam LMIC 4,180 0.0 — 0.0 63.40 0.45 772.4 3.70 11.23 0.10 Indonesia UMIC 4,870 –0.1 — 0.0 65.25 0.53 336.2 11.40 7.41 0.10 South Africa UMIC 6,750 –0.1 — 0.2 53.20 0.77 491.7 19.40 11.87 0.10 Colombia UMIC 6,870 –0.1 0.37 0.0 72.80 0.45",
+    "context_ids": [
+      "B:wdr2024_part1:p043:c001",
+      "B:wdr2024_part1:p043:c000",
+      "B:wdr2024_part1:p043:c002",
+      "B:wdr2024_part1:p036:c002",
+      "B:wdr2024_part1:p036:c001",
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p019:c001"
+    ],
+    "context_chars": 6357,
+    "searches": 2,
+    "usage": {
+      "prompt_tokens": 4464,
+      "completion_tokens": 80,
+      "model_calls": 3,
+      "cost_usd": 0.0007176
+    },
+    "elapsed_s": 3.494,
+    "agent_version": 1
+  },
+  {
+    "query_id": "u04",
+    "split": "test_v1",
+    "question": "What was Viet Nam's unemployment rate in 2022?",
+    "answerable": false,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "The documents do not contain enough evidence regarding Viet Nam's unemployment rate in 2022.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.059,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 322,
+          "completion_tokens": 21,
+          "total_tokens": 343,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Viet Nam unemployment rate 2022",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.059,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p006:c000",
+            "rank": 1,
+            "score": 0.0325,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p019:c001",
+            "rank": 2,
+            "score": 0.032,
+            "page": 19,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c001",
+            "rank": 3,
+            "score": 0.0311,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c002",
+            "rank": 4,
+            "score": 0.0303,
+            "page": 2,
+            "section": "part1_overview"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c003",
+            "rank": 5,
+            "score": 0.0299,
+            "page": 2,
+            "section": "part1_overview"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p019:c001",
+          "B:wdr2024_part1:p019:c000",
+          "B:wdr2024_part1:p019:c002",
+          "B:wdr2024_part1:p002:c002",
+          "B:wdr2024_part1:p002:c001",
+          "B:wdr2024_part1:p002:c003"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p019:c001",
+          "B:wdr2024_part1:p019:c000",
+          "B:wdr2024_part1:p019:c002",
+          "B:wdr2024_part1:p002:c002",
+          "B:wdr2024_part1:p002:c001",
+          "B:wdr2024_part1:p002:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.301,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 2484,
+          "completion_tokens": 40,
+          "total_tokens": 2524,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "context": "[B:wdr2024_part1:p006:c000 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nthe nation into a developed economy by 2047— the hundredth year of independence. In Viet Nam, its Socio-Economic Development Strategy 2021–2030 outlines a plan to sustain GDP per capita growth of 7 percent through this decade, with a transition to high-income status by 2045. In South Africa, the 2030 National Development Plan has prioritized raising its income per capita from US$2,800 in 2010 to US$7 ,000 by 2030. Other middle-income countries have similar aspirations. But the growth prospects of middle-income countries are not improving. Over the last decade, the global economy has gone from healthy to hobbling and from largely integrated to increasingly fragmented.7 Foreign trade and investment channels are also becoming more constricted—or at least encumbered—by geopolitical tensions.\n\n[B:wdr2024_part1:p006:c001 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nFigure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712 . Note: Each scatter point indicates an economy’ s 1 990 and 2022 gross national income ( GNI) per capita in current US dollar terms (using the World Bank Atlas method). The blue vertical lines show thresholds to transition to lower-middle-income status, upper-middle-income status, and high-income status in 1990 (US$610, US$2,465, and US$7,620, respectively), while the blue horizontal lines show these thresholds in 2022 (US$1,135, US$4,465, and US$13,845, respectively) based on the World Bank income classifications (https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country -and-lending-groups). The figure includes only economies at middle-income levels in 1990.\n\n[B:wdr2024_part1:p019:c001 | data/raw/doc1.pdf | page 19 | section spotlight]\nSuggested indicators provide a clear picture of the underlying structure of an economy Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Pakistan LMIC 1,500 –0.6 0.47 0.0 23.25 0.23 394.9 24.20 9.57 0.12 India LMIC 2,540 0.5 0.36 1.0 54.40 0.23 255.7 12.60 10.77 0.09 Viet Nam LMIC 4,180 0.0 — 0.0 63.40 0.45 772.4 3.70 11.23 0.10 Indonesia UMIC 4,870 –0.1 — 0.0 65.25 0.53 336.2 11.40 7.41 0.10 South Africa UMIC 6,750 –0.1 — 0.2 53.20 0.77 491.7 19.40 11.87 0.10 Colombia UMIC 6,870 –0.1 0.37 0.0 72.80 0.45\n\n[B:wdr2024_part1:p019:c000 | data/raw/doc1.pdf | page 19 | section spotlight]\nTable S.1\n\n[B:wdr2024_part1:p019:c002 | data/raw/doc1.pdf | page 19 | section spotlight]\n— 50.10 6.38 0.09 Brazil UMIC 9,070 –0.2 — 0.3 69.00 0.57 — 46.00 6.98 0.08 Kazakhstan UMIC 10,940 –0.5 — 0.0 98.00 0.65 658.2 21.90 14.15 0.09 Türkiye UMIC 11,650 0.6 — 0.2 63.00 0.38 1,736.7 17.00 7.74 0.07 Malaysia UMIC 11,970 0.9 0.25 0.4 — 0.69 1,433.0 22.20 11.90 0.06 Mexico UMIC 12,100 1.1 — 0.2 58.25 0.55 348.7 46.70 6.17 0.07 Argentina UMIC 12,520 –0.2 — 0.1 63.50 — 1,249.7 47.20 5.69 0.10 China UMIC 13,400 1.3 — 13.1 73.50 0.44 1,523.5 1.80 8.87 0.08 Costa Rica UMIC 13,850 0.4 — 0.1 62.20 — 369.6 63.20 — — Russian Federation UMIC 14,250 0.2 — 4.6 90.40 0.58 2,727.0 7.70 12.90 0.08 Bulgaria UMIC 14,460 0.6 0.31 0.2 86.00 0.35 2,354.6 12.70 9.37 0.06 Chile HIC 15,820 –0.3 0.31 0.1 84.50 0.60 520.1 30.10 5.94 0.06 Romania HIC 16,670 1.2 0.30 0.2 83.60 0.28 922.2 36.10 4.31 0.07 Hungary HIC 19,820 1.5 0.25 0.5 85.60 0.36 4,156.8 12.40 5.35 0.06 Portugal HIC 26,270 0.7 0.50 0.4 83.20 0.38 5,177.3 43.80 3.68 0.06 (Table continues next page)\n\n[B:wdr2024_part1:p002:c002 | data/raw/doc1.pdf | page 2 | section part1_overview]\nTable P1.1 World Bank country classifications and selected global indicators, 2022 INCOME CLASSIFICATION SHARE OF GLOBAL POPULATION (%) SHARE OF GLOBAL GDP (%) SHARE OF PEOPLE IN EXTREME POVERTY GLOBALL Y (%) SHARE OF GLOBAL CARBON DIOXIDE (CO2) EMISSIONS (%) Low-income 8.9 0.6 36.5 0.5 Lower-middle-income 40.3 8.3 55.4 15.7 Upper-middle-income 35.1 30.3 7.1 48.6 High-income 15.7 60.8 1.0 35.2 Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www .climatewatchdata.org/.\n\n[B:wdr2024_part1:p002:c001 | data/raw/doc1.pdf | page 2 | section part1_overview]\nMeanwhile, the prospects for middle-income countries are not improving in view of the direction the global economy is going, from healthy to wobbling. Against these headwinds, today’s middle-income countries need to make miracles to develop at the pace of the 34 economies that reached high-income status between 1990 and 2021. And even if these headwinds were not getting stronger, middle- income countries would still face long\n\n[B:wdr2024_part1:p002:c003 | data/raw/doc1.pdf | page 2 | section part1_overview]\nNote: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.",
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p019:c001",
+      "B:wdr2024_part1:p019:c000",
+      "B:wdr2024_part1:p019:c002",
+      "B:wdr2024_part1:p002:c002",
+      "B:wdr2024_part1:p002:c001",
+      "B:wdr2024_part1:p002:c003"
+    ],
+    "context_chars": 6159,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2806,
+      "completion_tokens": 61,
+      "model_calls": 2,
+      "cost_usd": 0.0004575
+    },
+    "elapsed_s": 2.419,
+    "agent_version": 1
+  }
+]

@@ -1,0 +1,1439 @@
+[
+  {
+    "query_id": "n01",
+    "split": "test",
+    "question": "By 2021, what share of Western European income had Estonia reached?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "By 2021, Estonia had reached 80 percent of Western European income. [B:wdr2024_part1:p029:c002]",
+    "citations": [
+      "B:wdr2024_part1:p029:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.852,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 376,
+          "completion_tokens": 21,
+          "total_tokens": 397,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "2021 share of Western European income Estonia",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.085,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p029:c002",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 29,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c002",
+            "rank": 2,
+            "score": 0.0323,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "rank": 3,
+            "score": 0.0317,
+            "page": 30,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c002",
+            "rank": 4,
+            "score": 0.0299,
+            "page": 2,
+            "section": "part1_overview"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c003",
+            "rank": 5,
+            "score": 0.0276,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p029:c002",
+          "B:wdr2024_part1:p029:c001",
+          "B:wdr2024_part1:p029:c003",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p027:c001",
+          "B:wdr2024_part1:p027:c003",
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p030:c000"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p030:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p030:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c002",
+            "reason": "budget (rank 4)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p029:c002",
+          "B:wdr2024_part1:p029:c001",
+          "B:wdr2024_part1:p029:c003",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p027:c001",
+          "B:wdr2024_part1:p027:c003",
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p030:c000"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.027,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1754,
+          "completion_tokens": 58,
+          "total_tokens": 1812,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p029:c002 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nBox 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) Over the last three decades, Bulgaria, Estonia, and Poland have transitioned simultane-ously from centra l planning to market economies, and Estonia and Poland have moved from middle-income to high-income status.a By 2021, Estonia had reached 80 percent of Western European income, Poland 75 percent, and Bulgaria 50 percent.b This remarkable leap from income per capita of between 20 and 30 percent of Western European levels in the early 1990s occurred at different speeds, which provides valuable policy insights. Policy insight 1: Comprehensive reforms unlock productivity and prosperity Structural reforms, specifically privatization and market liberalization, have played a crucial role in speeding up income convergence among Central and Eastern European economies, as documented in an extensive cross-country study by Matkowski, Prochniak, and Rapacki (2016).\n\n[B:wdr2024_part1:p029:c001 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nMason (1992). f. Ohno (2019). Box 2.1 The Meiji Restoration reconnected Japan with global knowledge (continued)\n\n[B:wdr2024_part1:p029:c003 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nThey find that the rate of convergence has significantly benefited from enhancements of institutions, economic freedom, and governance quality.\n\n[B:wdr2024_part1:p027:c002 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nTo reach this point, however, governments must have done everything possible in the infusion phase to not just prepare the economic structure for the different next stage, but also reform and strengthen supporting institutions. Those who falter in infusion or try to leapfrog will find it much more challenging to transition toward innovation. A comparison of Estonia, Poland, and Bulgaria is illustrative. Transitioning from central planning, Estonia reached 80 percent of Western European income by 2021, Poland 75 percent, and Bulgaria 50 percent (box 2.2). Estonian independence in 1991 catalyzed a swift transition to high levels of innovation. By contrast, Bulgaria pro-tected many incumbent state-owned enterprises (SOEs) from competition and stymied efficient resource allocation, preventing the contrac-tion of low- producti vity sectors. As for Poland, it privatized many of its SOEs and champi oned competition.\n\n[B:wdr2024_part1:p027:c001 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nAs an economy approaches the global technology frontier, policies that supported growth eventually become a burden for sustaining further development.14 When Samsung reached that point, it moved toward innovation—nudged by support from the Korean government, which had calibrated its incentives to encourage imitation first and support innovation much later (figure 2.5, panel b). To nurture innovation, institutions must give inventors and entrepreneurs incentives and ensure that they can acquire the technical and financial resources to carry out their designs.15 Once a middle-income country has infused its economy with technology from global innovators and is sustaining rapid growth, it can aspire to converge to the global technology frontier by preparing to join those innovators—that is, to become an innovation economy.\n\n[B:wdr2024_part1:p027:c003 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nMiddle-income countries lag noticeably behind high-income countries in terms of the “novelty” of their knowledge, as well as in producing new Source: WDR 2024 team. Note: The primary data for the calculation of the percentage share of science, technology, engineering, and mathematics (STEM) graduates in tertiary education are from UIS.Stat (dashboard), Institute for Statistics, United Nations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org/. The STEM data set covers 144 countries.\n\n[B:wdr2024_part1:p030:c001 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nThe magnitude of FDI inflows to Estonia during the 1990s was seven times that to Bulgaria and three times that to Poland.c Estonia maintained its status as a leading innovator in the region, with the highest research and development (R&D) intensity—1.75 percent of its gross domestic product (GDP) in 2021—and a high ranking in the Global Innovation Index (GII).d As for Poland, early “big bang” reforms, trade competition, and hard budget constraints for state-owned enterprises (SOEs) systematically activated a cycle of creative destruction, closing the gap with advanced countries, as evidenced by an increase in R&D expenditure to 1.3 percent of GDP in 2021, as well as higher GII scores. Policy insight 2: Incentives for incumbents to drive innovation are crucial Productivity growth is a dominant driver of income convergence. Between 1996 and 2021, Estonia displayed robust annual productivity growth of 3.8 percent, followed by Poland at 2.6 percent and Bulgaria at 1.4 percent.\n\n[B:wdr2024_part1:p030:c000 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nHigher investment rates, a skilled labor force, low budget deficits, and lower tax burdens have been associated with accelerated economic growth. Estonian independence in 1991 catalyzed a swift transition to high levels of productivity growth driven by a strategic divestment of public sector assets, trade liberalization, and a flat tax system. These policies opened up the market for new entrants, attracted a surge in foreign direct investment (FDI), and boosted private sector productivity.",
+    "context_ids": [
+      "B:wdr2024_part1:p029:c002",
+      "B:wdr2024_part1:p029:c001",
+      "B:wdr2024_part1:p029:c003",
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p027:c001",
+      "B:wdr2024_part1:p027:c003",
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000"
+    ],
+    "context_chars": 5725,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2130,
+      "completion_tokens": 79,
+      "model_calls": 2,
+      "cost_usd": 0.0003669
+    },
+    "agent_version": 2,
+    "elapsed_s": 1.965,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "n02",
+    "split": "test",
+    "question": "In Poland, what share of the contribution to total factor productivity growth came from labor alone?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "In Poland, 20 percent of the contribution to total factor productivity growth came from labor alone, driven by the enhanced quality and diversity of the labor force, rather than a reduction in workforce numbers [B:wdr2024_part1:p031:c001].",
+    "citations": [
+      "B:wdr2024_part1:p031:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.925,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 379,
+          "completion_tokens": 22,
+          "total_tokens": 401,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Poland total factor productivity growth labor contribution share",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.108,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p031:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p023:c001",
+            "rank": 2,
+            "score": 0.0313,
+            "page": 23,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p031:c000",
+            "rank": 3,
+            "score": 0.0313,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "rank": 4,
+            "score": 0.0306,
+            "page": 30,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p023:c003",
+            "rank": 5,
+            "score": 0.0298,
+            "page": 23,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p031:c001",
+          "B:wdr2024_part1:p031:c000",
+          "B:wdr2024_part1:p031:c002",
+          "B:wdr2024_part1:p023:c001",
+          "B:wdr2024_part1:p023:c000",
+          "B:wdr2024_part1:p023:c002",
+          "B:wdr2024_part1:p023:c003"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "reason": "budget (rank 4)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p031:c001",
+          "B:wdr2024_part1:p031:c000",
+          "B:wdr2024_part1:p031:c002",
+          "B:wdr2024_part1:p023:c001",
+          "B:wdr2024_part1:p023:c000",
+          "B:wdr2024_part1:p023:c002",
+          "B:wdr2024_part1:p023:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.289,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1691,
+          "completion_tokens": 86,
+          "total_tokens": 1777,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p031:c001 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nPoland narrowed its productivity gap primarily by adopting older technologies from more advanced economies rather than through the transfer of new, cutting-edge technologies. f Domestic investments in innovation further accelerated Poland’s move toward the technology frontier, enhancing firms’ ability to contribute to global technological progress. Labor also played a critical role in the transformation in Poland, according to a breakdown of the growth in total factor productivity.g A notable 20 percent of the contribution came from labor alone, a figure driven not by a reduction in workforce numbers but by the enhanced quality and diversity of the labor force.\n\n[B:wdr2024_part1:p031:c000 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nwere not bailed out. The alignment of managerial incentives—both explicit and implicit— propelled creative destruction. Managers at Polish SOEs shifted their attention from production targets to profitability and market share.e These managers became the primary agents of restructuring and innovation, facing both financial constraints and competition. Policy insight 3: Skilled labor is essential for moving from infusion to innovation As economies mature, the returns from capital become dependent on a supply of sophisticated workers. Continual enhancements in firm efficiency and workforce skills are vital to staying competitive in the rapidly changing productivity landscape. The success stories of Estonia and Poland illustrate strategic ways to close the technology gap— initially b y adopting existing technology and subsequently by developing innovative capacity.\n\n[B:wdr2024_part1:p031:c002 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nA significant rise in the proportion of individuals between the ages of 25 and 34 with a tertiary education, which increased from 15 percent to 42 percent between 2000 and 2012, had a significant impact on output growth.h Bulgaria’s experience illustrates how shortages of skilled labor can impede new investment and the growth of high-productivity ventures. The educational landscape in Bulgaria has lagged in quality, participation, equity, and intergenerational mobility. Certain seg-ments of the population still struggle with the acquisition of basic skills, undermining their potential contribution to productivity. Prioritizing human capital development to take advantage of adoption and innovation is essential, especially in view of the demographic changes in many middle-income countries, which are at risk of “growing old before becoming rich,” as the saying goes. a.\n\n[B:wdr2024_part1:p023:c001 | data/raw/doc1.pdf | page 23 | section ch2_structural_stasis]\nIn China, for example, its investment to gross domestic product (GDP) ratios have been stratospherically high for decades, but its GNI is less than 25 percent that of the United States. Another way to understand the problem is that, although there has been considerable convergence in capital to output ratios between low-and middle-income countries and high-income countries, income levels have not converged. And so other factors are clearly at work. A simple decomposition of factor endowments and total factor productivity (TFP) reveals that the contribution of physical capital per worker diminishes at later development stages (figure 2.1). What really matters for growth is TFP growth, which is clumsy longhand for the effects of technological progress and improved efficiency in converting capital and labor into goods and services.\n\n[B:wdr2024_part1:p023:c000 | data/raw/doc1.pdf | page 23 | section ch2_structural_stasis]\nEconomic development = structural change As described in chapter 1, the term “middle- income trap” refers to the risk of an economic slowdown or stagnation if a country fails to adapt its policies and institutions to changing economic and structural needs.3 Strategies based on factor accumulation alone are likely to steadily worsen results—a natural occurrence as the marginal productivity of capital declines. Even if all middle -income countries enjoyed the enabling conditions of peace, freedom, factor mobility, and rule of law, the returns from capital investment alone would decline too sharply to support the countries’ sustained and ongoing economic growth.4 If capital endowments were the only economi-cally relevant difference between middle- income and high-income countries today, the gross national income (GNI) of a typical middle-income country would be about 75 percent that of the United States.\n\n[B:wdr2024_part1:p023:c002 | data/raw/doc1.pdf | page 23 | section ch2_structural_stasis]\nIn fact, much of the growth in the United States between 1909 and 1949—when it was a middle-income country—stemmed from technical change, not an increase in capital per worker.5 If much of growth everywhere is the result of technical change, then conventional thinking would follow that every middle-income country needs to figure out how to quickly institute arrangements that foster technical progress, not only (or primarily) the accumulation of capital. But this interpretation is not helpful for policy making because of the ongoing importance of capital deepening across all categories Source: WDR 2024 team using data from Lange, Wodon, and Carey (2018); PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc/productivity/pwt/ . Note: GDP = gross domestic product.\n\n[B:wdr2024_part1:p023:c003 | data/raw/doc1.pdf | page 23 | section ch2_structural_stasis]\nFigure 2.1 As economies develop, capital accumulation brings diminishing returns Low-income Lower-middle-income Upper-middle-income High-income Contribution to growth (% of GDP per capita growth) Physical capital per worker Total factor productivity",
+    "context_ids": [
+      "B:wdr2024_part1:p031:c001",
+      "B:wdr2024_part1:p031:c000",
+      "B:wdr2024_part1:p031:c002",
+      "B:wdr2024_part1:p023:c001",
+      "B:wdr2024_part1:p023:c000",
+      "B:wdr2024_part1:p023:c002",
+      "B:wdr2024_part1:p023:c003"
+    ],
+    "context_chars": 5983,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2070,
+      "completion_tokens": 108,
+      "model_calls": 2,
+      "cost_usd": 0.0003753
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.322,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "n03",
+    "split": "test",
+    "question": "Between 2000 and 2012, how did the proportion of 25- to 34-year-olds with a tertiary education change in Poland?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Between 2000 and 2012, the proportion of individuals aged 25 to 34 with a tertiary education in Poland increased from 15 percent to 42 percent [B:wdr2024_part1:p031:c002].",
+    "citations": [
+      "B:wdr2024_part1:p031:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.974,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 391,
+          "completion_tokens": 33,
+          "total_tokens": 424,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Poland 25- to 34-year-olds tertiary education change 2000 to 2012",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.055,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p031:c002",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p029:c002",
+            "rank": 2,
+            "score": 0.0311,
+            "page": 29,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p031:c001",
+            "rank": 3,
+            "score": 0.031,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c002",
+            "rank": 4,
+            "score": 0.0301,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c003",
+            "rank": 5,
+            "score": 0.0298,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p031:c002",
+          "B:wdr2024_part1:p031:c001",
+          "B:wdr2024_part1:p031:c003",
+          "B:wdr2024_part1:p029:c002",
+          "B:wdr2024_part1:p029:c001",
+          "B:wdr2024_part1:p029:c003",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p027:c001"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p027:c003",
+            "reason": "budget (neighbour of B:wdr2024_part1:p027:c002)"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c003",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p031:c002",
+          "B:wdr2024_part1:p031:c001",
+          "B:wdr2024_part1:p031:c003",
+          "B:wdr2024_part1:p029:c002",
+          "B:wdr2024_part1:p029:c001",
+          "B:wdr2024_part1:p029:c003",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p027:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.229,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1880,
+          "completion_tokens": 82,
+          "total_tokens": 1962,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p031:c002 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nA significant rise in the proportion of individuals between the ages of 25 and 34 with a tertiary education, which increased from 15 percent to 42 percent between 2000 and 2012, had a significant impact on output growth.h Bulgaria’s experience illustrates how shortages of skilled labor can impede new investment and the growth of high-productivity ventures. The educational landscape in Bulgaria has lagged in quality, participation, equity, and intergenerational mobility. Certain seg-ments of the population still struggle with the acquisition of basic skills, undermining their potential contribution to productivity. Prioritizing human capital development to take advantage of adoption and innovation is essential, especially in view of the demographic changes in many middle-income countries, which are at risk of “growing old before becoming rich,” as the saying goes. a.\n\n[B:wdr2024_part1:p031:c001 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nPoland narrowed its productivity gap primarily by adopting older technologies from more advanced economies rather than through the transfer of new, cutting-edge technologies. f Domestic investments in innovation further accelerated Poland’s move toward the technology frontier, enhancing firms’ ability to contribute to global technological progress. Labor also played a critical role in the transformation in Poland, according to a breakdown of the growth in total factor productivity.g A notable 20 percent of the contribution came from labor alone, a figure driven not by a reduction in workforce numbers but by the enhanced quality and diversity of the labor force.\n\n[B:wdr2024_part1:p031:c003 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nGross national income (GNI) per capita and gross domestic product (GDP) per capita data in this report are as of July 2023. As of July 2023, Bulgaria was classified by the World Bank as an upper-middle-income country, with a GNI per capita (Atlas method, current US dollars) of US$13,350, short of crossing the high-income country threshold of US$13,846. b. These figures are measured using purchasing power parity for the four largest EU economies. c. These figures capture net FDI per capita accumulated by the end of 1999. d. See GII (Global Innovation Index) (dashboard), World Intellectual Property Organization, Geneva, https://www.wipo.int / global_inn ovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006). Box 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) (continued)\n\n[B:wdr2024_part1:p029:c002 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nBox 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) Over the last three decades, Bulgaria, Estonia, and Poland have transitioned simultane-ously from centra l planning to market economies, and Estonia and Poland have moved from middle-income to high-income status.a By 2021, Estonia had reached 80 percent of Western European income, Poland 75 percent, and Bulgaria 50 percent.b This remarkable leap from income per capita of between 20 and 30 percent of Western European levels in the early 1990s occurred at different speeds, which provides valuable policy insights. Policy insight 1: Comprehensive reforms unlock productivity and prosperity Structural reforms, specifically privatization and market liberalization, have played a crucial role in speeding up income convergence among Central and Eastern European economies, as documented in an extensive cross-country study by Matkowski, Prochniak, and Rapacki (2016).\n\n[B:wdr2024_part1:p029:c001 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nMason (1992). f. Ohno (2019). Box 2.1 The Meiji Restoration reconnected Japan with global knowledge (continued)\n\n[B:wdr2024_part1:p029:c003 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nThey find that the rate of convergence has significantly benefited from enhancements of institutions, economic freedom, and governance quality.\n\n[B:wdr2024_part1:p027:c002 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nTo reach this point, however, governments must have done everything possible in the infusion phase to not just prepare the economic structure for the different next stage, but also reform and strengthen supporting institutions. Those who falter in infusion or try to leapfrog will find it much more challenging to transition toward innovation. A comparison of Estonia, Poland, and Bulgaria is illustrative. Transitioning from central planning, Estonia reached 80 percent of Western European income by 2021, Poland 75 percent, and Bulgaria 50 percent (box 2.2). Estonian independence in 1991 catalyzed a swift transition to high levels of innovation. By contrast, Bulgaria pro-tected many incumbent state-owned enterprises (SOEs) from competition and stymied efficient resource allocation, preventing the contrac-tion of low- producti vity sectors. As for Poland, it privatized many of its SOEs and champi oned competition.\n\n[B:wdr2024_part1:p027:c001 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nAs an economy approaches the global technology frontier, policies that supported growth eventually become a burden for sustaining further development.14 When Samsung reached that point, it moved toward innovation—nudged by support from the Korean government, which had calibrated its incentives to encourage imitation first and support innovation much later (figure 2.5, panel b). To nurture innovation, institutions must give inventors and entrepreneurs incentives and ensure that they can acquire the technical and financial resources to carry out their designs.15 Once a middle-income country has infused its economy with technology from global innovators and is sustaining rapid growth, it can aspire to converge to the global technology frontier by preparing to join those innovators—that is, to become an innovation economy.",
+    "context_ids": [
+      "B:wdr2024_part1:p031:c002",
+      "B:wdr2024_part1:p031:c001",
+      "B:wdr2024_part1:p031:c003",
+      "B:wdr2024_part1:p029:c002",
+      "B:wdr2024_part1:p029:c001",
+      "B:wdr2024_part1:p029:c003",
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p027:c001"
+    ],
+    "context_chars": 6179,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2271,
+      "completion_tokens": 115,
+      "model_calls": 2,
+      "cost_usd": 0.00040964999999999996
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.259,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "n04",
+    "split": "test",
+    "question": "What was Denmark's rank in the Economic Complexity Index in 2021?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "In 2021, Denmark was ranked twenty-fourth in the Economic Complexity Index [B:wdr2024_part1:p011:c001].",
+    "citations": [
+      "B:wdr2024_part1:p011:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.005,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 376,
+          "completion_tokens": 22,
+          "total_tokens": 398,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Denmark Economic Complexity Index rank 2021",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.047,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p011:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 11,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p020:c000",
+            "rank": 2,
+            "score": 0.032,
+            "page": 20,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p019:c001",
+            "rank": 3,
+            "score": 0.0308,
+            "page": 19,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p020:c001",
+            "rank": 4,
+            "score": 0.0306,
+            "page": 20,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "rank": 5,
+            "score": 0.0306,
+            "page": 30,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p011:c001",
+          "B:wdr2024_part1:p011:c000",
+          "B:wdr2024_part1:p011:c002",
+          "B:wdr2024_part1:p020:c000",
+          "B:wdr2024_part1:p020:c001",
+          "B:wdr2024_part1:p019:c001",
+          "B:wdr2024_part1:p019:c000"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p019:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p019:c001)"
+          },
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p011:c001",
+          "B:wdr2024_part1:p011:c000",
+          "B:wdr2024_part1:p011:c002",
+          "B:wdr2024_part1:p020:c000",
+          "B:wdr2024_part1:p020:c001",
+          "B:wdr2024_part1:p019:c001",
+          "B:wdr2024_part1:p019:c000"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.131,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 2049,
+          "completion_tokens": 64,
+          "total_tokens": 2113,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p011:c001 | data/raw/doc1.pdf | page 11 | section ch1_slowing_growth]\nFigure 1.3 Sustained growth periods are short-lived, even in rapidly growing economies Average annual growth rate (%) Number of years during sustained growth periods Korea, Rep.China IndiaBangladesh Malaysia the countries vary signifi cantly in their levels of technical sophistication; in 2021, Denmark was ranked twenty-fourth in the Economic Complexity Index and Qatar eighty-second.13 Growth in middle-income countries is slower Economic growth is not a smooth process, and the-ory does not stipulate that it should be smooth. 14 Instead, economic growth tends to be highly vol-atile, and long-run growth averages tend to mask periods of success, struggle, and failure.15 Growth in low- and middle-income countries is an “episodic” phenomenon, with countries experiencing distinct patterns of economic growth.16 In fact, a key char-acteristic of economic growth in middle-income countries is its lack of persistence.\n\n[B:wdr2024_part1:p011:c000 | data/raw/doc1.pdf | page 11 | section ch1_slowing_growth]\nSource: WDR 2024 team using data from Maddison Project Database 2023, Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc / historicaldevelopment/maddison/releases/maddison-project-database-2023 . Note: The figure illustrates the growth paths of countries whose average gross domestic product (GDP) growth rate per capita is higher than 5 percent per year for at least eight years.\n\n[B:wdr2024_part1:p011:c002 | data/raw/doc1.pdf | page 11 | section ch1_slowing_growth]\nThe volatility of growth rates is even higher in those countries, with sustained growth periods t hat are typically short-lived, even in countries that historically have enjoyed high growth rates (figure 1.3). The standout economy—the growth superstar even—is the Republic of Korea, and this Report prominently features its experiences. What was behind its success? As subsequent chapters explain, Korea’s remarkable transformation from a postconflict country in the 1950s to an economy powered by the infusion of ideas from abroad to one that is transitioning to innovation at the global frontiers of technology makes its economic history required reading for policy makers in any middle-income country hoping to achieve high-income levels of living within their lifetimes (box 1.2; see chapter 2 for more information). Growth slowdowns occur more frequently in middle-income countries than in low- or high-income countries (box 1.3).\n\n[B:wdr2024_part1:p020:c000 | data/raw/doc1.pdf | page 20 | section spotlight]\nTable S.1 Suggested indicators provide a clear picture of the underlying structure of an economy (continued) Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Korea, Rep.\n\n[B:wdr2024_part1:p020:c001 | data/raw/doc1.pdf | page 20 | section spotlight]\nHIC 35,490 2.0 — 92.5 98.75 0.79 8,483.2 — 7.63 0.05 Japan HIC 39,030 2.3 — 50.1 95.50 0.65 5,476.3 — 4.22 0.06 France HIC 45,070 1.3 0.11 11.5 88.40 0.72 4,947.1 40.20 3.01 0.04 United Kingdom HIC 47,800 1.6 — 9.9 83.33 0.79 4,491.3 — 2.38 0.05 United Arab Emirates HIC 53,290 0.1 — 0.2 — — 2,582.8 — 9.95 0.05 Belgium HIC 54,530 1.2 0.28 4.7 86.20 0.65 5,576.4 29.60 4.23 0.04 Qatar HIC 70,070 –0.4 — — 84.00 — 783.5 — 7.94 0.06 United States HIC 80,300 1.4 0.00 100.0 94.00 0.66 4,340.9 — 3.77 0.06 Source: WDR 2024 team. Note: Countries are listed within income groups from lowest to highest GNI per capita. The Economic Complexity Index is a ranking of countries based on the diversity and complexity of their export basket. Productivity-constraining distortions are estimates of a regression coefficient between the logarithm of idiosyncratic distortions and the logarithm of idiosyncratic physical productivity across firms, both computed as in Hsieh and Klenow (2009).\n\n[B:wdr2024_part1:p019:c001 | data/raw/doc1.pdf | page 19 | section spotlight]\nSuggested indicators provide a clear picture of the underlying structure of an economy Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Pakistan LMIC 1,500 –0.6 0.47 0.0 23.25 0.23 394.9 24.20 9.57 0.12 India LMIC 2,540 0.5 0.36 1.0 54.40 0.23 255.7 12.60 10.77 0.09 Viet Nam LMIC 4,180 0.0 — 0.0 63.40 0.45 772.4 3.70 11.23 0.10 Indonesia UMIC 4,870 –0.1 — 0.0 65.25 0.53 336.2 11.40 7.41 0.10 South Africa UMIC 6,750 –0.1 — 0.2 53.20 0.77 491.7 19.40 11.87 0.10 Colombia UMIC 6,870 –0.1 0.37 0.0 72.80 0.45\n\n[B:wdr2024_part1:p019:c000 | data/raw/doc1.pdf | page 19 | section spotlight]\nTable S.1",
+    "context_ids": [
+      "B:wdr2024_part1:p011:c001",
+      "B:wdr2024_part1:p011:c000",
+      "B:wdr2024_part1:p011:c002",
+      "B:wdr2024_part1:p020:c000",
+      "B:wdr2024_part1:p020:c001",
+      "B:wdr2024_part1:p019:c001",
+      "B:wdr2024_part1:p019:c000"
+    ],
+    "context_chars": 5566,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2425,
+      "completion_tokens": 86,
+      "model_calls": 2,
+      "cost_usd": 0.00041535000000000004
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.183,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "n05",
+    "split": "test",
+    "question": "What was the name of the Meiji-era Japanese government project to promote industrial development?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "The name of the Meiji-era Japanese government project to promote industrial development was Shokusan Kogyo (industrial development and promotion of industries) [B:wdr2024_part1:p028:c000].",
+    "citations": [
+      "B:wdr2024_part1:p028:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.916,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 378,
+          "completion_tokens": 21,
+          "total_tokens": 399,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Meiji-era Japanese government project industrial development",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.05,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p028:c000",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 28,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p029:c000",
+            "rank": 2,
+            "score": 0.0318,
+            "page": 29,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p029:c001",
+            "rank": 3,
+            "score": 0.0315,
+            "page": 29,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c001",
+            "rank": 4,
+            "score": 0.0294,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p011:c000",
+            "rank": 5,
+            "score": 0.0289,
+            "page": 11,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p028:c000",
+          "B:wdr2024_part1:p028:c001",
+          "B:wdr2024_part1:p029:c000",
+          "B:wdr2024_part1:p029:c001",
+          "B:wdr2024_part1:p027:c001",
+          "B:wdr2024_part1:p027:c000",
+          "B:wdr2024_part1:p027:c002"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p011:c000",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p028:c000",
+          "B:wdr2024_part1:p028:c001",
+          "B:wdr2024_part1:p029:c000",
+          "B:wdr2024_part1:p029:c001",
+          "B:wdr2024_part1:p027:c001",
+          "B:wdr2024_part1:p027:c000",
+          "B:wdr2024_part1:p027:c002"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.205,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1718,
+          "completion_tokens": 77,
+          "total_tokens": 1795,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p028:c000 | data/raw/doc1.pdf | page 28 | section ch2_structural_stasis]\nBox 2.1 The Meiji Restoration reconnected Japan with global knowledge The turning point for Japan’s rapid industrialization was the Meiji Restoration in the late 1800s. The govern ment embarked on a project, Shokusan Kogyo (industrial development and promotion of industries).a Under it, Japan began investing in modernizing infrastructure (such as telegraph, rail, and electricity) and deploying demonstration factories to facilitate private sector learning and technological diffusion and to assume the first-mover risks of deploying technology. Trade flows were a critical factor in launching Japan toward the technological frontier. Government-sponsored trips to the United States and Europe were also instrumental in acquiring technical expertise from frontier countries. The 1871–73 Iwakura Mission to both areas proved critical to facilitating the knowledge transfers needed to push Japan to the technology frontier.\n\n[B:wdr2024_part1:p028:c001 | data/raw/doc1.pdf | page 28 | section ch2_structural_stasis]\nThe statesmen and students who participated set out to study Western institutions, economic structures, educational systems, and industrial capabilities. Although German and English industry impressed senior diplomats, b Mission staff took an interest in US applications of new technologies and the productivity gains reaped from such innovations.c a. An agreement between companies to collaborate on technology b. Government incentives (subsidies) Innovation subsidyAdoption subsidy Subsidy rate (%) Figure A.1: Example of Adoption Contract TECHNICAL COLLABORATION AGREEMENT BY AND BETWEEN NIPPON ELECTROIC SAMSUNG ELECTRON DEVICES CO., LTD.\n\n[B:wdr2024_part1:p029:c000 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nIn 1888, engineers in the newly formed Ministry of Communications were dispatched to the United States, among other Western countries, to collect information on the state-of-the-art technology needed to construct the country’s telecommunications network.d The ministry officials who attended this trip visited US telecommunications firms such as Western Electric, brought back equipment such as switchboards, and urged the Japanese government to implement Western Electric’s systems for the country’s network.e Foreign expertise was transmitted to Japanese students through foreign practitioners who taught in domestic technical schools (usually in English, indicating that some of the professors must have been American).f The government also sent engineering students to Western countries. By the end of the 1880s, one-quarter of the students who had traveled abroad had visited the United States. a. Genther (2020); Odagiri and Goto (1996). b. Beasley (1972). c. Swale (2008). d. Ohno (2019). e.\n\n[B:wdr2024_part1:p029:c001 | data/raw/doc1.pdf | page 29 | section ch2_structural_stasis]\nMason (1992). f. Ohno (2019). Box 2.1 The Meiji Restoration reconnected Japan with global knowledge (continued)\n\n[B:wdr2024_part1:p027:c001 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nAs an economy approaches the global technology frontier, policies that supported growth eventually become a burden for sustaining further development.14 When Samsung reached that point, it moved toward innovation—nudged by support from the Korean government, which had calibrated its incentives to encourage imitation first and support innovation much later (figure 2.5, panel b). To nurture innovation, institutions must give inventors and entrepreneurs incentives and ensure that they can acquire the technical and financial resources to carry out their designs.15 Once a middle-income country has infused its economy with technology from global innovators and is sustaining rapid growth, it can aspire to converge to the global technology frontier by preparing to join those innovators—that is, to become an innovation economy.\n\n[B:wdr2024_part1:p027:c000 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nto manufacturing televisions for domestic and regional markets (figure 2.5, panel a).12 This transition created a higher demand for engineers, managers, and skilled professionals that was monitored, and the targets were met by the Ministry of Education through both providing the needed education in public universities and regulating private institutions. Korea also gen-erated a demand for more specialized capital: for economies at the infusion stage, investment remains important. The first World Development Report (1978) highlighted the need to differentiate between strategies of imitation and innovation in driv-ing growth in middle-income countries. 13 A large part of middle-income country growth happens through a combination of investment and imitation (see box 2.1 for a description of how Japan connected with global knowledge). But eventually the gains from imitation begin to subside.\n\n[B:wdr2024_part1:p027:c002 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nTo reach this point, however, governments must have done everything possible in the infusion phase to not just prepare the economic structure for the different next stage, but also reform and strengthen supporting institutions. Those who falter in infusion or try to leapfrog will find it much more challenging to transition toward innovation. A comparison of Estonia, Poland, and Bulgaria is illustrative. Transitioning from central planning, Estonia reached 80 percent of Western European income by 2021, Poland 75 percent, and Bulgaria 50 percent (box 2.2). Estonian independence in 1991 catalyzed a swift transition to high levels of innovation. By contrast, Bulgaria pro-tected many incumbent state-owned enterprises (SOEs) from competition and stymied efficient resource allocation, preventing the contrac-tion of low- producti vity sectors. As for Poland, it privatized many of its SOEs and champi oned competition.",
+    "context_ids": [
+      "B:wdr2024_part1:p028:c000",
+      "B:wdr2024_part1:p028:c001",
+      "B:wdr2024_part1:p029:c000",
+      "B:wdr2024_part1:p029:c001",
+      "B:wdr2024_part1:p027:c001",
+      "B:wdr2024_part1:p027:c000",
+      "B:wdr2024_part1:p027:c002"
+    ],
+    "context_chars": 5968,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2096,
+      "completion_tokens": 98,
+      "model_calls": 2,
+      "cost_usd": 0.00037319999999999996
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.171,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "n06",
+    "split": "test",
+    "question": "In the Spotlight section, what shares of the global population and global GDP do the countries selected in table S.1 account for?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "The selected countries in table S.1 account for 62 percent of the global population and 72 percent of global GDP. [B:wdr2024_part1:p018:c001]",
+    "citations": [
+      "B:wdr2024_part1:p018:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.221,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 387,
+          "completion_tokens": 24,
+          "total_tokens": 411,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Spotlight section global population global GDP table S.1",
+        "filter": {
+          "section": "spotlight"
+        },
+        "top_k": 5,
+        "latency_s": 0.043,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p019:c000",
+            "rank": 1,
+            "score": 0.0325,
+            "page": 19,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p018:c001",
+            "rank": 2,
+            "score": 0.0318,
+            "page": 18,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p020:c000",
+            "rank": 3,
+            "score": 0.0315,
+            "page": 20,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p019:c001",
+            "rank": 4,
+            "score": 0.0311,
+            "page": 19,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p019:c002",
+            "rank": 5,
+            "score": 0.031,
+            "page": 19,
+            "section": "spotlight"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p019:c000",
+          "B:wdr2024_part1:p019:c001",
+          "B:wdr2024_part1:p018:c001",
+          "B:wdr2024_part1:p018:c000",
+          "B:wdr2024_part1:p018:c002",
+          "B:wdr2024_part1:p020:c000",
+          "B:wdr2024_part1:p020:c001",
+          "B:wdr2024_part1:p019:c002"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p019:c000",
+          "B:wdr2024_part1:p019:c001",
+          "B:wdr2024_part1:p018:c001",
+          "B:wdr2024_part1:p018:c000",
+          "B:wdr2024_part1:p018:c002",
+          "B:wdr2024_part1:p020:c000",
+          "B:wdr2024_part1:p020:c001",
+          "B:wdr2024_part1:p019:c002"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.063,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 2575,
+          "completion_tokens": 73,
+          "total_tokens": 2648,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p019:c000 | data/raw/doc1.pdf | page 19 | section spotlight]\nTable S.1\n\n[B:wdr2024_part1:p019:c001 | data/raw/doc1.pdf | page 19 | section spotlight]\nSuggested indicators provide a clear picture of the underlying structure of an economy Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Pakistan LMIC 1,500 –0.6 0.47 0.0 23.25 0.23 394.9 24.20 9.57 0.12 India LMIC 2,540 0.5 0.36 1.0 54.40 0.23 255.7 12.60 10.77 0.09 Viet Nam LMIC 4,180 0.0 — 0.0 63.40 0.45 772.4 3.70 11.23 0.10 Indonesia UMIC 4,870 –0.1 — 0.0 65.25 0.53 336.2 11.40 7.41 0.10 South Africa UMIC 6,750 –0.1 — 0.2 53.20 0.77 491.7 19.40 11.87 0.10 Colombia UMIC 6,870 –0.1 0.37 0.0 72.80 0.45\n\n[B:wdr2024_part1:p018:c001 | data/raw/doc1.pdf | page 18 | section spotlight]\nUnreliable supply disrupts production and creates additional pressures on firms to invest in alternate backup sources. Further, growing energy use often exacer-bates emissions. The ultimate impact of rising energy demand on carbon emissions will depend on the carbon intensity of production, reflecting both the energy mix and the energy intensity of production. Middle-income countries will need to enhance energy access and reliability while “decoupling” from their economic growth and carbon emissions. The indicators suggested in table S.1 complement the use of GNI per capita to understand a country’s economic structure. The selected countries in table S.1 account for 62 percent of the global population and 72 percent of global GDP. The proposed indicators can help policy makers gain a clearer and more complete picture of their countries’ economic health.\n\n[B:wdr2024_part1:p018:c000 | data/raw/doc1.pdf | page 18 | section spotlight]\ninfusion and innovation. Although low-skilled workers can fuel demand from firms at early stages, infusion and innovation require a shift toward workers with technical and professional skills. Enrollment in formal schooling can signal a country’s commitment to education—even if it may not reflect the actual skills and compet encies being developed. The first step for countries, therefore, is to provide primary and secondary education to their youth. The second step requires countries to improve social mobility—that is, to create better incentives for individuals to invest in their own skills development. With improved social mobility, they enjoy better opportunities to take advantage of their potential. As countries improve their talent pools, innovation and infusion require countries to invest in their researchers, who contribute to the expansion of knowledge in various fields. Energy A reliable energy supply is vital for a country’s economic prosperity and security.\n\n[B:wdr2024_part1:p018:c002 | data/raw/doc1.pdf | page 18 | section spotlight]\nIn the twenty-first century, business dynamism, the talent pool, and energy and carbon intensity are much more reliable indicators of the progress an economy is making toward reaching high-income status.\n\n[B:wdr2024_part1:p020:c000 | data/raw/doc1.pdf | page 20 | section spotlight]\nTable S.1 Suggested indicators provide a clear picture of the underlying structure of an economy (continued) Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Korea, Rep.\n\n[B:wdr2024_part1:p020:c001 | data/raw/doc1.pdf | page 20 | section spotlight]\nHIC 35,490 2.0 — 92.5 98.75 0.79 8,483.2 — 7.63 0.05 Japan HIC 39,030 2.3 — 50.1 95.50 0.65 5,476.3 — 4.22 0.06 France HIC 45,070 1.3 0.11 11.5 88.40 0.72 4,947.1 40.20 3.01 0.04 United Kingdom HIC 47,800 1.6 — 9.9 83.33 0.79 4,491.3 — 2.38 0.05 United Arab Emirates HIC 53,290 0.1 — 0.2 — — 2,582.8 — 9.95 0.05 Belgium HIC 54,530 1.2 0.28 4.7 86.20 0.65 5,576.4 29.60 4.23 0.04 Qatar HIC 70,070 –0.4 — — 84.00 — 783.5 — 7.94 0.06 United States HIC 80,300 1.4 0.00 100.0 94.00 0.66 4,340.9 — 3.77 0.06 Source: WDR 2024 team. Note: Countries are listed within income groups from lowest to highest GNI per capita. The Economic Complexity Index is a ranking of countries based on the diversity and complexity of their export basket. Productivity-constraining distortions are estimates of a regression coefficient between the logarithm of idiosyncratic distortions and the logarithm of idiosyncratic physical productivity across firms, both computed as in Hsieh and Klenow (2009).\n\n[B:wdr2024_part1:p019:c002 | data/raw/doc1.pdf | page 19 | section spotlight]\n— 50.10 6.38 0.09 Brazil UMIC 9,070 –0.2 — 0.3 69.00 0.57 — 46.00 6.98 0.08 Kazakhstan UMIC 10,940 –0.5 — 0.0 98.00 0.65 658.2 21.90 14.15 0.09 Türkiye UMIC 11,650 0.6 — 0.2 63.00 0.38 1,736.7 17.00 7.74 0.07 Malaysia UMIC 11,970 0.9 0.25 0.4 — 0.69 1,433.0 22.20 11.90 0.06 Mexico UMIC 12,100 1.1 — 0.2 58.25 0.55 348.7 46.70 6.17 0.07 Argentina UMIC 12,520 –0.2 — 0.1 63.50 — 1,249.7 47.20 5.69 0.10 China UMIC 13,400 1.3 — 13.1 73.50 0.44 1,523.5 1.80 8.87 0.08 Costa Rica UMIC 13,850 0.4 — 0.1 62.20 — 369.6 63.20 — — Russian Federation UMIC 14,250 0.2 — 4.6 90.40 0.58 2,727.0 7.70 12.90 0.08 Bulgaria UMIC 14,460 0.6 0.31 0.2 86.00 0.35 2,354.6 12.70 9.37 0.06 Chile HIC 15,820 –0.3 0.31 0.1 84.50 0.60 520.1 30.10 5.94 0.06 Romania HIC 16,670 1.2 0.30 0.2 83.60 0.28 922.2 36.10 4.31 0.07 Hungary HIC 19,820 1.5 0.25 0.5 85.60 0.36 4,156.8 12.40 5.35 0.06 Portugal HIC 26,270 0.7 0.50 0.4 83.20 0.38 5,177.3 43.80 3.68 0.06 (Table continues next page)",
+    "context_ids": [
+      "B:wdr2024_part1:p019:c000",
+      "B:wdr2024_part1:p019:c001",
+      "B:wdr2024_part1:p018:c001",
+      "B:wdr2024_part1:p018:c000",
+      "B:wdr2024_part1:p018:c002",
+      "B:wdr2024_part1:p020:c000",
+      "B:wdr2024_part1:p020:c001",
+      "B:wdr2024_part1:p019:c002"
+    ],
+    "context_chars": 6290,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2962,
+      "completion_tokens": 97,
+      "model_calls": 2,
+      "cost_usd": 0.0005025
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.327,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "x01",
+    "split": "test",
+    "question": "What was Estonia's R&D intensity as a share of GDP in 2010?",
+    "answerable": false,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "The documents do not contain enough evidence.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.888,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 378,
+          "completion_tokens": 24,
+          "total_tokens": 402,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Estonia R&D intensity share of GDP 2010",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.059,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 30,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p012:c001",
+            "rank": 2,
+            "score": 0.0315,
+            "page": 12,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p012:c002",
+            "rank": 3,
+            "score": 0.0311,
+            "page": 12,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p031:c003",
+            "rank": 4,
+            "score": 0.0303,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p028:c003",
+            "rank": 5,
+            "score": 0.0294,
+            "page": 28,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p030:c000",
+          "B:wdr2024_part1:p030:c002",
+          "B:wdr2024_part1:p012:c001",
+          "B:wdr2024_part1:p012:c000",
+          "B:wdr2024_part1:p012:c002",
+          "B:wdr2024_part1:p028:c003"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p031:c003",
+            "reason": "budget (rank 4)"
+          },
+          {
+            "id": "B:wdr2024_part1:p028:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p028:c003)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p030:c000",
+          "B:wdr2024_part1:p030:c002",
+          "B:wdr2024_part1:p012:c001",
+          "B:wdr2024_part1:p012:c000",
+          "B:wdr2024_part1:p012:c002",
+          "B:wdr2024_part1:p028:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 0.899,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1855,
+          "completion_tokens": 30,
+          "total_tokens": 1885,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "context": "[B:wdr2024_part1:p030:c001 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nThe magnitude of FDI inflows to Estonia during the 1990s was seven times that to Bulgaria and three times that to Poland.c Estonia maintained its status as a leading innovator in the region, with the highest research and development (R&D) intensity—1.75 percent of its gross domestic product (GDP) in 2021—and a high ranking in the Global Innovation Index (GII).d As for Poland, early “big bang” reforms, trade competition, and hard budget constraints for state-owned enterprises (SOEs) systematically activated a cycle of creative destruction, closing the gap with advanced countries, as evidenced by an increase in R&D expenditure to 1.3 percent of GDP in 2021, as well as higher GII scores. Policy insight 2: Incentives for incumbents to drive innovation are crucial Productivity growth is a dominant driver of income convergence. Between 1996 and 2021, Estonia displayed robust annual productivity growth of 3.8 percent, followed by Poland at 2.6 percent and Bulgaria at 1.4 percent.\n\n[B:wdr2024_part1:p030:c000 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nHigher investment rates, a skilled labor force, low budget deficits, and lower tax burdens have been associated with accelerated economic growth. Estonian independence in 1991 catalyzed a swift transition to high levels of productivity growth driven by a strategic divestment of public sector assets, trade liberalization, and a flat tax system. These policies opened up the market for new entrants, attracted a surge in foreign direct investment (FDI), and boosted private sector productivity.\n\n[B:wdr2024_part1:p030:c002 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nLowering barriers to entry and streamlining regulation—enhanced by accession to the European Union (EU)—have initiated a virtuous cycle that has sustained productivity growth. In this cycle, competition spurs innovation, which then fuels further competition, ultimately raising societal well-being. During Bulgaria’s initial phase of its transition, many incumbent SOEs were shielded by regulatory safeguards and anticompetitive practices. This environment hampered productivity growth by delaying the shift of resources toward more productive sectors. Throughout much of the period preceding EU accession, growth among Bulgaria’s high-productivity industries was limited. At the same time, low-productivity sectors that relied on low-skilled labor—such as construction, retail, and ground transportation— continued to expand. Unlike Estonia and Poland, Bulgaria took nearly a decade longer to free up resources for more productive uses.\n\n[B:wdr2024_part1:p012:c001 | data/raw/doc1.pdf | page 12 | section ch1_slowing_growth]\nIt also promoted private enterprises through policies that first favored the growth and expansion of large conglomerates (efficiency-driven) and then shifted to favor smaller firms and entrepreneurs (equity-driven). Investments in infrastructure helped its rapid economic growth, with physical capital accounting for about 60 percent of growth in the gross domestic product (GDP) between 1990 and 1997 . Early investments in information and communication technology infrastructure, amounting to US$32.5 billion between 1995 and 2005 and an additional US$2.6 billion between 2005 and 2014, enabled Korea to leverage new sources of growth driven by digital and technology adoption. Second, Korea devised public policies to ensure contestability. The government rewarded firms for investments in research and development (R&D) and exports through R&D; it promoted science, technology, and innovation policies; it offered tax incentives; and it adopted export facilitation measures.\n\n[B:wdr2024_part1:p012:c000 | data/raw/doc1.pdf | page 12 | section ch1_slowing_growth]\nBox 1.2 A growth superstar: How the Republic of Korea leveraged foreign ideas and innovation Over the last seven decades, Korea has engineered the most remarkable transformation in recorded economic history. It went from a war-torn, desperately poor country in the 1950s to one of the most prosperous, healthiest, and best-educated countries in the world today. With fewer than 50 million people, it is a global leader in innovation and technology and the tenth-largest economy. What was behind Korea’s success? First, Korea prioritized openness through export promotion and leveraged the international markets to expose domestic firms to competition. Over time, it reduced tariff barriers and loosened restrictions on foreign investors to open the domestic market to foreign competition.\n\n[B:wdr2024_part1:p012:c002 | data/raw/doc1.pdf | page 12 | section ch1_slowing_growth]\nKorea’s spending on R&D jumped from 0.5 percent of GDP in 1980 to 1.6 percent in 1990 when Korea was still an upper-middle-income country. Private R&D expenditures increased by an unprecedented 26 times from 1980 to 1990 and exceeded 80 percent of total R&D spending by the end of the 1990s. In parallel, Korea invested heavily in human capital and ensured that job creation was matched with the needed supply of skills at the different stages of development— vocational and technical secondary, STEM (science, technology, engineering, and mathematics) education, and R&D accelerators—which was carried out more effectively than by much richer countries. Third, Korea got better at regulating the relationships among large, medium, and small firms. Initially, large firms were favored as the instrument for infusing new technologies into the economy.\n\n[B:wdr2024_part1:p028:c003 | data/raw/doc1.pdf | page 28 | section ch2_structural_stasis]\nThe time, manner and drawing, specification and other technical document as well (a) CO., LTD. AND Sources: Panel a: National Archives of Korea, https://www.archives.go.kr/english/index.jsp . Panel b: Choi and Shim 2024. Note: Panel b shows the adoption subsidy rate alongside the innovation (R&D) subsidy rate, calculated using the tax credit rate and the corporate tax rate. For example, a 30 percent subsidy rate indicates that firms can receive a reimbursement equivalent to 30 percent of their expenditures on adoption fees or R&D. R&D = research and development. Figure 2.5 Calibrating policies to a country’s stage of development: From imitation to innovation in the Republic of Korea",
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000",
+      "B:wdr2024_part1:p030:c002",
+      "B:wdr2024_part1:p012:c001",
+      "B:wdr2024_part1:p012:c000",
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p028:c003"
+    ],
+    "context_chars": 6358,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 2233,
+      "completion_tokens": 54,
+      "model_calls": 2,
+      "cost_usd": 0.00036734999999999996
+    },
+    "agent_version": 2,
+    "elapsed_s": 1.846
+  },
+  {
+    "query_id": "x02",
+    "split": "test",
+    "question": "What carbon tax rate does the report recommend for middle-income countries?",
+    "answerable": false,
+    "retrieval_config": "hybrid_k5_neighbors",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "The documents do not contain enough evidence regarding the recommended carbon tax rate for middle-income countries.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.776,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 374,
+          "completion_tokens": 19,
+          "total_tokens": 393,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "carbon tax rate middle-income countries",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.085,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p042:c000",
+            "rank": 1,
+            "score": 0.0315,
+            "page": 42,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c000",
+            "rank": 2,
+            "score": 0.0297,
+            "page": 2,
+            "section": "part1_overview"
+          },
+          {
+            "id": "B:wdr2024_part1:p005:c001",
+            "rank": 3,
+            "score": 0.0296,
+            "page": 5,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p041:c001",
+            "rank": 4,
+            "score": 0.0289,
+            "page": 41,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p041:c002",
+            "rank": 5,
+            "score": 0.0286,
+            "page": 41,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p042:c000",
+          "B:wdr2024_part1:p042:c001",
+          "B:wdr2024_part1:p002:c000",
+          "B:wdr2024_part1:p002:c001",
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p005:c000",
+          "B:wdr2024_part1:p005:c002"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p041:c001",
+            "reason": "budget (rank 4)"
+          },
+          {
+            "id": "B:wdr2024_part1:p041:c002",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p042:c000",
+          "B:wdr2024_part1:p042:c001",
+          "B:wdr2024_part1:p002:c000",
+          "B:wdr2024_part1:p002:c001",
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p005:c000",
+          "B:wdr2024_part1:p005:c002"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 0.932,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 1727,
+          "completion_tokens": 17,
+          "total_tokens": 1744,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "recommended carbon tax rate",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.047,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p020:c000",
+            "rank": 1,
+            "score": 0.0308,
+            "page": 20,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p042:c001",
+            "rank": 2,
+            "score": 0.0306,
+            "page": 42,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p020:c003",
+            "rank": 3,
+            "score": 0.0301,
+            "page": 20,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p028:c003",
+            "rank": 4,
+            "score": 0.0299,
+            "page": 28,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p035:c001",
+            "rank": 5,
+            "score": 0.0295,
+            "page": 35,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p020:c003"
+        ],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p020:c000",
+            "reason": "budget (rank 1)"
+          },
+          {
+            "id": "B:wdr2024_part1:p020:c002",
+            "reason": "budget (neighbour of B:wdr2024_part1:p020:c003)"
+          },
+          {
+            "id": "B:wdr2024_part1:p028:c003",
+            "reason": "budget (rank 4)"
+          },
+          {
+            "id": "B:wdr2024_part1:p035:c001",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p042:c000",
+          "B:wdr2024_part1:p042:c001",
+          "B:wdr2024_part1:p002:c000",
+          "B:wdr2024_part1:p002:c001",
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p005:c000",
+          "B:wdr2024_part1:p005:c002",
+          "B:wdr2024_part1:p020:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.022,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 1959,
+          "completion_tokens": 19,
+          "total_tokens": 1978,
+          "prompt_tokens_details": {
+            "cached_tokens": 1664,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "carbon tax recommendation middle-income countries",
+        "filter": null,
+        "top_k": 5,
+        "latency_s": 0.045,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p042:c000",
+            "rank": 1,
+            "score": 0.0318,
+            "page": 42,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p002:c000",
+            "rank": 2,
+            "score": 0.0298,
+            "page": 2,
+            "section": "part1_overview"
+          },
+          {
+            "id": "B:wdr2024_part1:p005:c001",
+            "rank": 3,
+            "score": 0.0298,
+            "page": 5,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p042:c001",
+            "rank": 4,
+            "score": 0.0297,
+            "page": 42,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p041:c001",
+            "rank": 5,
+            "score": 0.0292,
+            "page": 41,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [],
+        "dropped": [
+          {
+            "id": "B:wdr2024_part1:p041:c001",
+            "reason": "budget (rank 5)"
+          }
+        ],
+        "context_ids": [
+          "B:wdr2024_part1:p042:c000",
+          "B:wdr2024_part1:p042:c001",
+          "B:wdr2024_part1:p002:c000",
+          "B:wdr2024_part1:p002:c001",
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p005:c000",
+          "B:wdr2024_part1:p005:c002",
+          "B:wdr2024_part1:p020:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.038,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 2070,
+          "completion_tokens": 40,
+          "total_tokens": 2110,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "context": "[B:wdr2024_part1:p042:c000 | data/raw/doc1.pdf | page 42 | section ch3_shrinking_spaces]\nFigure 3.5 In middle-income countries, the energy intensity and carbon intensity of energy consumption are quite high Source: WDR 2024 team using data from Energy Institute (2023); WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: Data for low-income countries are not available. GtCO 2 = gigatons of carbon dioxide; HICs = high-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries. a. Energy intensity b.\n\n[B:wdr2024_part1:p042:c001 | data/raw/doc1.pdf | page 42 | section ch3_shrinking_spaces]\nCarbon intensity of energy consumption LMICs UMICs HICs Energy intensity (exajoules/trillion US$) LMICs UMICs HICs Carbon intensity of energy consumption (GtCO2 equivalent/exajoule) require considerable up-front capital despite lower operating expenses.19 Thus middle-income countries need access to low-cost capital to increase the affordability of low-carbon energy transitions because considerable improvement of capital-intensive clean energy assets—such as wind power, solar photovoltaic (PV), electric vehicles, and hydrogen electrolyzers—is required.\n\n[B:wdr2024_part1:p002:c000 | data/raw/doc1.pdf | page 2 | section part1_overview]\nPart 1 Middle-Income Transitions T he share of middle-income countries in the global economy is increasing—over half of countries today are middle-income. As classified by the World Bank, 108 countries qualify as middle-income. With about three-fourths of the world’s population, these 108 middle-income countries account for nearly 40 percent of global economic activity. Of every five people in extreme poverty globally, more than three live in middle-income countries. And they generate well over 60 percent of all carbon dioxide emissions (table P1.1). Not surprisingly, they will play a central role in global development, and the difficulties they face should be of global concern. So where are these economies headed? Notably, the progress of the middle-income countries has slowed in recent decades. The median middle-income economy has income per capita that is less than one-tenth that of the United States. More surprising, this figure has remained almost unchanged for 50 years.\n\n[B:wdr2024_part1:p002:c001 | data/raw/doc1.pdf | page 2 | section part1_overview]\nMeanwhile, the prospects for middle-income countries are not improving in view of the direction the global economy is going, from healthy to wobbling. Against these headwinds, today’s middle-income countries need to make miracles to develop at the pace of the 34 economies that reached high-income status between 1990 and 2021. And even if these headwinds were not getting stronger, middle- income countries would still face long\n\n[B:wdr2024_part1:p005:c001 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nAccording to the World Bank’s 2023 income classifications, the 108 current middle-income countries are split evenly between lower- and upper-middle-income countries. Representing about 40 percent of the global economy, middle-income countries are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor. In other words, more than 400 million of the extreme poor globally live in middle-income countries, a statistic that should concern wealth-ier countries. They also contribute nearly two-thirds of global carbon dioxide (CO 2) emissions (see table P1.1), a statistic that is of global concern. Over the last three decades, the world’s two most populous countries, China and India, joined the club of middle-income countries, in 1997 and 2007 , respectively. It is not surprising, then, that growth in middle-income countries will play a pivotal role in international development.\n\n[B:wdr2024_part1:p005:c000 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nabout 11 percent of the gross domestic product (GDP) per capita of the United States. This chapter also documents that countries with weaker institutions—and especially those with lower levels of economic and political freedo m—are susceptible to slowdowns at even lower levels of income. Chapter 2 explores a related but relatively qualitative question: Is economic growth during the middle-income stage systematically different from growth in low- and high-income countries? Chapter 3 examines the growing concern that rapidly changing economic conditions and policies in the advanced economies of the North Atlantic will make development in middle- income c ountries even more difficult. Growth in middle-income countries The share of middle-income countries in the global economy has increased rapidly since the 1990s, suggesting that it is easier to enter the middle-income stage than to exit it.\n\n[B:wdr2024_part1:p005:c002 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nSince 1990, 34 middle-income economies have transitioned to high-income status (figure 1.1).5 Thirteen benefited from deep integration with the European Union (EU)—whose economic model features vigorous trade and capital flows, freer enterprise, free worker mobility, stronger institutions, and social inclusion—at a time of relatively rapid economic growth in Western Europe. They benefited greatly from institutional and regulatory reforms that enabled transitions to a market economy, incentivized emerging economies to attract foreign direct investment and infuse new technologies into their production structures while pushing advanced economies to innovate, and fostered an environment for developing a skilled workforce. Among the other newcomers to high-income status, resource-rich economies such as Chile and Saudi Arabia benefited when they timed policy reforms to coincide with high commodity prices.\n\n[B:wdr2024_part1:p020:c003 | data/raw/doc1.pdf | page 20 | section spotlight]\nCarbon intensity of energy consumption is measured by carbon dioxide (CO 2) emissions per energy consumption (gigatons per exajoules). GDP = gross domestic product; GNI = gross national income; Gt = gigatons; HIC = high-income country; LMIC = lower-middle-income country; UMIC = upper-middle-income country; — = not available.",
+    "context_ids": [
+      "B:wdr2024_part1:p042:c000",
+      "B:wdr2024_part1:p042:c001",
+      "B:wdr2024_part1:p002:c000",
+      "B:wdr2024_part1:p002:c001",
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p005:c000",
+      "B:wdr2024_part1:p005:c002",
+      "B:wdr2024_part1:p020:c003"
+    ],
+    "context_chars": 6269,
+    "searches": 3,
+    "usage": {
+      "prompt_tokens": 6130,
+      "completion_tokens": 95,
+      "model_calls": 4,
+      "cost_usd": 0.0009765
+    },
+    "agent_version": 2,
+    "elapsed_s": 3.946
+  }
+]

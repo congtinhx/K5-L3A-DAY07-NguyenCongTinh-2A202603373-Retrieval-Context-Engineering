@@ -1,0 +1,38 @@
+{
+  "config": "bm25_k3",
+  "split": "dev",
+  "settings": {
+    "index_strategy": "B",
+    "method": "bm25",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "context": "rank",
+    "role": "Phương pháp 2: lexical BM25 (k1=1.5, b=0.75, stopword tiếng Anh) trên cùng 157 chunk Day 6."
+  },
+  "run_at": "2026-11-14T22:35:44+07:00",
+  "answerable": 16,
+  "unanswerable_excluded": 2,
+  "hit1": {
+    "n": 13,
+    "N": 16,
+    "rate": 0.8125
+  },
+  "evidence_hit3": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "context_evidence_rate": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "mrr_at_k": 0.8958,
+  "avg_context_chars": 2607.4,
+  "median_latency_ms": 1.9,
+  "p95_latency_ms": 4.8,
+  "build_seconds": 0.07,
+  "cost_usd": 0.0,
+  "misses_hit3": [],
+  "misses_context": []
+}

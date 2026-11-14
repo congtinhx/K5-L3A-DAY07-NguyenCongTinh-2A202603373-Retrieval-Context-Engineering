@@ -1,0 +1,103 @@
+{
+  "selected": "hybrid_k5_neighbors",
+  "selected_at": "2026-11-14T22:37:07+07:00",
+  "criteria": "Công bố trước khi chạy (chỉ dùng dev): (1) Context Evidence Rate cao nhất; (2) hòa -> Evidence Hit@3 cao hơn; (3) hòa -> Hit@1 cao hơn; (4) hòa -> median latency thấp hơn; (5) hòa -> cấu hình đơn giản hơn (đứng trước trong danh sách). Chi phí retrieval đều $0 (chạy local).",
+  "ranking": [
+    {
+      "config": "hybrid_k5_neighbors",
+      "context": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit1": {
+        "n": 14,
+        "N": 16,
+        "rate": 0.875
+      },
+      "median_latency_ms": 193.4
+    },
+    {
+      "config": "hybrid_k3",
+      "context": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit1": {
+        "n": 14,
+        "N": 16,
+        "rate": 0.875
+      },
+      "median_latency_ms": 209.8
+    },
+    {
+      "config": "bm25_k3",
+      "context": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit1": {
+        "n": 13,
+        "N": 16,
+        "rate": 0.8125
+      },
+      "median_latency_ms": 1.9
+    },
+    {
+      "config": "hybrid_rerank_k3",
+      "context": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit3": {
+        "n": 16,
+        "N": 16,
+        "rate": 1.0
+      },
+      "hit1": {
+        "n": 13,
+        "N": 16,
+        "rate": 0.8125
+      },
+      "median_latency_ms": 2657.9
+    },
+    {
+      "config": "dense_k3",
+      "context": {
+        "n": 15,
+        "N": 16,
+        "rate": 0.9375
+      },
+      "hit3": {
+        "n": 15,
+        "N": 16,
+        "rate": 0.9375
+      },
+      "hit1": {
+        "n": 13,
+        "N": 16,
+        "rate": 0.8125
+      },
+      "median_latency_ms": 184.3
+    }
+  ],
+  "note": "Chọn chỉ từ kết quả dev; test chưa được chạy tại thời điểm chốt."
+}

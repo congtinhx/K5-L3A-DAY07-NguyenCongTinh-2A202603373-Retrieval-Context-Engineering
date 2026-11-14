@@ -1,0 +1,17 @@
+{
+  "exported_at": "2026-11-14T22:34:31+07:00",
+  "chunks": 157,
+  "strategy": "B",
+  "exported_from": "Day 6 PostgreSQL+pgvector table `chunks`",
+  "provider": "local sentence-transformers",
+  "model": "intfloat/multilingual-e5-small",
+  "dimensions": 384,
+  "max_seq_length": 512,
+  "query_prefix": "query: ",
+  "doc_prefix": "passage: ",
+  "normalized": true,
+  "device": "cpu",
+  "vector_store": "PostgreSQL + pgvector (Day 6)",
+  "index_strategy": "B",
+  "distance": "cosine <=> (exact)"
+}

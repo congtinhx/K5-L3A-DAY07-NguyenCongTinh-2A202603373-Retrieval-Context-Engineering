@@ -1,0 +1,2357 @@
+[
+  {
+    "id": "B:wdr2024_part1:p002:c000",
+    "text": "Part 1 Middle-Income Transitions T he share of middle-income countries in the global economy is increasing—over half of countries today are middle-income. As classified by the World Bank, 108 countries qualify as middle-income. With about three-fourths of the world’s population, these 108 middle-income countries account for nearly 40 percent of global economic activity. Of every five people in extreme poverty globally, more than three live in middle-income countries. And they generate well over 60 percent of all carbon dioxide emissions (table P1.1). Not surprisingly, they will play a central role in global development, and the difficulties they face should be of global concern. So where are these economies headed? Notably, the progress of the middle-income countries has slowed in recent decades. The median middle-income economy has income per capita that is less than one-tenth that of the United States. More surprising, this figure has remained almost unchanged for 50 years.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 2,
+    "metadata": {
+      "section": "part1_overview",
+      "printed_page": 31,
+      "char_start": 0,
+      "char_end": 990,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p002:c001",
+    "text": "Meanwhile, the prospects for middle-income countries are not improving in view of the direction the global economy is going, from healthy to wobbling. Against these headwinds, today’s middle-income countries need to make miracles to develop at the pace of the 34 economies that reached high-income status between 1990 and 2021. And even if these headwinds were not getting stronger, middle- income countries would still face long",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 2,
+    "metadata": {
+      "section": "part1_overview",
+      "printed_page": 31,
+      "char_start": 991,
+      "char_end": 1420,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p002:c002",
+    "text": "Table P1.1 World Bank country classifications and selected global indicators, 2022 INCOME CLASSIFICATION SHARE OF GLOBAL POPULATION (%) SHARE OF GLOBAL GDP (%) SHARE OF PEOPLE IN EXTREME POVERTY GLOBALL Y (%) SHARE OF GLOBAL CARBON DIOXIDE (CO2) EMISSIONS (%) Low-income 8.9 0.6 36.5 0.5 Lower-middle-income 40.3 8.3 55.4 15.7 Upper-middle-income 35.1 30.3 7.1 48.6 High-income 15.7 60.8 1.0 35.2 Sources: Population shares and global GDP shares computed from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712; extreme poverty shares from PIP (Poverty and Inequality Platform) (dashboard), World Bank, Washington, DC, https://pip.worldbank.org/home; carbon dioxide emissions data (2022) from Climate Watch (dashboard), World Resources Institute, Washington, DC, https://www .climatewatchdata.org/.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 2,
+    "metadata": {
+      "section": "part1_overview",
+      "printed_page": 31,
+      "char_start": 1421,
+      "char_end": 2304,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p002:c003",
+    "text": "Note: The World Bank currently recognizes 26 economies as low-income (GNI per capita, calculated using the World Bank Atlas method, of US$1,135 or less in 2022); 54 as lower-middle-income (GNI per capita of between US$1,136 and US$4,465); 54 as upper-middle-income (GNI per capita of between US$4,466 and US$13,845); and 83 as high-income (GNI per capita of US$13,846 or more). GDP = gross domestic product; GNI = gross national income.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 2,
+    "metadata": {
+      "section": "part1_overview",
+      "printed_page": 31,
+      "char_start": 2305,
+      "char_end": 2741,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p003:c000",
+    "text": "odds of achieving high-income statu s because of growth trajectories suggestive of a “middle-income trap.” Part 1 of this Report examines the evidence for the middle-income trap and asks three questions. First, is growth in middle-income countries slower, with investment-led growth running out of steam (chapter 1, Slowing Growth)? Second, is growth in middle-income countries different , requiring a significant change in growth strat egies ( chapt er 2, Structural Stasis)? And, third, is growth in middle- income countries now harder ( chapt er 3, Shrinking Spaces)? Chapter 1 summarizes the evidence on growth slowdowns and highlights that in middle- incom e countries a majority of growth slowdowns take place as the returns from capital investment diminish sharply. The median growth slowdown episode occurs when a country reaches a little more than 11 percent of the gross domestic product (GDP) per capita level of the United States.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 3,
+    "metadata": {
+      "section": "part1_overview",
+      "printed_page": 32,
+      "char_start": 0,
+      "char_end": 942,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p003:c001",
+    "text": "Policy and institutional deficiencies exacerbate growth slowdowns; countries with weaker political institutions experience a growth slowdown much earlier, and at lower incomes, than countries with stronger institutions. Chapter 2 identifies the two successive transitions that middle-income countries must undergo to achieve high-income status. Specifically, countries need to recalibrate their mix of investment, infusion, and innovation as they move through the middle-income status. Pathways to high-income status can differ among countries sectorally and spatially. But they generally involve transitioning first from relying largely on investment in physical and human capital—the mainstay of successful growth at low-income levels of development —to combin-ing investment with the infusion of global technologies and know-how, which applies largely to lower-middle-income countries. This transition is necessary, but it is not enough to move to the high-income level.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 3,
+    "metadata": {
+      "section": "part1_overview",
+      "printed_page": 32,
+      "char_start": 943,
+      "char_end": 1916,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p003:c002",
+    "text": "The second transition involves adding an emphasis on innovation to the mix, which is more applicable to upper-middle-income countries. This mapping of transitions to income levels should be considered indicative. Strictly speaking, it is the structure of an economy that determines the timing of the shift, not its gross national income per capita . Chapter 3 examines the forces that today are making growth harder to achieve . Foreign trade and investment channels are in danger of becoming constricted by geopolitical tensions. The room for governments to act has shrunk because of multiple crises and populist pressures. And in many middle-income countries, government debt—which is more expensive for this income group than for any other—is at an all-time high. Further complicating matters, fragility, con-flict, and violence hamper development in some middle- income countries. And in every country, climate change is putting pressure on the government to rethink its growth strategies.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 3,
+    "metadata": {
+      "section": "part1_overview",
+      "printed_page": 32,
+      "char_start": 1917,
+      "char_end": 2910,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p004:c000",
+    "text": "Slowing Growth Key messages • Today’s 108 middle-income countries represent about 40 percent of the global economy, are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor, and contribute nearly two-thirds of global carbon dioxide emissions. • Middle-income countries are prone to systematic growth slowdowns—a concept termed the “middle-income trap.” The median growth slowdown episode occurs when a country reaches about 11 percent of the gross domestic product per capita of the United States. • Although income per capita is the metric most commonly used to measure the pace of economic development, measures of average income can differ greatly, depending on the measure. • Countries with weaker institutions—and especially those with lower levels of economic and political freedom—are more susceptible to slowdowns at even lower levels of income.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 4,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 33,
+      "char_start": 0,
+      "char_end": 896,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p004:c001",
+    "text": "Introduction The problem of economic growth in middle- inco me economies has been a concern of development policy practitioners for at least five decades. In the first World Development Report, published in 1978, “middle-income” was an omnibus term applied to countries with diverse economic characteristics at various stages of development.1 Middle-income countries were defined as those with annual income per capita of over US$250.2 By that definition, 58 countries, home to about 900 million people, were designated middle-income. Despite the diversity, World Development Report 1978 identified two characteristics that distinguished middle-income from low- incom e countries: • Their growth prospects were more sen-sitive to economic conditions in the industrialized (high-income) countries, particularly the environment for trade and commercial capital flows. • They had more resources available to raise the living standards of the poor.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 4,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 33,
+      "char_start": 897,
+      "char_end": 1841,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p004:c002",
+    "text": "The 1978 Report emphasized the central role of cultivating engineering talent to design products that change continually and rapidly, alongside better organizing workshops and other production facilities so they are made efficiently.3 Interest in the economic growth of middle-income countries rose over the last two decades, especially after a 2007 World Bank regional report on East Asia introduced the term “ midd le-income trap.” 4 The term encapsulated the concern that middle-income countries are prone to systematic slowdowns in growth demonstrated, for example, by the economic stagnation in Latin America and the Middle East since the mid-1970s. This chapter assesses whether the experience of the developing world is consistent with this concern. It finds that the majority of growth slowdowns do take place in middle-income countries. The median growth slowdown episode occurs when a country reaches",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 4,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 33,
+      "char_start": 1842,
+      "char_end": 2752,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p005:c000",
+    "text": "about 11 percent of the gross domestic product (GDP) per capita of the United States. This chapter also documents that countries with weaker institutions—and especially those with lower levels of economic and political freedo m—are susceptible to slowdowns at even lower levels of income. Chapter 2 explores a related but relatively qualitative question: Is economic growth during the middle-income stage systematically different from growth in low- and high-income countries? Chapter 3 examines the growing concern that rapidly changing economic conditions and policies in the advanced economies of the North Atlantic will make development in middle- income c ountries even more difficult. Growth in middle-income countries The share of middle-income countries in the global economy has increased rapidly since the 1990s, suggesting that it is easier to enter the middle-income stage than to exit it.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 5,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 34,
+      "char_start": 0,
+      "char_end": 901,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p005:c001",
+    "text": "According to the World Bank’s 2023 income classifications, the 108 current middle-income countries are split evenly between lower- and upper-middle-income countries. Representing about 40 percent of the global economy, middle-income countries are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor. In other words, more than 400 million of the extreme poor globally live in middle-income countries, a statistic that should concern wealth-ier countries. They also contribute nearly two-thirds of global carbon dioxide (CO 2) emissions (see table P1.1), a statistic that is of global concern. Over the last three decades, the world’s two most populous countries, China and India, joined the club of middle-income countries, in 1997 and 2007 , respectively. It is not surprising, then, that growth in middle-income countries will play a pivotal role in international development.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 5,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 34,
+      "char_start": 902,
+      "char_end": 1823,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p005:c002",
+    "text": "Since 1990, 34 middle-income economies have transitioned to high-income status (figure 1.1).5 Thirteen benefited from deep integration with the European Union (EU)—whose economic model features vigorous trade and capital flows, freer enterprise, free worker mobility, stronger institutions, and social inclusion—at a time of relatively rapid economic growth in Western Europe. They benefited greatly from institutional and regulatory reforms that enabled transitions to a market economy, incentivized emerging economies to attract foreign direct investment and infuse new technologies into their production structures while pushing advanced economies to innovate, and fostered an environment for developing a skilled workforce. Among the other newcomers to high-income status, resource-rich economies such as Chile and Saudi Arabia benefited when they timed policy reforms to coincide with high commodity prices.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 5,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 34,
+      "char_start": 1824,
+      "char_end": 2736,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p005:c003",
+    "text": "East Asian economies such as the Republic of Korea and Taiwan, China,6 stand out for following a path of high savings and investment, enlight-ened education policies, expansion of trade with export-oriented policies and technology adoption from more advanced economies, and a transition to local innovation well after closing the gaps with the global technology frontier. For countries that are not fortunate enough to be in the European Union, are not endowed with abundant resources, or are not fiercely focused, progress through the middle- income stage has been slower. The average middle-income economy still has an income per capita less than one-tenth that of the United States (figure 1.2). It is understandable why middle-income countries are not satisfied with the status quo and why most have plans for faster growth in living standards.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 5,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 34,
+      "char_start": 2737,
+      "char_end": 3585,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p005:c004",
+    "text": "China’s 14th Five-Year Plan outlines a vision of achieving the median GDP per capita of developed nations by 2035, with a large increase in the middle class. The vision document also highlights that China’s growth will be driven by major breakthroughs in key technologies, making it one of the most innovative nations in the world, buttressed by a modern economic system with digitalization, thriving cities, and modern agriculture. In India, the prime minister’s vision is to transform",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 5,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 34,
+      "char_start": 3586,
+      "char_end": 4072,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p006:c000",
+    "text": "the nation into a developed economy by 2047— the hundredth year of independence. In Viet Nam, its Socio-Economic Development Strategy 2021–2030 outlines a plan to sustain GDP per capita growth of 7 percent through this decade, with a transition to high-income status by 2045. In South Africa, the 2030 National Development Plan has prioritized raising its income per capita from US$2,800 in 2010 to US$7 ,000 by 2030. Other middle-income countries have similar aspirations. But the growth prospects of middle-income countries are not improving. Over the last decade, the global economy has gone from healthy to hobbling and from largely integrated to increasingly fragmented.7 Foreign trade and investment channels are also becoming more constricted—or at least encumbered—by geopolitical tensions.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 6,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 35,
+      "char_start": 0,
+      "char_end": 798,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p006:c001",
+    "text": "Figure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712 . Note: Each scatter point indicates an economy’ s 1 990 and 2022 gross national income ( GNI) per capita in current US dollar terms (using the World Bank Atlas method). The blue vertical lines show thresholds to transition to lower-middle-income status, upper-middle-income status, and high-income status in 1990 (US$610, US$2,465, and US$7,620, respectively), while the blue horizontal lines show these thresholds in 2022 (US$1,135, US$4,465, and US$13,845, respectively) based on the World Bank income classifications (https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country -and-lending-groups). The figure includes only economies at middle-income levels in 1990.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 6,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 35,
+      "char_start": 799,
+      "char_end": 1780,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p006:c002",
+    "text": "For legibility, only economies that have transitioned to high-income status since 1990 are labeled (1990 data were unavailable for six economies). For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search. GUY CHL PAN POL ROM HRV CZE SVK ATG BHR BRB GRC HUN KOR MAC MLT OMN PRTPRI SAU SYC KNA TTO URY EST LVA LTU SVN GNI per capita (US$), 2022 GNI per capita (US$), 1990 Low-income Lower-middle- income Upper-middle-income High-income High-incomeUpper-middle- income Lower-middle- income",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 6,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 35,
+      "char_start": 1781,
+      "char_end": 2330,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p007:c000",
+    "text": "Meanwhile, the room for governments to act is shrinking due to rapidly changing demographic trends (more rapid than countries had planned for), multiple crises, and populist pressures. In many middle-income countr ies, government debt— which is more expensiv e for this income group than for any other—is at an all-time high. And the belated efforts of advanced economies’ central banks to normalize monetary policy and control inflation by raising interest rates has increased sovereign spreads (the difference between bond yields issued on international markets by the country in question versus those offered by governments with AAA ratings) and raised borrowing costs for emerging markets, in some cases to prohibitive levels.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 7,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 36,
+      "char_start": 0,
+      "char_end": 730,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p007:c001",
+    "text": "As a consequence, middle- income e conomies are being squeezed from several sides: tighter fiscal space reduces public investment and the cushion for structural reforms; higher public debt service crowds out private borrowing; and a higher risk of sovereign debt distress heightens policy uncer-tainty and dampens economic activity. These difficulties are compounded by others. In some middle-income countries, fragility, con-flict, and violence are hampering development. And in almost every country, climate change is putting pressure on the government to rethink its development strategy. Given these headwinds, an economy at the middle-income stage will have to “make a mir-acle” to develop at the pace of the 34 economies that reached high-income status between 1990 and 2021.8",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 7,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 36,
+      "char_start": 731,
+      "char_end": 1513,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p007:c002",
+    "text": "That would require having a business sector that facilitates a radical transformation of enterprises, having a government that assuages the growing expectations of an increasingly rest-less middle class, and having a country transition sooner to less emissions-intensive ways of producing and consuming than those engineered by the middle-income economies of the 1990s.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 7,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 36,
+      "char_start": 1514,
+      "char_end": 1883,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p007:c003",
+    "text": "Figure 1.2 Income per capita of middle-income countries relative to that of the United States has been stagnant for decades Source: WDR 2024 team using data from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: The plotted lines indicate the trend of average income per capita in middle-income countries and in middle-income countries, excluding China, relative to income per capita in the United States (considered as the economic frontier country).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 7,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 36,
+      "char_start": 1884,
+      "char_end": 2429,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p007:c004",
+    "text": "Country definitions are based on the first World Development Report (World Bank 1978), in which low-income countries have gross national income (GNI) per capita of US$250 or less, and middle-income countries have GNI per capita of more than US$250; industrialized (high-income) countries consist of member countries of the Organisation for Economic Co-operation and Development (OECD), except for Greece, Portugal, Spain, and Türkiye, which are classified as middle-income countries. Share of US GNI per capita (%) Middle-income countries Middle-income countries, excluding China",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 7,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 36,
+      "char_start": 2430,
+      "char_end": 3009,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p008:c000",
+    "text": "Even without these headwinds, today’s middle-income countries would still face long odds of achieving high-income status because of what the World Bank has called—since 2007—a “ middle-income trap.” 9 Although the term connotes inevitability, the original proposition was that getting mired in the middle stages of development is a possibility, not an inevitability. It would be inevi-table only if countries did not adapt their policies and institutions to changing economic and structural needs. The three priorities for middle-income countries to evade the trap and maintain a growth momentum10 could be summarized as: • Increasing the sophistication of processes and products through integration into world markets, generally accompanied by the growing specialization of production • Keeping up with changing education system priorities to help workers acquire skills that enable them to adjust to new technologies and shape new products and processes",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 8,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 37,
+      "char_start": 0,
+      "char_end": 955,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p008:c001",
+    "text": "• Quickening the pace of innovation by both fostering entrepreneurial activity and keeping markets open to competition. These tasks have proved to be surprisingly difficult, and they are likely to become even harder. Measuring progress through the middle stages of development What indicates that an economy is developing? Income per capita is the most commonly used metric to measure the pace of economic development. But measures of average income can differ greatly, depending on the measure. For example, the World Bank, other international organizations, and bilateral aid agencies use GDP per capita at market exchange rates for analysis and lending (box 1.1). On the other hand, the use of GDP per capita based on adjustments for purchasing power parity (PPP, which reflects the purchasing power of a consumer for goods and services) can yield different results.11 A comparison of these two sets of measures for Türkiye and Chile illustrates the problem.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 8,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 37,
+      "char_start": 956,
+      "char_end": 1917,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p008:c002",
+    "text": "According to World Bank estimates that use market exchange rates, Türkiye is a middle- income c ountry, and Chile is a Box 1.1 Misunderstanding through misclassification The World Bank’s income classification method for grouping countries was first presented in the 1978 World Development Report .a It introduced groupings of “low-income” and “middle-income” countries using a threshold of US$250 gross national income (GNI) per capita between the groups. The low-income threshold was set in keeping with the guidelines for procurement of goods and services for civil works projects for countries eligible for assistance from the International Development Association (IDA), the organization in the World Bank Group that supports the world’s least developed countries. Specifically, the threshold was based on the “civil works preference” operational guideline for IDA countries.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 8,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 37,
+      "char_start": 1918,
+      "char_end": 2797,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p008:c003",
+    "text": "The process of setting thresholds for income per capita began with finding a “stable relationship” between a summary measure of well-being such as poverty incidence and infant mortality, on the one hand, and economic variables, including GNI per capita estimated using the World Bank’s Atlas method, on the other.b Based on such a relationship and the annual availability of the World Bank’s resources, the original income per capita thresholds were established.c They were last updated in 1989, using GNI per capita valued",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 8,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 37,
+      "char_start": 2798,
+      "char_end": 3321,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p009:c000",
+    "text": "annually in US dollars based on a three-year average exchange rate and were expanded to four categories: • Low-income. The low-income threshold was officially set in 1988, still based on the value of the IDA’s “civil works preference” and updated for inflation.d • Lower-middle-income. The lower-middle-income threshold is based on the operational guidelines cutoff for determining access to 17-year repayment terms for loans through the World Bank Group’s International Bank for Reconstruction and Development (IBRD), although these terms are no longer available. It appears to have first been introduced in the 1983 edition of the World Development Report .e • Upper-middle-income. The upper-middle-income threshold is the range between lower- middle-income and high-income. • High-income.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 9,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 38,
+      "char_start": 0,
+      "char_end": 791,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p009:c001",
+    "text": "The high-income threshold does not relate to a cutoff derived from the operational guidelines, but was set at GNI per capita of US$6,000 in 1987 prices in a paper presented to the World Bank’s Board of Executive Directors in January 1989, which also reconfirmed the low- and lower- middle- income threshold levels.f The US$6,000 level has been updated over time for what is called “international inflation,” defined as the average inflation rates of Japan, the United Kingdom, the United States, and the euro area. The choice of the high-income threshold was made to address anomalies in the classification of high-income and industrialized economies used in the World Bank’s World Development Indicators prior to that point. Under this current classification method, Zambia (with income per capita of US$1,170) and Bulgaria (with income per capita of US$13,250) are both middle-income economies.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 9,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 38,
+      "char_start": 792,
+      "char_end": 1688,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p009:c002",
+    "text": "But few people would disagree with the observation that these countries have had vastly different development experiences and face vastly different growth challenges and trajectories. Yet these income classifications continue to be used widely in the development discourseg and in analyses of economic growth.h Moreover, although the World Bank may not use the income classifications for operational or lending purposes,i other international organizations and bilateral aid agencies do. Given its widespread use, many economists have called for a revision of the current income classification system. j The proposals include: • Reclassifying levels based on fiscal capacity. Ravallion (2009) argues that levels of development should be assessed based on countries’ internal capacities for redistribution (through taxes) in favor of their poorest citizens.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 9,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 38,
+      "char_start": 1689,
+      "char_end": 2544,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p009:c003",
+    "text": "Similarly, Ceriani and Verme (2014) propose a measure of a country’s capacity to reduce its own poverty levels and show how these tools can be used to guide budget or aid allocations. • Reflecting the multidimensional nature of development. Sumner and Vázquez (2012) use a set of indicators covering definitions of development from four conceptual frameworks (development as structural transformation; development as human development; development as democratic participation and good governance; and development as sustainability) to identify five types of developing countries. Similarly, Box 1.1 Misunderstanding through misclassification (continued)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 9,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 38,
+      "char_start": 2545,
+      "char_end": 3198,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p010:c000",
+    "text": "high-income country. Yet when adjusted for purchasing power, Türkiye’s GDP per capita is higher than Chile’s. The country for which both measures are defined as identical is the United States because purchasing power in any country is measured relative to what a dollar can buy in the United States. Türkiye’s GDP per capita relative to that of the United States is nearly 50 percent when adjusted for PPP but less than 15 percent using market exchange rates. For Chile, the numbers are, respectively, 40 percent and 20 percent. PPP adjustments have been criticized for their inability to reflect the complexity and diversity of economic production and capabilities in indi-vidual economies.12 The adjustments do not consider quality or productivity differences among countries in the production of tradable as well as nontradable goods and services, including infrastructure, health care, and education. However, recent assessments of PPPs appear to be highly correlated with economic activity.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 10,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 39,
+      "char_start": 0,
+      "char_end": 995,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p010:c001",
+    "text": "A comparison of countries using PPP adjustments could produce a better understanding of the distance to the technology frontier than gross national income. However, income or GDP per capita does not reflect the wide array of growth challenges that countries face. Two high-income countries provide an example. In 2022, Qatar’s GDP per capita was US$88,046, driven mostly by exports of hydrocarbons from its abundant reserves of oil and natural gas. The same year, Denmark’s GDP per capita was US$66,983, and its services sector employs about 80 percent of labor. Meanwhile, Nielsen (2011) suggests the need to introduce a development taxonomy to classify countries based on a variety of existing development proxies (the Human Development Index, lifetime income measure, and so on) rather than income levels. Even the World Bank Group Strategy adopted in 2013 recognizes the need for an approach that pays more attention to the multiple facets and fragility across the development spectrum.k a.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 10,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 39,
+      "char_start": 996,
+      "char_end": 1990,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p010:c002",
+    "text": "World Bank (1978). b. For more on the Atlas method, see World Bank Atlas Method: Detailed Methodology (Data Help Desk), Data, World Bank, Washington, DC, https://datahelpdesk.worldbank.org/knowledgebase / artic les/378 832-what-is-the-world-bank-atlas-method. c. Ravallion (2013). d. Ravallion (2012). e. World Bank (1983). f. World Bank (1989). g. Dolan (2016). h. Summers and Pritchett (2014). i. Operationally, borrower countries are distinguished by their lending category within the World Bank: IDA-only; blend (both IDA and IBRD ); and IBRD-only . IDA provides countries with the most difficulty borrowing externally with grants and concessional loans. IBRD offers nonconcessional loans to countries that it finds creditworthy. Because IBRD terms are “harder” (more market-based) than those of IDA, IBRD borrowers tend to be perceived as more developed than IDA borrowers. But graduating from low-income status is not the same as graduating from IDA.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 10,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 39,
+      "char_start": 1991,
+      "char_end": 2947,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p010:c003",
+    "text": "Eligibility for IDA benchmarks a country’s income against different thresholds, while graduation from IDA takes into account factors other than income. See Dolan (2016) for more information. j. Fantom and Serajuddin (2016). k. World Bank (2015). Box 1.1 Misunderstanding through misclassification (continued)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 10,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 39,
+      "char_start": 2948,
+      "char_end": 3256,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p011:c000",
+    "text": "Source: WDR 2024 team using data from Maddison Project Database 2023, Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc / historicaldevelopment/maddison/releases/maddison-project-database-2023 . Note: The figure illustrates the growth paths of countries whose average gross domestic product (GDP) growth rate per capita is higher than 5 percent per year for at least eight years.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 11,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 40,
+      "char_start": 0,
+      "char_end": 482,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p011:c001",
+    "text": "Figure 1.3 Sustained growth periods are short-lived, even in rapidly growing economies Average annual growth rate (%) Number of years during sustained growth periods Korea, Rep.China IndiaBangladesh Malaysia the countries vary signifi cantly in their levels of technical sophistication; in 2021, Denmark was ranked twenty-fourth in the Economic Complexity Index and Qatar eighty-second.13 Growth in middle-income countries is slower Economic growth is not a smooth process, and the-ory does not stipulate that it should be smooth. 14 Instead, economic growth tends to be highly vol-atile, and long-run growth averages tend to mask periods of success, struggle, and failure.15 Growth in low- and middle-income countries is an “episodic” phenomenon, with countries experiencing distinct patterns of economic growth.16 In fact, a key char-acteristic of economic growth in middle-income countries is its lack of persistence.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 11,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 40,
+      "char_start": 483,
+      "char_end": 1403,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p011:c002",
+    "text": "The volatility of growth rates is even higher in those countries, with sustained growth periods t hat are typically short-lived, even in countries that historically have enjoyed high growth rates (figure 1.3). The standout economy—the growth superstar even—is the Republic of Korea, and this Report prominently features its experiences. What was behind its success? As subsequent chapters explain, Korea’s remarkable transformation from a postconflict country in the 1950s to an economy powered by the infusion of ideas from abroad to one that is transitioning to innovation at the global frontiers of technology makes its economic history required reading for policy makers in any middle-income country hoping to achieve high-income levels of living within their lifetimes (box 1.2; see chapter 2 for more information). Growth slowdowns occur more frequently in middle-income countries than in low- or high-income countries (box 1.3).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 11,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 40,
+      "char_start": 1404,
+      "char_end": 2339,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p011:c003",
+    "text": "Research conducted for this Report uses a measure, proximity to the economic frontier (leading economies) , to clarify",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 11,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 40,
+      "char_start": 2340,
+      "char_end": 2458,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p012:c000",
+    "text": "Box 1.2 A growth superstar: How the Republic of Korea leveraged foreign ideas and innovation Over the last seven decades, Korea has engineered the most remarkable transformation in recorded economic history. It went from a war-torn, desperately poor country in the 1950s to one of the most prosperous, healthiest, and best-educated countries in the world today. With fewer than 50 million people, it is a global leader in innovation and technology and the tenth-largest economy. What was behind Korea’s success? First, Korea prioritized openness through export promotion and leveraged the international markets to expose domestic firms to competition. Over time, it reduced tariff barriers and loosened restrictions on foreign investors to open the domestic market to foreign competition.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 12,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 41,
+      "char_start": 0,
+      "char_end": 788,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p012:c001",
+    "text": "It also promoted private enterprises through policies that first favored the growth and expansion of large conglomerates (efficiency-driven) and then shifted to favor smaller firms and entrepreneurs (equity-driven). Investments in infrastructure helped its rapid economic growth, with physical capital accounting for about 60 percent of growth in the gross domestic product (GDP) between 1990 and 1997 . Early investments in information and communication technology infrastructure, amounting to US$32.5 billion between 1995 and 2005 and an additional US$2.6 billion between 2005 and 2014, enabled Korea to leverage new sources of growth driven by digital and technology adoption. Second, Korea devised public policies to ensure contestability. The government rewarded firms for investments in research and development (R&D) and exports through R&D; it promoted science, technology, and innovation policies; it offered tax incentives; and it adopted export facilitation measures.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 12,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 41,
+      "char_start": 789,
+      "char_end": 1767,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p012:c002",
+    "text": "Korea’s spending on R&D jumped from 0.5 percent of GDP in 1980 to 1.6 percent in 1990 when Korea was still an upper-middle-income country. Private R&D expenditures increased by an unprecedented 26 times from 1980 to 1990 and exceeded 80 percent of total R&D spending by the end of the 1990s. In parallel, Korea invested heavily in human capital and ensured that job creation was matched with the needed supply of skills at the different stages of development— vocational and technical secondary, STEM (science, technology, engineering, and mathematics) education, and R&D accelerators—which was carried out more effectively than by much richer countries. Third, Korea got better at regulating the relationships among large, medium, and small firms. Initially, large firms were favored as the instrument for infusing new technologies into the economy.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 12,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 41,
+      "char_start": 1768,
+      "char_end": 2618,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p012:c003",
+    "text": "But by the mid-1990s the limits of this approach had become obvious, and yet powerful incumbents stymied the efforts of policy makers to change course. The 1997 Asian financial crisis changed the balance of power, and Korea established a new state–market relationship by adopting reforms to strengthen (1) financial market institutions with greater oversight and rules that diminished distortions; (2) competition policies that ended tacit government support for market collusion and concentration of market power; and (3) a pro-entrepreneurship policy regime with improved financing mechanisms for domestic technology ventures. The effectiveness of all of these policies was enhanced by stronger bureaucratic capacities, anticorruption initiatives, more transparent legal frameworks, better coordination mechanisms, and monitoring and evaluation systems. Sources: Kim 2006; Soh, Koh, and Aridi 2023.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 12,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 41,
+      "char_start": 2619,
+      "char_end": 3519,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p013:c000",
+    "text": "Box 1.3 Identifying growth slowdowns Several studies have examined the reasons for growth slowdowns. Eichengreen, Park, and Shin (2011) identify frequent slowdowns in middle-income countries. They define a slowdown as a decline in the seven-year average growth rate of gross domestic product (GDP) per capita by at least 2 percentage points, with growth being higher than 3.5 percent in the preceding years. In addition, they limit slowdowns to cases in which GDP per capita is greater than US$10,000 in 2005 constant international prices adjusted for purchasing power parity (PPP). They discover slowdowns when GDP per capita reaches about US$16,540 (in 2005 constant international PPP prices). Extensions of the analysis indicate that growth in middle-income countries slows even at points early in the middle-income stage: specifically, in the range of US$10,000–US$11,000 GDP per capita (in 2005 constant prices) and in the range of US$15,000–US$16,000 (in 2005 constant prices).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 13,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 42,
+      "char_start": 0,
+      "char_end": 983,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p013:c001",
+    "text": "Eichengreen, Park, and Shin (2011) find that slowdowns are driven largely by low productivity growth. They also find that the probability of middle-income traps is higher in countries with high investment rates, high old-age dependency ratios,a and undervalued real exchange rates that translate into a barrier to move up the technology ladder. In addition, they find that the level and structure of human capital, the level and structure of exports (specifically, the relative importance of low- and high-tech exports), financial and political stability, and external shocks are among the significant correlates of slowdowns. Aiyar et al. (2013) define the middle-income trap as a special case of growth slowdowns. They distinguish between natural slowdowns in growth and unusually severe slowdowns. Although economies in all income groups experience growth slowdowns, based on their analysis covering 1960–2005 middle-income countries are especially vulnerable to growth slowdowns.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 13,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 42,
+      "char_start": 984,
+      "char_end": 1967,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p013:c002",
+    "text": "They point to steep drops in the growth of total factor productivity (TFP)b as a key driver of such slowdowns. Spence (2011) also finds slowdowns clustering in a narrow band of countries with income per capita of between US$5,000 and US$10,000. Im and Rosenblatt (2013) focus on the probability of a country transitioning to the next income category. They find that the transition from upper-middle- to high-income status is just as likely as the transition from lower-middle- to upper-middle-income status. They argue that income per capita relative to the frontier stagnates after reaching middle-income status (for both lower-middle- and upper-middle-income countries). Their analysis suggests that it will take a century or more for middle-income countries to catch up to high-income countries if middle-income economies grow by 3–4 percent in per capita terms, assuming that the growth rate of high-income countries proceeds at the world average, which is 1.8 percent.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 13,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 42,
+      "char_start": 1968,
+      "char_end": 2941,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p013:c003",
+    "text": "Robertson and Ye (2013) identify the middle-income trap as an ailment in which a country’s GDP per capita is time-invariantc and stays in the middle-income range, defined as between 8 percent and 36 percen t of GDP per capita of the United States. a. The old-age dependency ratio is the ratio of older dependents (age 65 and over) to the working-age population (ages 15–64). b. Total factor productivity, a concept created by Robert Solow, is an equation used in economics to measure the impact of technological advancements and changes in worker knowledge. It attempts to measure the effects that these changes have on the long-term output of an economic system. c. A time-invariant variable refers to a variable whose value does not change across time.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 13,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 42,
+      "char_start": 2942,
+      "char_end": 3696,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p014:c000",
+    "text": "the distribution of growth slowdowns along the national income spectrum around the world. The frontier represents the growth leader: the country with the most advanced combination of economic production, innovation, and workforce. For this analysis, the United States is used as a proxy for the frontier. Technically, a growth slowdown is defined as a break in the time series of the growth rate of GDP per capita, whereby the growth following the break is distinctly lower than the growth preceding it.17 Proximity to the frontier is the ratio of a country’s GDP per capita to that of the frontier country (the United States) each year (not adjusted for differences in PPP). Measured by their proximity to the frontier, the types of countries that experience growth slowdowns vary widely. When they enter a slowdown, their proximity to the frontier can range anywhere from just above 0 percent all the way to 150 percent.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 14,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 43,
+      "char_start": 0,
+      "char_end": 922,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p014:c001",
+    "text": "The median growth slowdown episode occurs in a country-year with just 11 percent proximity to the frontier, and the mean episode occurs at 21 percent proximity to the frontier—approximately the 75th percentile in the distribution. Together, these median and mean measures imply that a majority of growth slowdowns take place in middle-income countries (figure 1.4). In fact, a middle-income country is three times as likely to experience a growth slowdown compared with a high-income country. Using the World Bank’s Long Term Growth Model (LTGM),18 figure 1.5 sheds more light on growth slowdowns in low- and middle-income countries.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 14,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 43,
+      "char_start": 923,
+      "char_end": 1556,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p014:c002",
+    "text": "Assuming a “business as usual” base-line, where the growth drivers (ratios of public investment to GDP and private investment to GDP, total factor productivity, human capital, and labor force participation rates) follow their historical or recent trends,19 most low- and middle-i ncome countries are forecasted to experience significant slowdowns as they approach the economic frontier country (the United States) over 2023–2100. In addition, middle-income countries whose growth has already significantly slowed, such as Argentina, Bulgaria, and Mexico, are expected to diverge from the economic frontier over the next 70 years. This is an unfortunate outcome because the key drivers of growth—savings, investment, productivity, human capital, and demographics— are already running out of steam.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 14,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 43,
+      "char_start": 1557,
+      "char_end": 2353,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p014:c003",
+    "text": "Although researchers continue to debate the existence of a middle-income trap along the lines of that first flagged by the World Bank in the mid-2000s, policy makers in middle-income economies generally consider it a serious possibility. Their concerns are the motivation for this Report. Developing countries should also seriously consider the close correlation between the quality of institutions and the probability of falling into the trap. Economists have conjectured that poor institutional quality discourages investment and innovation, distorts allocation, and lowers returns to entrepreneurship. 20 And policy and institutional deficiencies can put the brakes on and even derail development. 21 Research conducted for this Report reveals that countries with weaker political institutions—measured in many ways—experience growth slowdowns at lower levels of development than countries with stronger ones (figure 1.6).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 14,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 43,
+      "char_start": 2354,
+      "char_end": 3279,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p014:c004",
+    "text": "Panel a of figure 1.6 suggests that civil liberties may influence the overall conditions for investment, innovation, and growth. Figure 1.4 Growth slowdowns are most frequent when countries’ GDP per capita is less than one-fourth of the United States’ Source: WDR 2024 team. Note: GDP = gross domestic product. Likelihood of growth slowdowns (%)0 GDP per capita relative to the frontier (United States) (%)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 14,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 43,
+      "char_start": 3280,
+      "char_end": 3686,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p015:c000",
+    "text": "Figure 1.5 Growth is expected to slow down as countries approach the economic frontier (United States) Source: WDR 2024 team. Note: The dashed lines represent countries that will experience a divergence from the frontier over 2023–2100, although they were closer to the frontier in 2022. The solid lines indicate a convergence to the frontier over 2023–2100. These projections are based on extrapolation of recent historical trends using the World Bank’s Long Term Growth Model. GDP = gross domestic product. Annual growth in GDP per capita (%) GDP per capita relative to the frontier (United States) (%) Türkiye ChinaBangladesh Indonesia Poland Chile India Argentina Bulgaria Mexico Source: Chikis 2024. Note: The empirical distribution function for growth decelerations is as defined in Kar et al. (2013). Gross domestic product (GDP) is measured using market exchange rates. Proximity to the frontier indicates a country’s GDP per capita relative to US GDP per capita.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 15,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 44,
+      "char_start": 0,
+      "char_end": 971,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p015:c001",
+    "text": "In panel a, political institutions are based on scores for “civil liberties” and “political rights” from Freedom House. In panel b, the plots of economic freedom use data from the Heritage Foundation Index of Economic Freedom. Countries with scores above the median are freer. That methodology identifies slowdowns in 69 countries between 1972 and 2010. See Countries and Territories (dashboard), Freedom House, Washington, DC, https://freedomhouse.org/countries /freedom-world/scores; Index of Economic Freedom, 30th Edition (dashboard), Heritage Foundation, Washington, DC, https:// www.heritage.org/index/.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 15,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 44,
+      "char_start": 972,
+      "char_end": 1581,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p015:c002",
+    "text": "Figure 1.6 Weak institutions hasten and worsen growth slowdowns Less free More free Proximity to the frontier (%) b. Economic freedom Cumulative probability of slowdown (%)25 Proximity to the frontier (%) Cumulative probability of slowdown (%) Not free Free a. Civil liberties and political rights",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 15,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 44,
+      "char_start": 1582,
+      "char_end": 1879,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p016:c000",
+    "text": "Countries with weaker economic freedoms also experience growth slowdowns while remaining far from the global frontier (figure 1.6, panel b). In other words, policy makers in middle-income countries should be mindful of the possibility that tighter economic restrictions may mean forgoing opportunities to close the gaps in living standards between their own economies and the more advanced economies in North America, Northeast Asia, Western Europe, and Oceania.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 16,
+    "metadata": {
+      "section": "ch1_slowing_growth",
+      "printed_page": 45,
+      "char_start": 0,
+      "char_end": 462,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p017:c000",
+    "text": "Spotlight From X-rays to MRIs: The need for a clear picture of economic structure What indicates that a middle-income economy is advancing in its efforts to catch up with high-income economies? The World Bank’s income classification aims to reflect a country’s level of development, drawing on Atlas gross national income (GNI) per capita as a broadly available indicator of economic capacity. 1 GNI per capita is a useful indicator that is often closely correlated with other, nonmonetary measures of quality of life. However, it does not directly measure a country’s level of development or the welfare of its residents.2 Moreover, measures of income per capita can reflect high levels of investment and consumption expenditure by governments— as well as good fortune in the area of natural resources.3",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 17,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 47,
+      "char_start": 0,
+      "char_end": 804,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p017:c001",
+    "text": "Because of these limitations, better indicators are needed to provide a clear picture of the underlying structure of an economy, much like an MRI provides three-dimensional images of the human body, going beyond the less-detailed view provided by an X-ray. To that end, the first step is to examine the dynamism of a country’s enterprises, its talent, and its changing carbon emissions profile. The second step is to examine specific factors that drive progress and identify those that hold it back. Enterprise Middle-income growth requires a shift from investment in physical capital to infusion of technology and innovation. At this stage, countries need to improve their capabilities to produce a range of sophisticated products. The Economic Complexity Index (ECI) provides a measure of a country’s productive capabilities based on the diversity and complexity of its export basket.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 17,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 47,
+      "char_start": 805,
+      "char_end": 1691,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p017:c002",
+    "text": "At this stage of growth, countries also need to improve the allocation of resources to their most productive firms. In fact, efficient allocation of the factors of production accounts for about 25 percent of productivity growth in developing countries.4 Efficiency in allocating resources boosts job and output growth as well as creates positive spillovers for other businesses along the value chain.5 By reducing productivity-constraining distortions—defined as policy measures that curb the expansion and growth of productive firms— countries can encourage productive firms to infuse new technologies and grow. Finally, when countries focus on innovation, there is a rise in the number of their patents and the importance of these patents in the global production of knowledge. Talent Countries need a more skilled workforce as their production processes become more complex with",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 17,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 47,
+      "char_start": 1692,
+      "char_end": 2573,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p018:c000",
+    "text": "infusion and innovation. Although low-skilled workers can fuel demand from firms at early stages, infusion and innovation require a shift toward workers with technical and professional skills. Enrollment in formal schooling can signal a country’s commitment to education—even if it may not reflect the actual skills and compet encies being developed. The first step for countries, therefore, is to provide primary and secondary education to their youth. The second step requires countries to improve social mobility—that is, to create better incentives for individuals to invest in their own skills development. With improved social mobility, they enjoy better opportunities to take advantage of their potential. As countries improve their talent pools, innovation and infusion require countries to invest in their researchers, who contribute to the expansion of knowledge in various fields. Energy A reliable energy supply is vital for a country’s economic prosperity and security.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 18,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 48,
+      "char_start": 0,
+      "char_end": 982,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p018:c001",
+    "text": "Unreliable supply disrupts production and creates additional pressures on firms to invest in alternate backup sources. Further, growing energy use often exacer-bates emissions. The ultimate impact of rising energy demand on carbon emissions will depend on the carbon intensity of production, reflecting both the energy mix and the energy intensity of production. Middle-income countries will need to enhance energy access and reliability while “decoupling” from their economic growth and carbon emissions. The indicators suggested in table S.1 complement the use of GNI per capita to understand a country’s economic structure. The selected countries in table S.1 account for 62 percent of the global population and 72 percent of global GDP. The proposed indicators can help policy makers gain a clearer and more complete picture of their countries’ economic health.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 18,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 48,
+      "char_start": 983,
+      "char_end": 1848,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p018:c002",
+    "text": "In the twenty-first century, business dynamism, the talent pool, and energy and carbon intensity are much more reliable indicators of the progress an economy is making toward reaching high-income status.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 18,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 48,
+      "char_start": 1849,
+      "char_end": 2052,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p019:c000",
+    "text": "Table S.1",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 19,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 49,
+      "char_start": 0,
+      "char_end": 9,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p019:c001",
+    "text": "Suggested indicators provide a clear picture of the underlying structure of an economy Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Pakistan LMIC 1,500 –0.6 0.47 0.0 23.25 0.23 394.9 24.20 9.57 0.12 India LMIC 2,540 0.5 0.36 1.0 54.40 0.23 255.7 12.60 10.77 0.09 Viet Nam LMIC 4,180 0.0 — 0.0 63.40 0.45 772.4 3.70 11.23 0.10 Indonesia UMIC 4,870 –0.1 — 0.0 65.25 0.53 336.2 11.40 7.41 0.10 South Africa UMIC 6,750 –0.1 — 0.2 53.20 0.77 491.7 19.40 11.87 0.10 Colombia UMIC 6,870 –0.1 0.37 0.0 72.80 0.45",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 19,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 49,
+      "char_start": 10,
+      "char_end": 1009,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p019:c002",
+    "text": "— 50.10 6.38 0.09 Brazil UMIC 9,070 –0.2 — 0.3 69.00 0.57 — 46.00 6.98 0.08 Kazakhstan UMIC 10,940 –0.5 — 0.0 98.00 0.65 658.2 21.90 14.15 0.09 Türkiye UMIC 11,650 0.6 — 0.2 63.00 0.38 1,736.7 17.00 7.74 0.07 Malaysia UMIC 11,970 0.9 0.25 0.4 — 0.69 1,433.0 22.20 11.90 0.06 Mexico UMIC 12,100 1.1 — 0.2 58.25 0.55 348.7 46.70 6.17 0.07 Argentina UMIC 12,520 –0.2 — 0.1 63.50 — 1,249.7 47.20 5.69 0.10 China UMIC 13,400 1.3 — 13.1 73.50 0.44 1,523.5 1.80 8.87 0.08 Costa Rica UMIC 13,850 0.4 — 0.1 62.20 — 369.6 63.20 — — Russian Federation UMIC 14,250 0.2 — 4.6 90.40 0.58 2,727.0 7.70 12.90 0.08 Bulgaria UMIC 14,460 0.6 0.31 0.2 86.00 0.35 2,354.6 12.70 9.37 0.06 Chile HIC 15,820 –0.3 0.31 0.1 84.50 0.60 520.1 30.10 5.94 0.06 Romania HIC 16,670 1.2 0.30 0.2 83.60 0.28 922.2 36.10 4.31 0.07 Hungary HIC 19,820 1.5 0.25 0.5 85.60 0.36 4,156.8 12.40 5.35 0.06 Portugal HIC 26,270 0.7 0.50 0.4 83.20 0.38 5,177.3 43.80 3.68 0.06 (Table continues next page)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 19,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 49,
+      "char_start": 1010,
+      "char_end": 1968,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p020:c000",
+    "text": "Table S.1 Suggested indicators provide a clear picture of the underlying structure of an economy (continued) Country Income per capita Enterprise Talent Energy Income group GNI per capita, Atlas method (current US$, 2023) Economic Complexity Index Productivity-constraining distortions Technology index Upper-secondary completion rate (% of relevant age group) Social mobility Researchers per million inhabitants Energy stability (% of firms identifying electricity as a major constraint) Energy intensity (energy consumption/ GDP , exajoules per trillion US$) Carbon intensity of energy consumption (CO2 emissions/energy consumption, Gt/exajoules) Korea, Rep.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 20,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 50,
+      "char_start": 0,
+      "char_end": 660,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p020:c001",
+    "text": "HIC 35,490 2.0 — 92.5 98.75 0.79 8,483.2 — 7.63 0.05 Japan HIC 39,030 2.3 — 50.1 95.50 0.65 5,476.3 — 4.22 0.06 France HIC 45,070 1.3 0.11 11.5 88.40 0.72 4,947.1 40.20 3.01 0.04 United Kingdom HIC 47,800 1.6 — 9.9 83.33 0.79 4,491.3 — 2.38 0.05 United Arab Emirates HIC 53,290 0.1 — 0.2 — — 2,582.8 — 9.95 0.05 Belgium HIC 54,530 1.2 0.28 4.7 86.20 0.65 5,576.4 29.60 4.23 0.04 Qatar HIC 70,070 –0.4 — — 84.00 — 783.5 — 7.94 0.06 United States HIC 80,300 1.4 0.00 100.0 94.00 0.66 4,340.9 — 3.77 0.06 Source: WDR 2024 team. Note: Countries are listed within income groups from lowest to highest GNI per capita. The Economic Complexity Index is a ranking of countries based on the diversity and complexity of their export basket. Productivity-constraining distortions are estimates of a regression coefficient between the logarithm of idiosyncratic distortions and the logarithm of idiosyncratic physical productivity across firms, both computed as in Hsieh and Klenow (2009).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 20,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 50,
+      "char_start": 661,
+      "char_end": 1637,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p020:c002",
+    "text": "The productivity-constraining distortions are reported relative to the level observed in the United States. The technology index is a composite index of patents per capita and the network centrality of the patents created by a country. Completion rate is the percentage of a cohort of children or young people three to five years older than the intended age for the last grade of each level of education (primary, lower secondary, or upper secondary) who have completed that level of education. Social mobility shows the intergenerational mobility between children (in the 1980s birth cohort) and parents’ years of schooling. Social mobility is measured by 1 minus the intergenerational correlation in schooling. Energy stability is measured by the percentage of firms identifying electricity as a major constraint. Energy intensity is defined as the ratio of energy consumption to GDP (in exajoules per trillion US dollars).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 20,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 50,
+      "char_start": 1638,
+      "char_end": 2563,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p020:c003",
+    "text": "Carbon intensity of energy consumption is measured by carbon dioxide (CO 2) emissions per energy consumption (gigatons per exajoules). GDP = gross domestic product; GNI = gross national income; Gt = gigatons; HIC = high-income country; LMIC = lower-middle-income country; UMIC = upper-middle-income country; — = not available.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 20,
+    "metadata": {
+      "section": "spotlight",
+      "printed_page": 50,
+      "char_start": 2564,
+      "char_end": 2890,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p021:c000",
+    "text": "Structural Stasis Key messages • Economic growth in middle-income countries is different than that for countries at other income levels. Capital returns diminish at later development stages, and therefore countries, to achieve sustained growth, need to also focus on technological progress and improved efficiency in converting capital and labor into goods and services. • Successful middle-income countries will have to engineer two successive transitions to develop economic structures that can eventually sustain high-income levels. • The first transition is from a 1i strategy for accelerating investment to a 2i strategy focusing on both investment and infusion in which a country brings technologies from abroad and diffuses them domestically. Policy makers in lower-middle-income countries will need to add to investment strategies to infuse modern technologies and business practices from global leaders into their own economies.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 21,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 53,
+      "char_start": 0,
+      "char_end": 937,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p021:c001",
+    "text": "• Once a country has succeeded in the first transition, the second transition is to switch to a 3i strategy, which entails paying more attention to innovation. Upper-middle- income countries that have mastered infusion can complement investment and infusion with innovation, thereby developing industrial structures and technical competencies to add value to and advance the global technology frontier.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 21,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 53,
+      "char_start": 938,
+      "char_end": 1340,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p021:c002",
+    "text": "Introduction In Brazil in the early 1970s, after several decades of impressive output growth, the average worker in the manufacturing sector was more than 40 percen t as productive as his American coun terpart. By 2008, this ratio had fallen to 17 percent. Up until about 1980, Brazil implemented protectionist policies from foreign competition and provided incentives to substitute imports by domestic manufacturers. Although all these policies were intended to make Brazil more competitive, they led to a decline in the productivity of Brazilian workers, and enterprises became less competitive than those in the United States.1 Meanwhile, in Northeast Asia something completely different was happening in the Republic of Korea and Taiwan, China. In the 1970s, the productivity of Korea’s manufacturing workers was less than one-tenth of their American counterparts.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 21,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 53,
+      "char_start": 1341,
+      "char_end": 2209,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p021:c003",
+    "text": "By 2008, their productivity was greater than 70 percent that of the average American worker in the same sector. 2 Their enterprises became well known globally because their economies reinvented themselves after they had reached middle-income status— not once, but twice. Both economies grew rapidly to the upper-middle-income level, followed by the high-income level, and subsequently to levels of income and standards of living similar to those of advanced economies such as",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 21,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 53,
+      "char_start": 2210,
+      "char_end": 2685,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p022:c000",
+    "text": "Germany, Japan, the United Kingdom, and the United States. What changed between the 1950s and 1960s (when Brazil was a low-income country), the 1970s (when Brazil achieved rapid growth), and the 1980s and 1990s (when Brazil—and its neighbors such as Argentina and Colombia—became both a middle-income economy and an also-ran)? How did the trajectory of economic development differ in Korea and its neighbors Japan and Taiwan, China? This chapter explores whether economic growth in middle-income countries is different than that at other income levels. The simple logic is that if it is different, then these countries’ development strategies cannot remain the same . The chapter points to evidence consistent with the hypothesis that successful middle- income c ountries have to engineer two successive transitions to develop economic structures that can eventually sustain high-income levels.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 22,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 54,
+      "char_start": 0,
+      "char_end": 894,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p022:c001",
+    "text": "The first is to transition from a 1i strategy for accelerating investment to a 2 i strategy focusing on both investment and infusion in which a country brings technologies from abroad and diffuses them domestically (table 2.1). Policy makers in lower-m iddle-income countries will need to add to investment strategies to infuse modern technologies and business practices from global leaders into their own economies. Once a country has succeeded in infusing global technologies and know-how in specific sectors or industries, it can switch to a 3i strategy by paying more attention to innovation . Upper-middle-income countries that have mastered infusion can complement investment and infusion with innovation, thereby developing industrial structures and technical competencies to add value to and advance the global technology frontier.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 22,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 54,
+      "char_start": 895,
+      "char_end": 1734,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p022:c002",
+    "text": "Infusion is powered mainly by technology transfers embodied in flows of physical and financial capital, while innovation requires both of these flows, as well as increasingly vigorous exchanges of human capital through engagement with the diaspora and the emigration of talented workers. However, these are not hard-and-fast rules. Some countries have succeeded in attaining high income levels without instituting the structural prerequisites needed to sustain them. They did so by getting rid of obsolete economic arrangements, by weakening the forces of preservation, and by creating the necessary new ones. However, it appears that these countries—such as Argentina and República Bolivariana de Venezuela—also find it difficult to ensure that their income gains are durable, and even more difficult to continue to close the gaps in living standards with economies at the global economic frontier.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 22,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 54,
+      "char_start": 1735,
+      "char_end": 2634,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p022:c003",
+    "text": "Table 2.1 Middle-income countries will need to engineer two successive transitions to develop economic structures that can sustain high-income status INCOME CLASSIFICATION INVESTMENT INFUSION INNOVATION Low-income Higher priority Lower priority Lower priority Lower-middle-income Higher priority Higher priority Lower priority Upper-middle-income Higher priority Higher priority Higher priority Source: WDR 2024 team. Note: The orange dials indicate a strategy that is a priority for that particular income group. The blue dials indicate a strategy that is less of a priority for that particular income group until the priority strategy is successfully achieved.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 22,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 54,
+      "char_start": 2635,
+      "char_end": 3297,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p023:c000",
+    "text": "Economic development = structural change As described in chapter 1, the term “middle- income trap” refers to the risk of an economic slowdown or stagnation if a country fails to adapt its policies and institutions to changing economic and structural needs.3 Strategies based on factor accumulation alone are likely to steadily worsen results—a natural occurrence as the marginal productivity of capital declines. Even if all middle -income countries enjoyed the enabling conditions of peace, freedom, factor mobility, and rule of law, the returns from capital investment alone would decline too sharply to support the countries’ sustained and ongoing economic growth.4 If capital endowments were the only economi-cally relevant difference between middle- income and high-income countries today, the gross national income (GNI) of a typical middle-income country would be about 75 percent that of the United States.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 23,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 55,
+      "char_start": 0,
+      "char_end": 914,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p023:c001",
+    "text": "In China, for example, its investment to gross domestic product (GDP) ratios have been stratospherically high for decades, but its GNI is less than 25 percent that of the United States. Another way to understand the problem is that, although there has been considerable convergence in capital to output ratios between low-and middle-income countries and high-income countries, income levels have not converged. And so other factors are clearly at work. A simple decomposition of factor endowments and total factor productivity (TFP) reveals that the contribution of physical capital per worker diminishes at later development stages (figure 2.1). What really matters for growth is TFP growth, which is clumsy longhand for the effects of technological progress and improved efficiency in converting capital and labor into goods and services.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 23,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 55,
+      "char_start": 915,
+      "char_end": 1755,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p023:c002",
+    "text": "In fact, much of the growth in the United States between 1909 and 1949—when it was a middle-income country—stemmed from technical change, not an increase in capital per worker.5 If much of growth everywhere is the result of technical change, then conventional thinking would follow that every middle-income country needs to figure out how to quickly institute arrangements that foster technical progress, not only (or primarily) the accumulation of capital. But this interpretation is not helpful for policy making because of the ongoing importance of capital deepening across all categories Source: WDR 2024 team using data from Lange, Wodon, and Carey (2018); PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc/productivity/pwt/ . Note: GDP = gross domestic product.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 23,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 55,
+      "char_start": 1756,
+      "char_end": 2674,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p023:c003",
+    "text": "Figure 2.1 As economies develop, capital accumulation brings diminishing returns Low-income Lower-middle-income Upper-middle-income High-income Contribution to growth (% of GDP per capita growth) Physical capital per worker Total factor productivity",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 23,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 55,
+      "char_start": 2675,
+      "char_end": 2924,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p024:c000",
+    "text": "of countries, but especially in middle-income economies. In fact, the growth of middle-income countries depends on both capital accumulation and technical change, making the growth challenge twice as complex as it is for either low-income countries that primarily must focus on accumulation or high-income countries that must rely largely on technical change, even if a large part of it is in the form of new investment. Infuse first, then innovate How have the most successful middle-income countries engineered progress? Modern economic history provides one valuable lesson. Countries that have made technological advances and achieved high-income status did so through two successive transitions. The first set of changes, described as infusion in this Report, dominates development strategies in rapidly growing lower-middle-income countries.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 24,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 56,
+      "char_start": 0,
+      "char_end": 846,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p024:c001",
+    "text": "Policy makers in these countries have emphasized importing modern technologies and business models from more advanced economies and diffusing this knowledge at scale in their domestic economy. These technologies and models have, often in short order, enabled enterprises to become regional and global suppliers of goods and services. The second phase of structural change, commonly called innovation, occurs mainly in successful upper-middle-income economies. This transition involves a deliberate shift from imitating and adapting technologies used in advanced economies to building home country capabilities to change leading global technologies and products. An increasing number of domestic firms can become global knowledge creators and— eventually—leading innovators themselves. The term infusion has been carefully chosen to connote both deliberately imitating technology and business practices from abroad and expedit-ing their diffusion at home (figure 2.2).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 24,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 56,
+      "char_start": 847,
+      "char_end": 1814,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p024:c002",
+    "text": "Not surprisingly, countries that have been relatively open to economic developments abroad and have been successful at instituting general secondary education and technical and vocational training programs at home have done better than those that failed to do one or both. Source: WDR 2024 team. Note: The curves illustrate the relative contributions of capital and productivity to economic growth (y-axis) according to countries’ proximity to the frontier (represented by leading economies). Countries farther out on the x-axis are closer to the frontier.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 24,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 56,
+      "char_start": 1815,
+      "char_end": 2371,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p024:c003",
+    "text": "Figure 2.2 A middle-income country will need to engineer two successive transitions to achieve high-income status: Infusion, followed by innovation 2i Investment + Infusion 1i Investment 3i Investment + Infusion + Innovation Capital Productivity Relative contribution to growth Proximity to the frontier",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 24,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 56,
+      "char_start": 2372,
+      "char_end": 2675,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p025:c000",
+    "text": "The mechanics of the innovation stage of economic development are more difficult, and so this stage has received much attention. 6 Like others, this Report warns developing countries against attempts to “leapfrog” (that is, to prematurely attempt to transition) to the innovation stage (generally through the use of industrial policy interventions). What is more novel in this Report is its emphasis on the changing nature of knowledge exchanges and the successful impact of such exchanges on fostering development by benefit-ing from the international mobility, not only of capital and know-how but also of highly skilled people. The prerequisites needed to capitalize on the global nature of human capital—such as policies to attract entrepreneurs from the diaspora and ensure greater freedom of expression— are more difficult to institute and can stymie progress. Successful infusion efforts have marked rever-sals of fortune in several parts of the world marred by war and violence:",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 25,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 57,
+      "char_start": 0,
+      "char_end": 986,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p025:c001",
+    "text": "• Postwar Europe. The onset of the European Golden Age was powered by infusion. The two world wars in the first half of the twen-tieth century destroyed much of Europe’s capital stock and skills. And the exodus of talent in the interwar years meant that Europe lagged behind the United States in technology. 7 The Marshall Plan was developed to transfer technologies from the United States to Europe. European managers were sent to the United States to acquire skills, and businesses could obtain loans to purchase technologically advanced American capital goods under the US Productivity Program. As a result, Europe rapidly adopted modern technologies and best practices, allowing Western European countries to accomplish in 30 years what might otherwise have taken twice as long.8 • Korea. An important component of industrial policy in Korea was incentives for technological investment. In particular, Korea subsidized the adoption of foreign technologies and innovation through tax credits.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 25,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 57,
+      "char_start": 987,
+      "char_end": 1982,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p025:c002",
+    "text": "Specifically, firms received tax credits for royalty payments or research and development (R&D) expenditures. The policy first subsidized technology adoption when the technology gap with foreign firms was large. But as Korean conglomerates caught up with foreign firms, the approach gradually shifted toward supporting innovation. Korean policy makers ensured that public support was monitored and evaluated, and data on innovation grants were made publicly available. • Malaysia. Malaysia became a successful industrialized country through infusion-centered and export-oriented growth that replaced import substitution policies in the mid-1980s. Technology embodied in foreign direct investment (FDI) was important for developing and structuring the country’s industrial base. Malaysia offered a spectrum of tax incentives to attract FDI through the Promotion of Investment Act in 1986.9 Malaysia’s growth in the 1980s was marked by large productivity gains from adopting and diffusing technology.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 25,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 57,
+      "char_start": 1983,
+      "char_end": 2981,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p025:c003",
+    "text": "But Malaysia did not perform as well as Singapore in attracting entrepreneurs of Malaysian origin living abroad. As these examples show, infusion, tapping into global knowledge, and a country’s institutional structure play a key role in supporting the economic growth of middle-income countries beyond just increasing a country’s income per capita. And the key to infusion at scale is openness and exchange—through paths such as trade, FDI, pro- compet ition regulation, licensing, migration, and knowledge exchanges. A combination of investment and infusion can engineer high growth through investments in physical capital (infrastructure), structural change that improves the allocation of productive resources across firms and sectors, and technological convergence through the adoption and infusion of foreign technologies.10",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 25,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 57,
+      "char_start": 2982,
+      "char_end": 3811,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p026:c000",
+    "text": "To undertake infusion at scale, however, countries need both globally competitive firms and specialized talent. As firms adopt newer technologies, their need for engineers, scientists, managers, and other highly skilled professionals increases. The variety and skill content of work also increase in middle-income countries (figure 2.3). In fact, the central feature of the Industrial Revolution and its aftermath was the slow shift from tacit knowledge that is not codified or easily expressed (as embodied in craftsmanship and simple production techniques) to more formal knowledge created by mathematicians, physicists, chemists, medical doctors, and people schooled in “engineering science.” 11 Today, graduates from the science, technology, engineering, and mathematics (STEM) fields play a central role in gen-erating and spreading ideas and technologies.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 26,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 58,
+      "char_start": 0,
+      "char_end": 861,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p026:c001",
+    "text": "Encouragingly, three-quarters of STEM graduates are now in middle-income countries, and Chinese and Indian STEM graduates make up about half of global STEM graduates (figure 2.4). The example of Korea, the only country ever to sustain economic growth that averaged more than 5 percent for more than 50 years, is especially illustrative. How did Korean industry do it? Domestic firms such as Samsung embarked on a journey that began with infusion. By licensing technologies from Sanyo and NEC in Japan, Samsung transitioned from making noodles Source: WDR 2024 team using DataBank: Jobs, World Bank, Washington, DC, https://databank.worldbank.org/source / jobs; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org / search/dataset/0037712 .",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 26,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 58,
+      "char_start": 862,
+      "char_end": 1662,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p026:c002",
+    "text": "Note: Skilled workers consist of the top three International S tandard Classification of Occupations (ISCO) codes (“ Legislators, sr. officials, managers”; “Professionals”; “Technicians and associate professionals”). See ISCO (International Standard Classification of Occupations), International Labour Organization, Geneva, https://ilostat.ilo.org/methods/concepts-and -definitions/classification-occupation/ . GDP = gross domestic product; PPP = purchasing power parity.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 26,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 58,
+      "char_start": 1663,
+      "char_end": 2135,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p026:c003",
+    "text": "Figure 2.3 The demand for highly skilled workers increases in middle-income countries Share of highly skilled workers in labor force (%) GDP per capita (constant PPP 2017 US$1,000, log scale) Low-income High-incomeMiddle-income",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 26,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 58,
+      "char_start": 2136,
+      "char_end": 2363,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p027:c000",
+    "text": "to manufacturing televisions for domestic and regional markets (figure 2.5, panel a).12 This transition created a higher demand for engineers, managers, and skilled professionals that was monitored, and the targets were met by the Ministry of Education through both providing the needed education in public universities and regulating private institutions. Korea also gen-erated a demand for more specialized capital: for economies at the infusion stage, investment remains important. The first World Development Report (1978) highlighted the need to differentiate between strategies of imitation and innovation in driv-ing growth in middle-income countries. 13 A large part of middle-income country growth happens through a combination of investment and imitation (see box 2.1 for a description of how Japan connected with global knowledge). But eventually the gains from imitation begin to subside.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 27,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 59,
+      "char_start": 0,
+      "char_end": 900,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p027:c001",
+    "text": "As an economy approaches the global technology frontier, policies that supported growth eventually become a burden for sustaining further development.14 When Samsung reached that point, it moved toward innovation—nudged by support from the Korean government, which had calibrated its incentives to encourage imitation first and support innovation much later (figure 2.5, panel b). To nurture innovation, institutions must give inventors and entrepreneurs incentives and ensure that they can acquire the technical and financial resources to carry out their designs.15 Once a middle-income country has infused its economy with technology from global innovators and is sustaining rapid growth, it can aspire to converge to the global technology frontier by preparing to join those innovators—that is, to become an innovation economy.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 27,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 59,
+      "char_start": 901,
+      "char_end": 1731,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p027:c002",
+    "text": "To reach this point, however, governments must have done everything possible in the infusion phase to not just prepare the economic structure for the different next stage, but also reform and strengthen supporting institutions. Those who falter in infusion or try to leapfrog will find it much more challenging to transition toward innovation. A comparison of Estonia, Poland, and Bulgaria is illustrative. Transitioning from central planning, Estonia reached 80 percent of Western European income by 2021, Poland 75 percent, and Bulgaria 50 percent (box 2.2). Estonian independence in 1991 catalyzed a swift transition to high levels of innovation. By contrast, Bulgaria pro-tected many incumbent state-owned enterprises (SOEs) from competition and stymied efficient resource allocation, preventing the contrac-tion of low- producti vity sectors. As for Poland, it privatized many of its SOEs and champi oned competition.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 27,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 59,
+      "char_start": 1732,
+      "char_end": 2654,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p027:c003",
+    "text": "Middle-income countries lag noticeably behind high-income countries in terms of the “novelty” of their knowledge, as well as in producing new Source: WDR 2024 team. Note: The primary data for the calculation of the percentage share of science, technology, engineering, and mathematics (STEM) graduates in tertiary education are from UIS.Stat (dashboard), Institute for Statistics, United Nations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org/. The STEM data set covers 144 countries.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 27,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 59,
+      "char_start": 2655,
+      "char_end": 3181,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p027:c004",
+    "text": "Figure 2.4 STEM graduates are increasingly concentrated in middle-income countries, thereby increasing opportunities for technology infusion Low-income Lower-middle-incom e Upper-middle-incom e High-income Share of global STEM graduates (%)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 27,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 59,
+      "char_start": 3182,
+      "char_end": 3422,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p028:c000",
+    "text": "Box 2.1 The Meiji Restoration reconnected Japan with global knowledge The turning point for Japan’s rapid industrialization was the Meiji Restoration in the late 1800s. The govern ment embarked on a project, Shokusan Kogyo (industrial development and promotion of industries).a Under it, Japan began investing in modernizing infrastructure (such as telegraph, rail, and electricity) and deploying demonstration factories to facilitate private sector learning and technological diffusion and to assume the first-mover risks of deploying technology. Trade flows were a critical factor in launching Japan toward the technological frontier. Government-sponsored trips to the United States and Europe were also instrumental in acquiring technical expertise from frontier countries. The 1871–73 Iwakura Mission to both areas proved critical to facilitating the knowledge transfers needed to push Japan to the technology frontier.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 28,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 60,
+      "char_start": 0,
+      "char_end": 923,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p028:c001",
+    "text": "The statesmen and students who participated set out to study Western institutions, economic structures, educational systems, and industrial capabilities. Although German and English industry impressed senior diplomats, b Mission staff took an interest in US applications of new technologies and the productivity gains reaped from such innovations.c a. An agreement between companies to collaborate on technology b. Government incentives (subsidies) Innovation subsidyAdoption subsidy Subsidy rate (%) Figure A.1: Example of Adoption Contract TECHNICAL COLLABORATION AGREEMENT BY AND BETWEEN NIPPON ELECTROIC SAMSUNG ELECTRON DEVICES CO., LTD.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 28,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 60,
+      "char_start": 924,
+      "char_end": 1566,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p028:c002",
+    "text": "Section 4 Supply of written Technical Information During the term of this Agreement NEC will upon reasoable request furnish SED with one transparent copy of each as programs and related documentation within the scope other details of furnishing such written NEC Technical Information shall be separately determined by the parties upon mutual consultation. specified in Section 1 (d) hereof. The time, manner and drawing, specification and other technical document as well (a) CO., LTD. AND Figure A.1: Example of Adoption Contract TECHNICAL COLLABORATION AGREEMENT BY AND BETWEEN NIPPON ELECTROIC SAMSUNG ELECTRON DEVICES CO., LTD. Section 4 Supply of written Technical Information During the term of this Agreement NEC will upon reasoable request furnish SED with one transparent copy of each other details of furnishing such written NEC Technical Information shall be separately determined by the parties upon mutual consultation. specified in Section 1 (d) hereof.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 28,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 60,
+      "char_start": 1567,
+      "char_end": 2534,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p028:c003",
+    "text": "The time, manner and drawing, specification and other technical document as well (a) CO., LTD. AND Sources: Panel a: National Archives of Korea, https://www.archives.go.kr/english/index.jsp . Panel b: Choi and Shim 2024. Note: Panel b shows the adoption subsidy rate alongside the innovation (R&D) subsidy rate, calculated using the tax credit rate and the corporate tax rate. For example, a 30 percent subsidy rate indicates that firms can receive a reimbursement equivalent to 30 percent of their expenditures on adoption fees or R&D. R&D = research and development. Figure 2.5 Calibrating policies to a country’s stage of development: From imitation to innovation in the Republic of Korea",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 28,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 60,
+      "char_start": 2535,
+      "char_end": 3226,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p029:c000",
+    "text": "In 1888, engineers in the newly formed Ministry of Communications were dispatched to the United States, among other Western countries, to collect information on the state-of-the-art technology needed to construct the country’s telecommunications network.d The ministry officials who attended this trip visited US telecommunications firms such as Western Electric, brought back equipment such as switchboards, and urged the Japanese government to implement Western Electric’s systems for the country’s network.e Foreign expertise was transmitted to Japanese students through foreign practitioners who taught in domestic technical schools (usually in English, indicating that some of the professors must have been American).f The government also sent engineering students to Western countries. By the end of the 1880s, one-quarter of the students who had traveled abroad had visited the United States. a. Genther (2020); Odagiri and Goto (1996). b. Beasley (1972). c. Swale (2008). d. Ohno (2019). e.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 29,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 61,
+      "char_start": 0,
+      "char_end": 998,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p029:c001",
+    "text": "Mason (1992). f. Ohno (2019). Box 2.1 The Meiji Restoration reconnected Japan with global knowledge (continued)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 29,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 61,
+      "char_start": 999,
+      "char_end": 1110,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p029:c002",
+    "text": "Box 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) Over the last three decades, Bulgaria, Estonia, and Poland have transitioned simultane-ously from centra l planning to market economies, and Estonia and Poland have moved from middle-income to high-income status.a By 2021, Estonia had reached 80 percent of Western European income, Poland 75 percent, and Bulgaria 50 percent.b This remarkable leap from income per capita of between 20 and 30 percent of Western European levels in the early 1990s occurred at different speeds, which provides valuable policy insights. Policy insight 1: Comprehensive reforms unlock productivity and prosperity Structural reforms, specifically privatization and market liberalization, have played a crucial role in speeding up income convergence among Central and Eastern European economies, as documented in an extensive cross-country study by Matkowski, Prochniak, and Rapacki (2016).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 29,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 61,
+      "char_start": 1111,
+      "char_end": 2089,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p029:c003",
+    "text": "They find that the rate of convergence has significantly benefited from enhancements of institutions, economic freedom, and governance quality.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 29,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 61,
+      "char_start": 2090,
+      "char_end": 2233,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p030:c000",
+    "text": "Higher investment rates, a skilled labor force, low budget deficits, and lower tax burdens have been associated with accelerated economic growth. Estonian independence in 1991 catalyzed a swift transition to high levels of productivity growth driven by a strategic divestment of public sector assets, trade liberalization, and a flat tax system. These policies opened up the market for new entrants, attracted a surge in foreign direct investment (FDI), and boosted private sector productivity.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 30,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 62,
+      "char_start": 0,
+      "char_end": 494,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p030:c001",
+    "text": "The magnitude of FDI inflows to Estonia during the 1990s was seven times that to Bulgaria and three times that to Poland.c Estonia maintained its status as a leading innovator in the region, with the highest research and development (R&D) intensity—1.75 percent of its gross domestic product (GDP) in 2021—and a high ranking in the Global Innovation Index (GII).d As for Poland, early “big bang” reforms, trade competition, and hard budget constraints for state-owned enterprises (SOEs) systematically activated a cycle of creative destruction, closing the gap with advanced countries, as evidenced by an increase in R&D expenditure to 1.3 percent of GDP in 2021, as well as higher GII scores. Policy insight 2: Incentives for incumbents to drive innovation are crucial Productivity growth is a dominant driver of income convergence. Between 1996 and 2021, Estonia displayed robust annual productivity growth of 3.8 percent, followed by Poland at 2.6 percent and Bulgaria at 1.4 percent.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 30,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 62,
+      "char_start": 495,
+      "char_end": 1482,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p030:c002",
+    "text": "Lowering barriers to entry and streamlining regulation—enhanced by accession to the European Union (EU)—have initiated a virtuous cycle that has sustained productivity growth. In this cycle, competition spurs innovation, which then fuels further competition, ultimately raising societal well-being. During Bulgaria’s initial phase of its transition, many incumbent SOEs were shielded by regulatory safeguards and anticompetitive practices. This environment hampered productivity growth by delaying the shift of resources toward more productive sectors. Throughout much of the period preceding EU accession, growth among Bulgaria’s high-productivity industries was limited. At the same time, low-productivity sectors that relied on low-skilled labor—such as construction, retail, and ground transportation— continued to expand. Unlike Estonia and Poland, Bulgaria took nearly a decade longer to free up resources for more productive uses.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 30,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 62,
+      "char_start": 1483,
+      "char_end": 2420,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p030:c003",
+    "text": "Even now, some industries benefit from regulation that inhibits healthy competition. Poland’s mass privatization program is a compelling example of how to catalyze a virtuous cycle of competition and innovation, despite some challenges. By redistributing equity from more than 500 SOEs—which constituted up to 5 percent of the nation’s wealth—to 27 million citizens, Poland created incentives for both new and established companies to champion competition. In Poland’s early transition, the implementation of hard budget constraints, established so that SOEs would avoid reliance on unlimited government support, led to a monumental shift in attitude toward market competition. Even iconic SOEs such as the Stocznia Gdańsk shipyard, where Lech Walesa’s Solidarność (Solidarity) movement began, triggering the collapse of communism in Central and Eastern Europe, Box 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) (continued)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 30,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 62,
+      "char_start": 2421,
+      "char_end": 3405,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p031:c000",
+    "text": "were not bailed out. The alignment of managerial incentives—both explicit and implicit— propelled creative destruction. Managers at Polish SOEs shifted their attention from production targets to profitability and market share.e These managers became the primary agents of restructuring and innovation, facing both financial constraints and competition. Policy insight 3: Skilled labor is essential for moving from infusion to innovation As economies mature, the returns from capital become dependent on a supply of sophisticated workers. Continual enhancements in firm efficiency and workforce skills are vital to staying competitive in the rapidly changing productivity landscape. The success stories of Estonia and Poland illustrate strategic ways to close the technology gap— initially b y adopting existing technology and subsequently by developing innovative capacity.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 31,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 63,
+      "char_start": 0,
+      "char_end": 873,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p031:c001",
+    "text": "Poland narrowed its productivity gap primarily by adopting older technologies from more advanced economies rather than through the transfer of new, cutting-edge technologies. f Domestic investments in innovation further accelerated Poland’s move toward the technology frontier, enhancing firms’ ability to contribute to global technological progress. Labor also played a critical role in the transformation in Poland, according to a breakdown of the growth in total factor productivity.g A notable 20 percent of the contribution came from labor alone, a figure driven not by a reduction in workforce numbers but by the enhanced quality and diversity of the labor force.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 31,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 63,
+      "char_start": 874,
+      "char_end": 1543,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p031:c002",
+    "text": "A significant rise in the proportion of individuals between the ages of 25 and 34 with a tertiary education, which increased from 15 percent to 42 percent between 2000 and 2012, had a significant impact on output growth.h Bulgaria’s experience illustrates how shortages of skilled labor can impede new investment and the growth of high-productivity ventures. The educational landscape in Bulgaria has lagged in quality, participation, equity, and intergenerational mobility. Certain seg-ments of the population still struggle with the acquisition of basic skills, undermining their potential contribution to productivity. Prioritizing human capital development to take advantage of adoption and innovation is essential, especially in view of the demographic changes in many middle-income countries, which are at risk of “growing old before becoming rich,” as the saying goes. a.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 31,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 63,
+      "char_start": 1544,
+      "char_end": 2422,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p031:c003",
+    "text": "Gross national income (GNI) per capita and gross domestic product (GDP) per capita data in this report are as of July 2023. As of July 2023, Bulgaria was classified by the World Bank as an upper-middle-income country, with a GNI per capita (Atlas method, current US dollars) of US$13,350, short of crossing the high-income country threshold of US$13,846. b. These figures are measured using purchasing power parity for the four largest EU economies. c. These figures capture net FDI per capita accumulated by the end of 1999. d. See GII (Global Innovation Index) (dashboard), World Intellectual Property Organization, Geneva, https://www.wipo.int / global_inn ovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006). Box 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) (continued)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 31,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 63,
+      "char_start": 2423,
+      "char_end": 3337,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p032:c000",
+    "text": "Source: WDR 2024 team. Note: The technology index is constructed using the number of granted patents per capita and network centrality. Network centrality is calculated to measure a country’s “frontierness” in technology and is defined by the citations in a country’s patents of other countries’ patents in a given period. Therefore, the technology index embeds both patent importance and scale.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 32,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 64,
+      "char_start": 0,
+      "char_end": 395,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p032:c001",
+    "text": "Figure 2.6 The innovation gap between high-income countries and others is substantial Low-income Lower-middle-incomeUpper-middle-income High-income Technology index Source: WDR 2024 team. Note: The primary data for number of researchers per million inhabitants are from UIS.Stat (dashboard), Institute for Statistics, United Nations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org .",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 32,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 64,
+      "char_start": 396,
+      "char_end": 819,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p032:c002",
+    "text": "Figure 2.7 Middle-income countries significantly lag behind high-income countries in research capacity Researchers per million inhabitants Low-income Lower-middle-incomeUpper-middle-income High-income knowledge (figure 2.6). Innovation is concentrated in a handful of high-income economies: Germany; Japan; the Republic of Korea; Taiwan, China; and the United States. The magnitude and impact of new research in other countries is quite limited (figure 2.7). To support innovation, countries will have to find ways to make existing firms (incumbents)— both industrial conglomerates and economic elites—innovative and more productive and to make way for newcomers. To be sure, the emerging markets are already hotbeds of entrepreneurial activity. Novel products are being used by millions, and new production methods are increasing consumer choices and lowering prices.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 32,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 64,
+      "char_start": 820,
+      "char_end": 1688,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p032:c003",
+    "text": "Jack Ma, cofounder of China-based Alibaba, and Narayana Murthy, cofounder of India-based Infosys, have grown their enterprises to scale and created thousands of jobs by successfully competing in global markets and even pushing the technology frontier outward. Still, too many markets are hobbled by excessive business regula-tions, government patronage, and limited international competition. In such an environment, powerful owners and unproductive large firms can stifle growth, lobbying to protect their preferential access and monopoly rents when they could instead be investing in productivity-enhancing technology. As policy makers shift their emphasis toward innovation, they should first combine a lot of investment with a lot of infusion (box 2.3).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 32,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 64,
+      "char_start": 1689,
+      "char_end": 2446,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p033:c000",
+    "text": "Box 2.3 The magic of investment accelerations Investment is a fundamental pillar of economic progress. Not only does investment growth allow countries to enhance their stocks of physical capital such as factories, offices, roads, bridges, schools, and clinics, but it is also a necessary condition for infusing global technologies in domestic production possibilities. Because technology is embodied in capital, a country will find it challenging to advance technologically without scaling up investment. Investors look for macroeconomic stability and ease of doing business in deciding where, in what, and how much to invest. The experiences of Colombia, Türkiye, and the Republic of Korea are examples. In 2001, Colombia implemented a comprehensive reform package to stabilize its economy by restraining public spending, increasing central bank independence, and introducing a floating exchange rate.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 33,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 65,
+      "char_start": 0,
+      "char_end": 902,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p033:c001",
+    "text": "Similarly, in the early 2000s Türkiye implemented a primary surplus target, the central bank became indepen-dent, and reforms to improve the business climate and liberalize the banking sector were adopted. Earlier, Korea implemented two rounds of reform packages. In the mid-1980s, Korea adopted a balanced budget, improved the business climate by promoting competition, and liberalized trade. A second round of reforms in the late 1990s improved the independence of the central bank, consolidated government finances, strengthened the financial sector, and liberalized the capital account. Following these reform efforts, all three countries experienced investment accelerations: Colombia from 2001 to 2007, Türkiye from 2003 to 2008, and Korea in 1985–96 and from 1999 to 2007 . Investment accelerations are periods with a sustained increase in investment growth. During these periods, investment as well as productivity grew much faster than in nonacceleration years (figure B2.3.1).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 33,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 65,
+      "char_start": 903,
+      "char_end": 1889,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p033:c002",
+    "text": "More broadly, across a sample of 104 economies, including 69 emerging market and developing economies (EMDEs) and 35 advanced economies covering the years 1950 to 2022, 192 episodes of investment acceleration occurred in which per capita investment growth averaged at least 4 percent per year over at least six years.a On average, an EMDE has experienced about 1.7 investment accelerations. During these accelerations, investment growth more than tripled to 10 percent a year over that of nonacceleration years; output growth increased by 2 percentage points; and productivity growth quadrupled to 1.7 percent per year. In the sample of 104 economies, 82 percent of the transitions from middle-income status to high-income status that occurred over the last three decades happened during or shortly after investment accelerations.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 33,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 65,
+      "char_start": 1890,
+      "char_end": 2720,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p033:c003",
+    "text": "Sectoral shifts gained momentum during investment accelerations because output grew substantially faster in the manufacturing and services sectors than before the acceleration. Accelerations were also often periods during which more progress was made in reducing poverty, living standards improved, and the pace of convergence to advanced economy income per capita levels increased.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 33,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 65,
+      "char_start": 2721,
+      "char_end": 3103,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p034:c000",
+    "text": "a. World Bank 2024. Box 2.3 The magic of investment accelerations (continued) And they should not bet the farm—or even a field—on leapfrogging. Infusion is imperative. A review of the literature on middle-income traps highlights that countries often try to make pre-mature leaps from investment to innovation. According to Gill and Kharas (2015, 28–29), [Some countries tried] to leapfrog prematurely into “knowledge economies,” with none of the institutional infrastructure in place to accomplish this. Poor quality universities, low levels of human capital, limited venture capital, regulatory barriers and incomplete rule of law present significant barriers to becoming an innovation-driven economy. Middle-income countries that invest heavily and prematurely in trying to become “knowledge economies” can find low returns to such investments. The combination of wasted fiscal spending and a faulty growth diagnostic can lead to substandard performance—another example of the middle-income trap.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 34,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 66,
+      "char_start": 0,
+      "char_end": 998,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p034:c001",
+    "text": "Figure B2.3.1 Investment growth accelerations: Colombia, Republic of Korea, and Türkiye Sources: Dieppe 2021 ; Feenstra, Inklaar , and Timmer 201 5; World Bank 2024; Database Profiles (dashboard), Our Data, Haver Analytics, New York, https://www.haver.com/our-data; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog .worldbank .org/ search/dataset/0037712 . Note: Investment refers to gross fixed capital formation. The sample period is 1980–2022. Bars are simple averages of growth in investment and total factor productivity (TFP). Acceleration years cover the full duration of the episodes. Nonacceleration years exclude acceleration years that are not included in this box (see World Bank 2024, box 3.1). Investment TFP (right axis) Investment TFP (right axis) Investment TFP (right axis) Colombia Korea, Rep. Türkiye Acceleration years Nonacceleration years Investment growth (%) TFP growth (%)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 34,
+    "metadata": {
+      "section": "ch2_structural_stasis",
+      "printed_page": 66,
+      "char_start": 999,
+      "char_end": 1947,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p035:c000",
+    "text": "Shrinking Spaces Key messages • The growth prospects of middle-income countries are becoming more problematic because of an increasingly fragmented global economy, rapidly changing demographic trends, multiple crises, populist pressures, rising government debt, and climate change pressures. • Previous episodes of growth acceleration have been accompanied by trade integration, but rising geopolitical tensions have affected trade policy, and further protectionism can potentially worsen the diffusion of knowledge to low- and middle-income countries. • Many middle-income countries are severely indebted in the aftermath of the COVID-19 pandemic, and monetary tightening in high-income countries risks compounding the burden of high debt. • Middle-income countries will need significant resources to scale up reliable low- carbon energy.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 35,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 69,
+      "char_start": 0,
+      "char_end": 839,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p035:c001",
+    "text": "But many face the rising cost of borrowing, high up-front infrastructure requirements, and high capital costs, all of which could increase the cost of low-carbon technologies and delay the diffusion of low-carbon energy.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 35,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 69,
+      "char_start": 840,
+      "char_end": 1060,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p035:c002",
+    "text": "Introduction Growing past middle-income status has never been easy—slowing growth (chapter 1) and structural stasis (chapter 2) dampen growth prospects. This chapter asks whether growth in middle-income countries is becoming harder. The answer: it is. Two decades into the twenty-first century, the world is at a historic crossroads. Foreign trade and investment are in danger of becoming constricted by geopolitical tensions, and the room for governments to act is shrinking because of rising populism and public debt. As a result, economic growth in the remainder of this decade will likely be weaker than it was in the last two.1 For middle-income countries, this prospect means they are growing into shrinking spaces with the retrenchment of globalization (a force that has spurred infusion and innovation), difficulties in servicing debt obligations, and the additional economic and financial costs of climate change and climate action.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 35,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 69,
+      "char_start": 1061,
+      "char_end": 2002,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p035:c003",
+    "text": "On the lat-ter, middle-income countries will need to build resilience to the shocks arising from a changing climate, as well as accelerate their energy transitions. Such challenges will have to be confronted against the backdrop of a rapidly aging world population and therefore waning demographic dividends (box 3.1). At the same time, middle-income countries need to ensure macroeconomic stability since it is essential for high and sustain-able rates of growth. Macroeconomic instability will increase the cost of borrowing and keep both domestic and foreign investors away.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 35,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 69,
+      "char_start": 2003,
+      "char_end": 2580,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p036:c000",
+    "text": "Box 3.1 Graying growth Historically, demographic dividends have fostered economic growth in many countries. An increase in the working-age population and a consequent decrease in dependency ratios free up resources to be spent on education, health care, employment, and social protection schemes.a However, the world is aging rapidly and fertility rates are declining rapidly,b which will especially affect middle-income countries projected to face labor crunches in the coming decades. In fact, today’s middle-income countries are aging more rapidly than high-income countries did in the past. Transitioning from an aging society to an aged society took about 61 years in today’s high-income countries and as long as 69 years in the United States and 115 years in France.c By contrast, transitioning from an aging society to an aged society is estimated to take about 26 years for today’s middle-income countries (figure B3.1.1).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 36,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 70,
+      "char_start": 0,
+      "char_end": 930,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p036:c001",
+    "text": "Figure B3.1.1 Today’s middle-income countries are aging more rapidly than high-income countries did in the past Sources: WDR 2024 team using data of World Population Prospects (dashboard), Population Division, Department of Economic and Social Affairs, United Nations, New York, https://population .un.org/wpp/; World Bank (2016). Note: The bars indicate beginning and end years for transitioning from 7 percent (aging) to 14 percent (aged) of the population age 65 and older. The number corresponding to each bar shows total number of years to transition from aging to aged. Aging and aged thresholds are based on definitions by the Population Division of the United Nations Department of Economic and Social Affairs (UN DESA). Bars for income groups represent the averages of countries included in the corresponding income group. The dashed vertical line indicates the year 2023.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 36,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 70,
+      "char_start": 931,
+      "char_end": 1812,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p036:c002",
+    "text": "France United States High-income Argentina United Kingdom Lower-middle-income Upper-middle-income Middle-income Japan China India Indonesia Malaysia Brazil Türkiye Bangladesh Korea, Rep.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 36,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 70,
+      "char_start": 1813,
+      "char_end": 1999,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p037:c000",
+    "text": "Working-age populations are already declining in middle-income countries in East Asia.d Latin America will retain a large workforce until the early 2040s, while the Middle East and North Africa and South and Central Asia regions will begin to lose working-age persons by 2045. As a result, middle-income countries can no longer rely on increasing employment as a primary source of output growth. This prospect of “growing old before becoming rich” makes escaping the middle-income trap more challenging and more urgent, including among the largest middle-income countries such as Brazil, China, Mexico, and Türkiye. The demographic challenge has implications for public policy. Investments will be needed in infrastructure and technologies to support the elderly, in addition to expanding fiscal transfers for older persons. These measures will, in turn, necessitate policies that support savings among the working-age population.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 37,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 71,
+      "char_start": 0,
+      "char_end": 930,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p037:c001",
+    "text": "Meanwhile, countries will need to invest in upgrading skills of their workforce and ensuring that everyone’s talent is used appropriately and efficiently. Furthermore, automation and other productivity-enhancing technologies to compensate for a shrinking workforce will have to be deployed and have been prioritized by aging countries such as Japan. e The path from imitative to innovative growth is the key for middle-income countries to address the needs of their aging populations.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 37,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 71,
+      "char_start": 931,
+      "char_end": 1415,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p037:c002",
+    "text": "Finally, the booming populations in low-income countries and lower-middle-income countries in Sub-Saharan Africa and elsewhere will need to be integrated into graying societies’ labor markets (especially those in middle-income countries).f Canada has successfully relied on immigration as a strategy to manage its low fertility rates and labor shortages.g World Development Report 2023: Migrants, Refugees, and Societies argues that if managed effectively, migration could unlock further growth for destination countries.h And this migration need not be a brain drain imposed on lower-income countries with high population growth rates. For example, professional links established between expat scientists and those they leave behind may generate knowledge spillovers in their countries of origin.i a. UN DESA (2022). Dependency ratios refer to the number of children (ages 0–14) and older persons (age 65 and over) to the working-age population (ages 15–64). b.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 37,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 71,
+      "char_start": 1416,
+      "char_end": 2378,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p037:c003",
+    "text": "Lee and Mason (2006); UN DESA (2022). c. Aging society and aged society thresholds are based on the definition of the Population Division of the United Nations Department of Economic and Social Affairs (UN DESA). According to the definition, the share of people age 65 and older exceeds 7 percent of the population in an aging society, and a country qualifies as an aged society if this share exceeds 14 percent. d. UN DESA (2022). e. Moss (2017). f. Wakeman-Linn et al. (2015). g. Green (2023). h. World Bank (2023b). i. Prato (2023). Box 3.1 Graying growth (continued)",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 37,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 71,
+      "char_start": 2379,
+      "char_end": 2949,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p038:c000",
+    "text": "Fragmenting international trade Episodes of growth acceleration have been accompanied by trade integration. 2 The Republic of Korea’s economic metamorphosis was under-pinned by a licensing regime to import frontier technologies, followed by a shift toward promotion of research and development. 3 The Korean story suggests that catching up and eventually leading the pack requires trade liberalization to buy foreign technology and to sell a country’s own inventions. More broadly, globalization has increased incentives to adopt foreign technologies by enhancing international competition.4 But the international trade architecture that allowed countries such as Korea to ascend is facing challenges.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 38,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 72,
+      "char_start": 0,
+      "char_end": 701,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p038:c001",
+    "text": "First, declining potential global output threatens trade flows, compounding the blows dealt by the global financial crisis and the COVID-19 pandemic. 5 Second, rising geopolitical tensions have affected trade policy,6 and further protectionism could worsen the diffusion of knowledge to low- and middle-income countries. 7 Although there is limited evidence of widespread “friend-shoring” or realignment of trade along geopolitical lines beyond the United States–China decoupling, this situation could change in the near future if trade tensions continue to rise. 8 Many industries that use technology and innovation intensively will face extensive costs and risks if critical global links are reduced because these links are at the heart of technology-intensive industries such as information and communication technology (ICT) and smartphones. 9 Globally, since 2019 the number of harmful trade policies has exceeded the number of helpful trade policies, and the pace of their enactment is",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 38,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 72,
+      "char_start": 702,
+      "char_end": 1693,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p038:c002",
+    "text": "increasing: the number of new harmful trade measures enacted per year doubled over the last decade (figure 3.1). Source: WDR 2024 team using the GTA (Global Trade Alert) database, St. Gallen Endowment for Prosperity through Trade, University of St. Gallen, St. Gallen, Switzerland, https://www.globaltradealert.org/data_extraction . Note: Measuring trade policies is fraught with challenges, and the GTA database may overrepresent countries that issue a relatively high quantity of legislative documents or those with greater regulatory transparency. The plotted lines indicate global trade policies that were introduced in the corresponding year. Helpful trade policies include interventions that liberalize on a nondiscriminatory basis or improve the transparency of a relevant policy. Harmful trade policies include interventions that discriminate against foreign commercial interests.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 38,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 72,
+      "char_start": 1694,
+      "char_end": 2582,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p038:c003",
+    "text": "See Harmonized System (dashboard), World Customs Organization, Brussels, https://www.wcotradetools.org/en/harmonized-system . Figure 3.1 Globally, harmful trade policies outnumber helpful trade policies Number of new global trade policies Helpful trade policies Harmful trade policies",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 38,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 72,
+      "char_start": 2583,
+      "char_end": 2867,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p039:c000",
+    "text": "Moreover, most high-income and large middle-income countries are now increasingly resorting to industrial policy and trade-related measures that may result in restrictions to trade flows.10 For example, some of the largest trading nations have adopted a “friend-shoring” approach that concen-trates their supply chain network among allies and friendly countries in response to rising tensions with the Russian Federation and China. 11 In addition, the costs associated with technological fragmentation are estimated to be as high as 5 percent of the gross domestic product (GDP) for many economies. 12 Compounding that are the high risks associated with disrupting critical industries and global supply chains.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 39,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 73,
+      "char_start": 0,
+      "char_end": 710,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p039:c001",
+    "text": "In a deglo-balized scenario, some critical industries may be unable to function, or it would take decades for those industries to catch up their current levels of functionality because of their massively modular industrial organization. 13 Unfortunately, harmful interventions to block the trade of critical technologies have more than tripled since 2019 (figure 3.2). Elevated debt Global debt relative to GDP has remained stub-bornly high in the aftermath of the COVID-19 pandemic (figure 3.3). Indeed, many middle-income countries are more severely indebted than ever before. 14 Postpandemic fiscal deficits in response to spikes in food and energy costs Source: WDR 2024 team using the GTA (Global Trade Alert) database, St. Gallen Endowment for Prosperity through Trade, University of St. Gallen, St. Gallen, Switzerland, https://www.globaltradealert.org/data_extraction .",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 39,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 73,
+      "char_start": 711,
+      "char_end": 1588,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p039:c002",
+    "text": "Note: Measuring trade policies is fraught with challenges, and the GTA database may overrepresent countries that issue a relatively high quantity of legislative documents or those with greater regulatory transparency. The bars indicate global trade policies introduced in the corresponding year. Helpful trade policies include interventions that liberalize on a nondiscriminatory basis or improve the transparency of a relevant policy. Harmful trade policies include interventions that discriminate against foreign commercial interests. “8541” and “8542” refer to the four-digit Harmonized System codes for semiconductors. See Harmonized System (dashboard), World Customs Organization, Brussels, https://www.wcotradetools .org/en/harmonized-system .",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 39,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 73,
+      "char_start": 1589,
+      "char_end": 2338,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p039:c003",
+    "text": "Figure 3.2 Harmful interventions in the global semiconductor trade have skyrocketed since 2019 8541 semiconductors 8542 semiconductors 100Number of new interventions Number of new interventions a. New helpful trade interventions in critical technologies per year b. New harmful trade interventions in critical technologies per year",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 39,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 73,
+      "char_start": 2339,
+      "char_end": 2670,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p040:c000",
+    "text": "Figure 3.3 Most developing economies are more severely indebted than ever Source: WDR 2024 team based on IMF (2023b); Kose and Ohnsorge (2024). Note: The figure shows the total debt of emerging market economies (EMEs) in terms of weighted averages broken down into public debt and private debt. GDP = gross domestic product. EMEs’ public debt EMEs’ private debt Debt as share of GDP (%) COVID-19 onset have kept public debt levels elevat ed. Meanwhile, monetary tightening in high- income c ountries risks compounding the burden of high debt-to-GDP ratios for middle-income countries. About three-quarters of countries tightened both fiscal and monetary policy in 2022. 15 As interest rates have surged, government budgets have been squeezed. This squeeze has increased sovereign spreads and borrowing costs for many emerging and frontier markets.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 40,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 74,
+      "char_start": 0,
+      "char_end": 847,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p040:c001",
+    "text": "The resulting loss of market access for some of these countries and the lack of access to these avenues of relief are likely to result in a wave of uncoordinated defaults in middle-income countries over the medium term. Unfortunately, there is no sign of relief because high-income countries are likely to sustain high interest rates for the foreseeable future (figure 3.4). Many low- and middle-income countries now spend more on debt service payments than they do on health, education, and infrastructure. Because fiscal space is eroding due to costlier borrowing in low- and middle-income countries, new investment needs—including in the green transition, education, the capacity to innovate, and infrastructure—are likely to be put on hold. Encouraging growth in low- and middle- income countries under the current circumstances will not be easy. Reducing debt vulnerabilities and reversing long-term debt trends should be at the core of these countries’ agendas.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 40,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 74,
+      "char_start": 848,
+      "char_end": 1815,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p040:c002",
+    "text": "In particular, the governments of middle-income countries urgently need to take steps to alleviate debt distress in the medium term. More broadly, reforms to improve debt transparency and strengthen debt management policies and frameworks are key to reducing the risks of debt distress. These reforms could also foster economic growth if they are coupled with reforms in labor markets and product markets. In addition, reducing debt burdens is crucial to creating the fiscal space for investments in health, education, and infrastructure. Middle-income countries can make quick progress in transitioning to higher-income status only if they achieve strong and sustained investment growth.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 40,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 74,
+      "char_start": 1816,
+      "char_end": 2504,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p041:c000",
+    "text": "Figure 3.4 Debt service payments in emerging markets and middle-income countries may skyrocket as the cost of borrowing soars Source: WDR 2024 team using data from Fiscal Monitor (dashboard), International Monetary Fund, Washington, DC, https:// data.imf.org/?sk=4be0c9cb-272a-4667-8892-34b582b21ba6 . Note: GDP = gross domestic product.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 41,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 75,
+      "char_start": 0,
+      "char_end": 337,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p041:c001",
+    "text": "Projected Percent Interest expense (% of GDP) Interest expense (% of general government revenues) Climate action Fossil fuels—coal, oil, and natural gas—are the major contributors to global climate change, accounting for over three-fourths of total green-house gas emissions and about 90 percent of carbon dioxide (CO2) emissions.16 The International Energy Agency has announced that achieving net zero emissions by 2050 will require reducing between 2020 and 2050 the global demand for coal by 90 percent, oil by 75 percent, and natural gas by 55 percent. 17 Therefore, climate action—measures to mitigate climate change— requires changing the way energy is produced and consumed. Because middle-income countries pres-ently account for about two-thirds of global CO2 emissions, their decarbonization is mate-rial to the world’s ability to meet its climate goals. Today, both energy intensity and carbon intensity are quite high in middle-income countries (figure 3.5).",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 41,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 75,
+      "char_start": 338,
+      "char_end": 1307,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p041:c002",
+    "text": "Energy intensity (panel a) in middle-income countries is about double that in high-income countries, and the carbon intensity of their energy consumption (panel b) is also relatively inefficient. At the same time, reliable cheap energy is critical to supporting industrial activities and powering businesses. It is also correlated with higher living standards. But over 300 million people in middle-income countries still lack access to electricity. Moreover, blackouts and brownouts are common in middle- income countries. As energy demand rises with income, expanding access to reliable energy will be as critical as transi tioning to lower-carbon energy.18 Today, energy transition technologies con-stitute the largest investment gap. Significant resources are needed to scale up reliable, low-carbon energy. Low-carbon energy technologies",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 41,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 75,
+      "char_start": 1308,
+      "char_end": 2150,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p042:c000",
+    "text": "Figure 3.5 In middle-income countries, the energy intensity and carbon intensity of energy consumption are quite high Source: WDR 2024 team using data from Energy Institute (2023); WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: Data for low-income countries are not available. GtCO 2 = gigatons of carbon dioxide; HICs = high-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries. a. Energy intensity b.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 42,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 76,
+      "char_start": 0,
+      "char_end": 541,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p042:c001",
+    "text": "Carbon intensity of energy consumption LMICs UMICs HICs Energy intensity (exajoules/trillion US$) LMICs UMICs HICs Carbon intensity of energy consumption (GtCO2 equivalent/exajoule) require considerable up-front capital despite lower operating expenses.19 Thus middle-income countries need access to low-cost capital to increase the affordability of low-carbon energy transitions because considerable improvement of capital-intensive clean energy assets—such as wind power, solar photovoltaic (PV), electric vehicles, and hydrogen electrolyzers—is required.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 42,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 76,
+      "char_start": 542,
+      "char_end": 1099,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p042:c002",
+    "text": "The cost of capital is key because the weighted average cost of capital can account for 20–50 percent of the levelized cost of electricity from utility-scale solar PV projects. 20 And yet the cost of capital for utility-scale solar power projects in middle-income countries is significantly higher than that in the United States and Europe (figure 3.6). 21 High up-front infrastructure requirements and capital costs could potentially increase the cost of low-carbon technologies. High borrowing costs make it more challenging for middle-income countries to finance green energy investments and to diffuse low-carbon energy.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 42,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 76,
+      "char_start": 1100,
+      "char_end": 1724,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p042:c003",
+    "text": "In addition, develop ing countries are currently spending more on interest payments than on climate investm ents even though they need to more than triple climate investments to meet the Paris Agreement targets.22 Meanwhile, middle-income countries are more exposed to risks from climate change than high-income countries and have less capacity to adapt to such risks (figure 3.7). They also face overwhelmingly high costs to finance climate adaptation. In 2030, annual adaptation costs are estimated to exceed 1 percent of GDP per year for some middle-income countries, while annual global adaptation needs will reach about 0.25 percent of global GDP.23 The room for governments to act in middle-income countries is shrinking because of rising debt and interest rates, and their feeble growth prospects stem from a weakening foreign trade and investment outlook. In addition, international",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 42,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 76,
+      "char_start": 1725,
+      "char_end": 2615,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p043:c000",
+    "text": "Figure 3.6 In middle-income countries, the weighted average cost of capital for utility-scale solar power projects is substantially higher than the cost in high-income countries Source: WDR 2024 team using IRENA (2023); WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: GDP = gross domestic product; WACC = weighted average cost of capital. GDP per capita Upper-middle-income WACC average Low-income WACC average Lower-middle-income WACC average Weighted average cost of capital (right axis) High-income WACC average Burkina Faso EthiopiaUgandaRwanda Yemen, Rep. SenegalPakistanKenya Bangladesh GhanaIndia Viet NamSri Lanka Algeria Egypt, Arab Rep.Iran, Islamic Rep.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 43,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 77,
+      "char_start": 0,
+      "char_end": 760,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p043:c001",
+    "text": "Indonesia South Africa Colombia Brazil Bulgaria Russian Federation Mexico Kazakhstan Malaysia China Argentina Türkiye Chile HungaryPoland Slovak Republic Czechia SpainItalyJapanFrance Germany United Kingdom Australia United States Low-income Lower-middle-income Upper-middle-incomeH igh-income Weighted average cost of capital (%) GDP per capita (constant 2015 US$) pressures and domestic pledges for climate action will require these countries to allocate substa ntial investment to adaptation and mitigation. With many middle-income economies facing high debt and higher borrowing costs, a policy dilemma arises between achieving ambitious climat e actions that pay off in the longer term and avert-ing short-term macroeconomic imbalances. The constraints facing middle-income countries and the extensive and frenetic pace of change required for them to transition to high-income status make policy making more challenging than at the low- or high-income stage.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 43,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 77,
+      "char_start": 761,
+      "char_end": 1724,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p043:c002",
+    "text": "The chapters that follow focus on feasible steps that could aid this transition.",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 43,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 77,
+      "char_start": 1725,
+      "char_end": 1805,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  },
+  {
+    "id": "B:wdr2024_part1:p044:c000",
+    "text": "Figure 3.7 Low- and middle-income countries are exposed to similar levels of risk from climate change, and they have less adaptive capacity Source: WDR 2024 team using data from ND-GAIN Country Index (University of Notre Dame Global Adaptation Index) (dashboard), University of Notre Dame, Notre Dame, IN, https://gain.nd.edu/our-work/country-index/ . Note: The solid lines show the linear relationship for each country group. Exposure index (higher scores indicate greater risk) Adaptive capacity index (higher scores indicate lower capacity) Low-income Middle-income High-income",
+    "source_id": "wdr2024_part1",
+    "source": "data/raw/doc1.pdf",
+    "page": 44,
+    "metadata": {
+      "section": "ch3_shrinking_spaces",
+      "printed_page": 78,
+      "char_start": 0,
+      "char_end": 580,
+      "index_strategy": "B",
+      "embedding_model": "intfloat/multilingual-e5-small"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "query_id": "n01",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "n02",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "n03",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "n04",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "n05",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "n06",
+    "citation_support": [
+      null
+    ],
+    "context_grade": null,
+    "reason": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "x01",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "x02",
+    "citation_support": [],
+    "context_grade": null,
+    "reason": "",
+    "abstention_correct": null
+  }
+]

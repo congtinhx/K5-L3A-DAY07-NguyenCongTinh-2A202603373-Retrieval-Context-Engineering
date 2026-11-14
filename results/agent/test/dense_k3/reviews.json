@@ -1,0 +1,77 @@
+[
+  {
+    "query_id": "n01",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      false
+    ],
+    "context_grade": 2,
+    "reason": "Đúng 80%. Citation 2 (p027:c002) nói về giai đoạn infusion, không hỗ trợ câu trả lời."
+  },
+  {
+    "query_id": "n02",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n03",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n04",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n05",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n06",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 0,
+    "citation_support": [],
+    "context_grade": 0,
+    "reason": "Từ chối nhầm: 3 lượt search dense (có từ \"Spotlight section\", filter spotlight) không đưa p018:c001 vào context; chunk chứa câu \"62 percent ... 72 percent\" xếp hạng thấp với embedding."
+  },
+  {
+    "query_id": "x01",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "reason": "Từ chối đúng, không khẳng định thêm."
+  },
+  {
+    "query_id": "x02",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "reason": "Từ chối đúng, không khẳng định thêm."
+  }
+]

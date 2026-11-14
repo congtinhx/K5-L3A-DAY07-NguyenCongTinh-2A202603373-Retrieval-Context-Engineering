@@ -1,0 +1,40 @@
+{
+  "config": "hybrid_k3",
+  "split": "dev",
+  "settings": {
+    "index_strategy": "B",
+    "method": "hybrid",
+    "top_k": 3,
+    "candidates": 20,
+    "rrf_k": 60,
+    "budget_chars": 3200,
+    "context": "rank",
+    "role": "Phương pháp 3: hybrid dense + BM25 bằng Reciprocal Rank Fusion (k=60), mỗi nhánh 20 candidate."
+  },
+  "run_at": "2026-11-14T22:35:48+07:00",
+  "answerable": 16,
+  "unanswerable_excluded": 2,
+  "hit1": {
+    "n": 14,
+    "N": 16,
+    "rate": 0.875
+  },
+  "evidence_hit3": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "context_evidence_rate": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "mrr_at_k": 0.9167,
+  "avg_context_chars": 2702.2,
+  "median_latency_ms": 209.8,
+  "p95_latency_ms": 256.7,
+  "build_seconds": 0.0,
+  "cost_usd": 0.0,
+  "misses_hit3": [],
+  "misses_context": []
+}

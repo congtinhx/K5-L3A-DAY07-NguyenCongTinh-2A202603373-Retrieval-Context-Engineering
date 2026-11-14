@@ -1,0 +1,182 @@
+[
+  {
+    "query_id": "q01",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q02",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q03",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q04",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q05",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q06",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q07",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q08",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q09",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q10",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q11",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q12",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q13",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q14",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng (\"tax credits for royalty payments or R&D expenditures\"). Evidence nằm ở p025:c002 (câu tương đương), không phải chunk gold p025:c001 nên metric khớp nguyên văn báo thiếu; đọc tay xác nhận đủ."
+  },
+  {
+    "query_id": "q15",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "q16",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, giữ điều kiện (năm/đơn vị); mọi câu đều có trong chunk được trích."
+  },
+  {
+    "query_id": "u01",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "citation_support": [
+      false
+    ],
+    "abstention_correct": false,
+    "context_grade": null,
+    "reason": "Bịa: gán mốc 2047 (của India, p006:c000) cho Thailand; chunk được trích không nhắc Thailand."
+  },
+  {
+    "query_id": "u02",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "reason": "Từ chối đúng, không khẳng định thêm."
+  }
+]

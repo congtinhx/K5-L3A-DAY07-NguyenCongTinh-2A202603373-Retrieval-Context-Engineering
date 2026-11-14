@@ -1,0 +1,994 @@
+[
+  {
+    "query_id": "n01",
+    "split": "test",
+    "question": "By 2021, what share of Western European income had Estonia reached?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 168.9,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "rank": 1,
+        "score": 0.03252,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8529521998224081
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 15.87202660360307
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p029:c002",
+        "rank": 2,
+        "score": 0.03252,
+        "page": 29,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8441055695821832
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 22.602667025051872
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 3,
+        "score": 0.03175,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.833473096282907
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 9.517504456548135
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c001",
+        "rank": 4,
+        "score": 0.02927,
+        "page": 2,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 12,
+            "score": 0.7928259259916102
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 8.190834751021862
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c002",
+        "rank": 5,
+        "score": 0.0284,
+        "page": 2,
+        "section": "part1_overview",
+        "components": {
+          "dense": {
+            "rank": 8,
+            "score": 0.7991531730707734
+          },
+          "bm25": {
+            "rank": 13,
+            "score": 5.0483721575965035
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p027:c001",
+      "B:wdr2024_part1:p027:c003",
+      "B:wdr2024_part1:p029:c002",
+      "B:wdr2024_part1:p029:c001",
+      "B:wdr2024_part1:p029:c003",
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000",
+      "B:wdr2024_part1:p002:c001"
+    ],
+    "context_chars": 6238,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p030:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p030:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c000",
+        "reason": "budget (neighbour of B:wdr2024_part1:p002:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p002:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c002",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "context_hit": true
+  },
+  {
+    "query_id": "n02",
+    "split": "test",
+    "question": "In Poland, what share of the contribution to total factor productivity growth came from labor alone?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 185.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p031:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8977986574173037
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 31.47566685008382
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c001",
+        "rank": 2,
+        "score": 0.032,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8412461091573369
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 14.962879724155862
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p031:c000",
+        "rank": 3,
+        "score": 0.03102,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8317963628586859
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 9.474895651820175
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c003",
+        "rank": 4,
+        "score": 0.03041,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 10,
+            "score": 0.8076129441030603
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 15.646609670880492
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 5,
+        "score": 0.02991,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8243793039774066
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 7.356227846231411
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p031:c001",
+      "B:wdr2024_part1:p031:c000",
+      "B:wdr2024_part1:p031:c002",
+      "B:wdr2024_part1:p023:c001",
+      "B:wdr2024_part1:p023:c000",
+      "B:wdr2024_part1:p023:c002",
+      "B:wdr2024_part1:p023:c003"
+    ],
+    "context_chars": 5983,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n03",
+    "split": "test",
+    "question": "Between 2000 and 2012, how did the proportion of 25- to 34-year-olds with a tertiary education change in Poland?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 188.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p031:c002",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.855885165228234
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 28.46827154659302
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c003",
+        "rank": 2,
+        "score": 0.03062,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 9,
+            "score": 0.8006786108016968
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 7.79908492946695
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c003",
+        "rank": 3,
+        "score": 0.03002,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8090394976448867
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 4.830033477817319
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p031:c001",
+        "rank": 4,
+        "score": 0.02944,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.802963447394167
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 4.899699397314367
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "rank": 5,
+        "score": 0.02939,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8058221340179443
+          },
+          "bm25": {
+            "rank": 14,
+            "score": 4.485060013924127
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p031:c002",
+      "B:wdr2024_part1:p031:c001",
+      "B:wdr2024_part1:p031:c003",
+      "B:wdr2024_part1:p027:c003",
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p027:c004",
+      "B:wdr2024_part1:p030:c003"
+    ],
+    "context_chars": 5775,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p030:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p030:c003)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n04",
+    "split": "test",
+    "question": "What was Denmark's rank in the Economic Complexity Index in 2021?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 178.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p011:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 11,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8515471473797309
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 13.292927719184528
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p020:c000",
+        "rank": 2,
+        "score": 0.03175,
+        "page": 20,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8328407655012839
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 9.10949718057928
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p017:c001",
+        "rank": 3,
+        "score": 0.03151,
+        "page": 17,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8285910138067909
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 9.503492159477593
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p020:c001",
+        "rank": 4,
+        "score": 0.03062,
+        "page": 20,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.834411357807778
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 5.253223852047276
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 5,
+        "score": 0.03054,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8244591496401269
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 6.5974692965940465
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p011:c001",
+      "B:wdr2024_part1:p011:c000",
+      "B:wdr2024_part1:p011:c002",
+      "B:wdr2024_part1:p020:c000",
+      "B:wdr2024_part1:p020:c001",
+      "B:wdr2024_part1:p017:c001",
+      "B:wdr2024_part1:p017:c000"
+    ],
+    "context_chars": 6248,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p017:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p017:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n05",
+    "split": "test",
+    "question": "What was the name of the Meiji-era Japanese government project to promote industrial development?",
+    "filter": null,
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 163.3,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p028:c000",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8602212834094425
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 15.53953679578039
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p029:c001",
+        "rank": 2,
+        "score": 0.03175,
+        "page": 29,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8052637097082326
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.585964197282629
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c001",
+        "rank": 3,
+        "score": 0.03037,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8030326718629603
+          },
+          "bm25": {
+            "rank": 9,
+            "score": 3.4764869329398094
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p029:c000",
+        "rank": 4,
+        "score": 0.03021,
+        "page": 29,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 11,
+            "score": 0.7863875413440108
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 9.083264250214889
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c001",
+        "rank": 5,
+        "score": 0.02927,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.7984986067265719
+          },
+          "bm25": {
+            "rank": 12,
+            "score": 3.1266500644430177
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p028:c000",
+      "B:wdr2024_part1:p028:c001",
+      "B:wdr2024_part1:p029:c001",
+      "B:wdr2024_part1:p029:c000",
+      "B:wdr2024_part1:p029:c002",
+      "B:wdr2024_part1:p027:c001",
+      "B:wdr2024_part1:p027:c000"
+    ],
+    "context_chars": 6024,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p027:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c001",
+        "reason": "budget (rank 5)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "n06",
+    "split": "test",
+    "question": "In the Spotlight section, what shares of the global population and global GDP do the countries selected in table S.1 account for?",
+    "filter": {
+      "section": "spotlight"
+    },
+    "answerable": true,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 161.0,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p018:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 18,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8338608891243541
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 21.542917462277124
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p019:c000",
+        "rank": 2,
+        "score": 0.03226,
+        "page": 19,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8299633017193321
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 8.392701353248462
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p020:c000",
+        "rank": 3,
+        "score": 0.03125,
+        "page": 20,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8200130110982962
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 6.393251349436539
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p017:c000",
+        "rank": 4,
+        "score": 0.03102,
+        "page": 17,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8136129621748023
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 7.442645773969722
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p019:c001",
+        "rank": 5,
+        "score": 0.03058,
+        "page": 19,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8260448225153934
+          },
+          "bm25": {
+            "rank": 8,
+            "score": 2.363743078566243
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p018:c001",
+      "B:wdr2024_part1:p018:c000",
+      "B:wdr2024_part1:p018:c002",
+      "B:wdr2024_part1:p019:c000",
+      "B:wdr2024_part1:p019:c001",
+      "B:wdr2024_part1:p020:c000",
+      "B:wdr2024_part1:p020:c001",
+      "B:wdr2024_part1:p017:c000"
+    ],
+    "context_chars": 6136,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p017:c001",
+        "reason": "budget (neighbour of B:wdr2024_part1:p017:c000)"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "x01",
+    "split": "test",
+    "question": "What was Estonia's R&D intensity as a share of GDP in 2010?",
+    "filter": null,
+    "answerable": false,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 170.4,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 1,
+        "score": 0.03279,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 1,
+            "score": 0.8768878505759166
+          },
+          "bm25": {
+            "rank": 1,
+            "score": 17.08601898806784
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c002",
+        "rank": 2,
+        "score": 0.03151,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8130384683609009
+          },
+          "bm25": {
+            "rank": 2,
+            "score": 12.904338312999945
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c001",
+        "rank": 3,
+        "score": 0.0315,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 3,
+            "score": 0.8178218846864074
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 9.098778476563195
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p031:c003",
+        "rank": 4,
+        "score": 0.02921,
+        "page": 31,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.7928031806467082
+          },
+          "bm25": {
+            "rank": 10,
+            "score": 5.844326155927383
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 5,
+        "score": 0.02837,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": {
+          "dense": {
+            "rank": 20,
+            "score": 0.7820895314216614
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 11.055947650948035
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p030:c000",
+      "B:wdr2024_part1:p030:c002",
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p012:c001",
+      "B:wdr2024_part1:p012:c003"
+    ],
+    "context_chars": 5687,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p031:c003",
+        "reason": "budget (rank 4)"
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "reason": "budget (rank 5)"
+      }
+    ]
+  },
+  {
+    "query_id": "x02",
+    "split": "test",
+    "question": "What carbon tax rate does the report recommend for middle-income countries?",
+    "filter": null,
+    "answerable": false,
+    "config": "hybrid_k5_neighbors",
+    "latency_ms": 200.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p042:c000",
+        "rank": 1,
+        "score": 0.03125,
+        "page": 42,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 4,
+            "score": 0.8498045027022961
+          },
+          "bm25": {
+            "rank": 4,
+            "score": 5.76014497066927
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p041:c002",
+        "rank": 2,
+        "score": 0.03102,
+        "page": 41,
+        "section": "ch3_shrinking_spaces",
+        "components": {
+          "dense": {
+            "rank": 6,
+            "score": 0.8394271635667794
+          },
+          "bm25": {
+            "rank": 3,
+            "score": 6.157555309507694
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c002",
+        "rank": 3,
+        "score": 0.03054,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 5,
+            "score": 0.8485444693889913
+          },
+          "bm25": {
+            "rank": 6,
+            "score": 5.442159258436614
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c001",
+        "rank": 4,
+        "score": 0.03031,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": {
+          "dense": {
+            "rank": 7,
+            "score": 0.8388354682228263
+          },
+          "bm25": {
+            "rank": 5,
+            "score": 5.6154787498935494
+          }
+        },
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p018:c001",
+        "rank": 5,
+        "score": 0.02964,
+        "page": 18,
+        "section": "spotlight",
+        "components": {
+          "dense": {
+            "rank": 2,
+            "score": 0.8533623043730622
+          },
+          "bm25": {
+            "rank": 14,
+            "score": 5.033348878823748
+          }
+        },
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p042:c000",
+      "B:wdr2024_part1:p042:c001",
+      "B:wdr2024_part1:p041:c002",
+      "B:wdr2024_part1:p041:c001",
+      "B:wdr2024_part1:p004:c002",
+      "B:wdr2024_part1:p004:c001",
+      "B:wdr2024_part1:p018:c001"
+    ],
+    "context_chars": 6246,
+    "dropped": [
+      {
+        "id": "B:wdr2024_part1:p018:c000",
+        "reason": "budget (neighbour of B:wdr2024_part1:p018:c001)"
+      },
+      {
+        "id": "B:wdr2024_part1:p018:c002",
+        "reason": "budget (neighbour of B:wdr2024_part1:p018:c001)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "config": "dense_k3",
+  "split": "dev",
+  "settings": {
+    "index_strategy": "B",
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 3200,
+    "context": "rank",
+    "role": "Baseline (phương pháp 1): dense retrieval trên pgvector Day 6, index B, multilingual-e5-small."
+  },
+  "run_at": "2026-11-14T22:35:44+07:00",
+  "answerable": 16,
+  "unanswerable_excluded": 2,
+  "hit1": {
+    "n": 13,
+    "N": 16,
+    "rate": 0.8125
+  },
+  "evidence_hit3": {
+    "n": 15,
+    "N": 16,
+    "rate": 0.9375
+  },
+  "context_evidence_rate": {
+    "n": 15,
+    "N": 16,
+    "rate": 0.9375
+  },
+  "mrr_at_k": 0.8646,
+  "avg_context_chars": 2618.9,
+  "median_latency_ms": 184.3,
+  "p95_latency_ms": 220.4,
+  "build_seconds": 31.25,
+  "cost_usd": 0.0,
+  "misses_hit3": [
+    "q14"
+  ],
+  "misses_context": [
+    "q14"
+  ]
+}

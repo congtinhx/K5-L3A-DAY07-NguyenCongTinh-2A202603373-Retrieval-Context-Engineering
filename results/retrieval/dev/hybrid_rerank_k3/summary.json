@@ -1,0 +1,42 @@
+{
+  "config": "hybrid_rerank_k3",
+  "split": "dev",
+  "settings": {
+    "index_strategy": "B",
+    "method": "hybrid_rerank",
+    "top_k": 3,
+    "candidates": 20,
+    "rrf_k": 60,
+    "rerank_candidates": 20,
+    "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "budget_chars": 3200,
+    "context": "rank",
+    "role": "Cải thiện 1 (phương pháp 4): lấy 20 candidate hybrid rồi rerank bằng cross-encoder. Giả thuyết: tăng Hit@1 vì cross-encoder đọc cặp (câu hỏi, đoạn) thay vì so vector."
+  },
+  "run_at": "2026-11-14T22:36:57+07:00",
+  "answerable": 16,
+  "unanswerable_excluded": 2,
+  "hit1": {
+    "n": 13,
+    "N": 16,
+    "rate": 0.8125
+  },
+  "evidence_hit3": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "context_evidence_rate": {
+    "n": 16,
+    "N": 16,
+    "rate": 1.0
+  },
+  "mrr_at_k": 0.9062,
+  "avg_context_chars": 2611.6,
+  "median_latency_ms": 2657.9,
+  "p95_latency_ms": 3279.0,
+  "build_seconds": 20.79,
+  "cost_usd": 0.0,
+  "misses_hit3": [],
+  "misses_context": []
+}

@@ -1,0 +1,6 @@
+# Day 7 reuses the Day 6 virtualenv. Extra Day 7 code uses only the standard library.
+# Needed for dense retrieval / rerank (already in Day 6 venv):
+psycopg[binary]==3.3.8
+sentence-transformers>=3
+python-dotenv>=1,<2
+pypdf>=5,<7

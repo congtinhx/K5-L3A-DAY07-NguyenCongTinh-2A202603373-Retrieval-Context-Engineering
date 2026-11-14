@@ -1,0 +1,97 @@
+{
+  "split": "test",
+  "config": "hybrid_k5_neighbors",
+  "cases": 8,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 8,
+    "N": 8
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 0,
+    "2": 6,
+    "N": 6,
+    "mean": 2.0
+  },
+  "citation_validity": {
+    "n": 6,
+    "N": 6
+  },
+  "answer_citation_coverage": {
+    "n": 6,
+    "N": 6
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 6
+  },
+  "context_grade": {
+    "0": 0,
+    "1": 0,
+    "2": 6,
+    "N": 6
+  },
+  "auto": {
+    "config": "hybrid_k5_neighbors",
+    "split": "test",
+    "agent": {
+      "model": "gpt-4o-mini",
+      "temperature": 0,
+      "max_searches": 3,
+      "budget_chars": 6400,
+      "notes": "Model thật qua OpenAI Chat Completions + tool calling. Tối đa 3 lượt search (đủ cho câu cần tách truy vấn, tránh vòng lặp); context tích lũy qua các lượt, tối đa 6400 ký tự (~1600 token)."
+    },
+    "agent_version": 2,
+    "run_at": "2026-11-14T23:03:29+07:00",
+    "cases": 8,
+    "provider_errors": 0,
+    "errors": [],
+    "status": {
+      "answered": 6,
+      "abstain": 2,
+      "error": 0
+    },
+    "tool_use": {
+      "n": 8,
+      "N": 8,
+      "rate": 1.0
+    },
+    "searches_distribution": {
+      "1": 7,
+      "3": 1
+    },
+    "agent_context_evidence_rate": {
+      "n": 6,
+      "N": 6,
+      "rate": 1.0
+    },
+    "answered_with_citation": {
+      "n": 6,
+      "N": 6,
+      "rate": 1.0
+    },
+    "abstain_on_unanswerable_auto": {
+      "n": 2,
+      "N": 2,
+      "rate": 1.0
+    },
+    "abstain_on_answerable_auto": {
+      "n": 0,
+      "N": 6,
+      "rate": 0.0
+    },
+    "median_latency_s": 2.22,
+    "avg_context_chars": 6042.2,
+    "tokens": {
+      "prompt": 22317,
+      "completion": 732
+    },
+    "cost_usd_total": 0.00379,
+    "note": "Tự động đếm theo status; nhãn grounded/citation/abstention phải chấm tay trong reviews.json."
+  }
+}

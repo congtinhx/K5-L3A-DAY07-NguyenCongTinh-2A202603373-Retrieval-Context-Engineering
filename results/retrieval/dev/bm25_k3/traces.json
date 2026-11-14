@@ -1,0 +1,880 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "At what level of GDP per capita relative to the United States does the median growth slowdown episode occur?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 2.4,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p003:c000",
+        "rank": 1,
+        "score": 18.78241,
+        "page": 3,
+        "section": "part1_overview",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c004",
+        "rank": 2,
+        "score": 16.6023,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c000",
+        "rank": 3,
+        "score": 15.91955,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p003:c000",
+      "B:wdr2024_part1:p014:c004",
+      "B:wdr2024_part1:p004:c000"
+    ],
+    "context_chars": 2503,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "How many middle-income economies have become high-income since 1990?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 3.2,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c002",
+        "rank": 1,
+        "score": 13.50781,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c002",
+        "rank": 2,
+        "score": 10.6316,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p002:c001",
+        "rank": 3,
+        "score": 8.62746,
+        "page": 2,
+        "section": "part1_overview",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c002",
+      "B:wdr2024_part1:p005:c002",
+      "B:wdr2024_part1:p002:c001"
+    ],
+    "context_chars": 2148,
+    "dropped": [],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "context_hit": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "By which year does Viet Nam plan to reach high-income status?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 4.9,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 1,
+        "score": 18.76217,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p033:c002",
+        "rank": 2,
+        "score": 7.67382,
+        "page": 33,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p005:c004",
+        "rank": 3,
+        "score": 7.4103,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p033:c002",
+      "B:wdr2024_part1:p005:c004"
+    ],
+    "context_chars": 2380,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What income cutoff did the very first World Development Report use to separate poor countries from middle-income ones?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 2.5,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p014:c003",
+        "rank": 1,
+        "score": 17.51541,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c001",
+        "rank": 2,
+        "score": 14.6418,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p009:c000",
+        "rank": 3,
+        "score": 13.85827,
+        "page": 9,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p014:c003",
+      "B:wdr2024_part1:p004:c001",
+      "B:wdr2024_part1:p009:c000"
+    ],
+    "context_chars": 2923,
+    "dropped": [],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "context_hit": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "At what value was the high-income threshold originally set in the 1989 Board paper?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 1.4,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p009:c001",
+        "rank": 1,
+        "score": 22.28852,
+        "page": 9,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p009:c000",
+        "rank": 2,
+        "score": 13.83721,
+        "page": 9,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c002",
+        "rank": 3,
+        "score": 9.46582,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p009:c001",
+      "B:wdr2024_part1:p009:c000",
+      "B:wdr2024_part1:p008:c002"
+    ],
+    "context_chars": 2828,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How does Turkiye's GDP per capita relative to the United States differ when adjusted for PPP versus using market exchange rates?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 1.9,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p010:c000",
+        "rank": 1,
+        "score": 33.03907,
+        "page": 10,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p015:c000",
+        "rank": 2,
+        "score": 24.64507,
+        "page": 15,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c001",
+        "rank": 3,
+        "score": 18.5707,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p010:c000",
+      "B:wdr2024_part1:p015:c000",
+      "B:wdr2024_part1:p008:c001"
+    ],
+    "context_chars": 3191,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "How much did Korea's R&D spending rise as a share of GDP between 1980 and 1990?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 4.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p012:c002",
+        "rank": 1,
+        "score": 33.19116,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c001",
+        "rank": 2,
+        "score": 17.09919,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 3,
+        "score": 13.98259,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p012:c001",
+      "B:wdr2024_part1:p028:c003"
+    ],
+    "context_chars": 2787,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "How do Eichengreen, Park, and Shin define a growth slowdown?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 0.9,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p013:c000",
+        "rank": 1,
+        "score": 17.3022,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c001",
+        "rank": 2,
+        "score": 16.42146,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p015:c002",
+        "rank": 3,
+        "score": 6.04083,
+        "page": 15,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p013:c000",
+      "B:wdr2024_part1:p013:c001",
+      "B:wdr2024_part1:p015:c002"
+    ],
+    "context_chars": 2528,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Compared with rich countries, how much more prone are middle-income countries to growth slowdowns?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 2.0,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "rank": 1,
+        "score": 13.58194,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c000",
+        "rank": 2,
+        "score": 12.19762,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c002",
+        "rank": 3,
+        "score": 11.16836,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p014:c001",
+      "B:wdr2024_part1:p004:c000",
+      "B:wdr2024_part1:p004:c002"
+    ],
+    "context_chars": 2702,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "In the Spotlight section, how much of productivity growth in developing countries comes from efficient allocation of factors of production?",
+    "filter": {
+      "section": "spotlight"
+    },
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 3.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p017:c002",
+        "rank": 1,
+        "score": 23.78767,
+        "page": 17,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p017:c001",
+        "rank": 2,
+        "score": 7.15875,
+        "page": 17,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p018:c001",
+        "rank": 3,
+        "score": 5.65975,
+        "page": 18,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p017:c002",
+      "B:wdr2024_part1:p017:c001",
+      "B:wdr2024_part1:p018:c001"
+    ],
+    "context_chars": 2870,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "By 2008, how productive was the average Brazilian manufacturing worker compared with an American worker?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 1.0,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p021:c002",
+        "rank": 1,
+        "score": 28.95864,
+        "page": 21,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p021:c003",
+        "rank": 2,
+        "score": 18.25711,
+        "page": 21,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c003",
+        "rank": 3,
+        "score": 8.40688,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p021:c002",
+      "B:wdr2024_part1:p021:c003",
+      "B:wdr2024_part1:p023:c003"
+    ],
+    "context_chars": 1866,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "If capital endowments were the only difference between middle-income and high-income countries, what would a typical middle-income country's GNI be relative to the United States?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 2.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p023:c000",
+        "rank": 1,
+        "score": 37.9664,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c002",
+        "rank": 2,
+        "score": 18.27697,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p023:c001",
+        "rank": 3,
+        "score": 18.08613,
+        "page": 23,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p023:c000",
+      "B:wdr2024_part1:p023:c002",
+      "B:wdr2024_part1:p023:c001"
+    ],
+    "context_chars": 2946,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What fraction of the world's science and engineering graduates now come from middle-income countries?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 1.1,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p026:c000",
+        "rank": 1,
+        "score": 14.82935,
+        "page": 26,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c003",
+        "rank": 2,
+        "score": 14.30132,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p026:c001",
+        "rank": 3,
+        "score": 12.06421,
+        "page": 26,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p026:c000",
+      "B:wdr2024_part1:p027:c003",
+      "B:wdr2024_part1:p026:c001"
+    ],
+    "context_chars": 2461,
+    "dropped": [],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 3,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "According to the Structural Stasis chapter, how did Korea subsidize the adoption of foreign technologies and innovation?",
+    "filter": {
+      "section": "ch2_structural_stasis"
+    },
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 0.5,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p025:c001",
+        "rank": 1,
+        "score": 12.00041,
+        "page": 25,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p025:c003",
+        "rank": 2,
+        "score": 9.4462,
+        "page": 25,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 3,
+        "score": 8.90639,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p025:c001",
+      "B:wdr2024_part1:p025:c003",
+      "B:wdr2024_part1:p028:c003"
+    ],
+    "context_chars": 2789,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "How long is it estimated to take today's middle-income countries to move from an aging society to an aged society?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 1.7,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p036:c000",
+        "rank": 1,
+        "score": 41.07458,
+        "page": 36,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p037:c003",
+        "rank": 2,
+        "score": 26.15978,
+        "page": 37,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p036:c001",
+        "rank": 3,
+        "score": 16.98159,
+        "page": 36,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p036:c000",
+      "B:wdr2024_part1:p037:c003",
+      "B:wdr2024_part1:p036:c001"
+    ],
+    "context_chars": 2652,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "question": "How has the yearly count of new harmful trade measures changed over the past ten years?",
+    "filter": null,
+    "answerable": true,
+    "config": "bm25_k3",
+    "latency_ms": 1.3,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p038:c002",
+        "rank": 1,
+        "score": 14.84528,
+        "page": 38,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p039:c003",
+        "rank": 2,
+        "score": 13.48622,
+        "page": 39,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p038:c003",
+        "rank": 3,
+        "score": 12.49045,
+        "page": 38,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p038:c002",
+      "B:wdr2024_part1:p039:c003",
+      "B:wdr2024_part1:p038:c003"
+    ],
+    "context_chars": 1774,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "By which year does Thailand aim to reach high-income status?",
+    "filter": null,
+    "answerable": false,
+    "config": "bm25_k3",
+    "latency_ms": 1.2,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p033:c002",
+        "rank": 1,
+        "score": 7.67382,
+        "page": 33,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p042:c003",
+        "rank": 2,
+        "score": 7.39273,
+        "page": 42,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 3,
+        "score": 5.61998,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p033:c002",
+      "B:wdr2024_part1:p042:c003",
+      "B:wdr2024_part1:p006:c000"
+    ],
+    "context_chars": 2787,
+    "dropped": []
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "What was Bulgaria's R&D expenditure as a share of GDP in 2021?",
+    "filter": null,
+    "answerable": false,
+    "config": "bm25_k3",
+    "latency_ms": 2.0,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 1,
+        "score": 21.51261,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p012:c002",
+        "rank": 2,
+        "score": 12.90434,
+        "page": 12,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p028:c003",
+        "rank": 3,
+        "score": 11.05595,
+        "page": 28,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p028:c003"
+    ],
+    "context_chars": 2799,
+    "dropped": []
+  }
+]

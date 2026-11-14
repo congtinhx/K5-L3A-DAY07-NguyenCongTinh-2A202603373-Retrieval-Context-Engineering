@@ -1,0 +1,2234 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "At what level of GDP per capita relative to the United States does the median growth slowdown episode occur?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "The median growth slowdown episode occurs when a country reaches about 11 percent of the gross domestic product per capita of the United States. [B:wdr2024_part1:p004:c000]",
+    "citations": [
+      "B:wdr2024_part1:p004:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.939,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 381,
+          "completion_tokens": 24,
+          "total_tokens": 405,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "median growth slowdown episode GDP per capita relative to United States",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.133,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p004:c000",
+            "rank": 1,
+            "score": 0.0323,
+            "page": 4,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p003:c000",
+            "rank": 2,
+            "score": 0.032,
+            "page": 3,
+            "section": "part1_overview"
+          },
+          {
+            "id": "B:wdr2024_part1:p014:c004",
+            "rank": 3,
+            "score": 0.0315,
+            "page": 14,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p004:c000",
+          "B:wdr2024_part1:p003:c000",
+          "B:wdr2024_part1:p014:c004"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p004:c000",
+          "B:wdr2024_part1:p003:c000",
+          "B:wdr2024_part1:p014:c004"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.423,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 993,
+          "completion_tokens": 68,
+          "total_tokens": 1061,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p004:c000 | data/raw/doc1.pdf | page 4 | section ch1_slowing_growth]\nSlowing Growth Key messages • Today’s 108 middle-income countries represent about 40 percent of the global economy, are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor, and contribute nearly two-thirds of global carbon dioxide emissions. • Middle-income countries are prone to systematic growth slowdowns—a concept termed the “middle-income trap.” The median growth slowdown episode occurs when a country reaches about 11 percent of the gross domestic product per capita of the United States. • Although income per capita is the metric most commonly used to measure the pace of economic development, measures of average income can differ greatly, depending on the measure. • Countries with weaker institutions—and especially those with lower levels of economic and political freedom—are more susceptible to slowdowns at even lower levels of income.\n\n[B:wdr2024_part1:p003:c000 | data/raw/doc1.pdf | page 3 | section part1_overview]\nodds of achieving high-income statu s because of growth trajectories suggestive of a “middle-income trap.” Part 1 of this Report examines the evidence for the middle-income trap and asks three questions. First, is growth in middle-income countries slower, with investment-led growth running out of steam (chapter 1, Slowing Growth)? Second, is growth in middle-income countries different , requiring a significant change in growth strat egies ( chapt er 2, Structural Stasis)? And, third, is growth in middle- income countries now harder ( chapt er 3, Shrinking Spaces)? Chapter 1 summarizes the evidence on growth slowdowns and highlights that in middle- incom e countries a majority of growth slowdowns take place as the returns from capital investment diminish sharply. The median growth slowdown episode occurs when a country reaches a little more than 11 percent of the gross domestic product (GDP) per capita level of the United States.\n\n[B:wdr2024_part1:p014:c004 | data/raw/doc1.pdf | page 14 | section ch1_slowing_growth]\nPanel a of figure 1.6 suggests that civil liberties may influence the overall conditions for investment, innovation, and growth. Figure 1.4 Growth slowdowns are most frequent when countries’ GDP per capita is less than one-fourth of the United States’ Source: WDR 2024 team. Note: GDP = gross domestic product. Likelihood of growth slowdowns (%)0 GDP per capita relative to the frontier (United States) (%)",
+    "context_ids": [
+      "B:wdr2024_part1:p004:c000",
+      "B:wdr2024_part1:p003:c000",
+      "B:wdr2024_part1:p014:c004"
+    ],
+    "context_chars": 2503,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1374,
+      "completion_tokens": 92,
+      "model_calls": 2,
+      "cost_usd": 0.0002613
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.495,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "How many middle-income economies have become high-income since 1990?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Since 1990, 34 middle-income economies have transitioned to high-income status [B:wdr2024_part1:p005:c002].",
+    "citations": [
+      "B:wdr2024_part1:p005:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.094,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 375,
+          "completion_tokens": 23,
+          "total_tokens": 398,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "middle-income economies become high-income since 1990",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.046,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p005:c002",
+            "rank": 1,
+            "score": 0.0323,
+            "page": 5,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c001",
+            "rank": 2,
+            "score": 0.032,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c002",
+            "rank": 3,
+            "score": 0.0318,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p005:c002",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p006:c002"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p005:c002",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p006:c002"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.511,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1079,
+          "completion_tokens": 64,
+          "total_tokens": 1143,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p005:c002 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nSince 1990, 34 middle-income economies have transitioned to high-income status (figure 1.1).5 Thirteen benefited from deep integration with the European Union (EU)—whose economic model features vigorous trade and capital flows, freer enterprise, free worker mobility, stronger institutions, and social inclusion—at a time of relatively rapid economic growth in Western Europe. They benefited greatly from institutional and regulatory reforms that enabled transitions to a market economy, incentivized emerging economies to attract foreign direct investment and infuse new technologies into their production structures while pushing advanced economies to innovate, and fostered an environment for developing a skilled workforce. Among the other newcomers to high-income status, resource-rich economies such as Chile and Saudi Arabia benefited when they timed policy reforms to coincide with high commodity prices.\n\n[B:wdr2024_part1:p006:c001 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nFigure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712 . Note: Each scatter point indicates an economy’ s 1 990 and 2022 gross national income ( GNI) per capita in current US dollar terms (using the World Bank Atlas method). The blue vertical lines show thresholds to transition to lower-middle-income status, upper-middle-income status, and high-income status in 1990 (US$610, US$2,465, and US$7,620, respectively), while the blue horizontal lines show these thresholds in 2022 (US$1,135, US$4,465, and US$13,845, respectively) based on the World Bank income classifications (https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country -and-lending-groups). The figure includes only economies at middle-income levels in 1990.\n\n[B:wdr2024_part1:p006:c002 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nFor legibility, only economies that have transitioned to high-income status since 1990 are labeled (1990 data were unavailable for six economies). For country abbreviations, see International Organization for Standardization (ISO), https://www.iso.org/obp/ui/#search. GUY CHL PAN POL ROM HRV CZE SVK ATG BHR BRB GRC HUN KOR MAC MLT OMN PRTPRI SAU SYC KNA TTO URY EST LVA LTU SVN GNI per capita (US$), 2022 GNI per capita (US$), 1990 Low-income Lower-middle- income Upper-middle-income High-income High-incomeUpper-middle- income Lower-middle- income",
+    "context_ids": [
+      "B:wdr2024_part1:p005:c002",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p006:c002"
+    ],
+    "context_chars": 2704,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 87,
+      "model_calls": 2,
+      "cost_usd": 0.0002703
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.651,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "By which year does Viet Nam plan to reach high-income status?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Viet Nam plans to transition to high-income status by 2045 according to its Socio-Economic Development Strategy 2021–2030, which aims to sustain GDP per capita growth of 7 percent through this decade [B:wdr2024_part1:p006:c000].",
+    "citations": [
+      "B:wdr2024_part1:p006:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.881,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 374,
+          "completion_tokens": 20,
+          "total_tokens": 394,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Viet Nam high-income status year",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.068,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p006:c000",
+            "rank": 1,
+            "score": 0.0323,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c001",
+            "rank": 2,
+            "score": 0.0311,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p018:c002",
+            "rank": 3,
+            "score": 0.0301,
+            "page": 18,
+            "section": "spotlight"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p018:c002"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p018:c002"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.606,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 972,
+          "completion_tokens": 93,
+          "total_tokens": 1065,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p006:c000 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nthe nation into a developed economy by 2047— the hundredth year of independence. In Viet Nam, its Socio-Economic Development Strategy 2021–2030 outlines a plan to sustain GDP per capita growth of 7 percent through this decade, with a transition to high-income status by 2045. In South Africa, the 2030 National Development Plan has prioritized raising its income per capita from US$2,800 in 2010 to US$7 ,000 by 2030. Other middle-income countries have similar aspirations. But the growth prospects of middle-income countries are not improving. Over the last decade, the global economy has gone from healthy to hobbling and from largely integrated to increasingly fragmented.7 Foreign trade and investment channels are also becoming more constricted—or at least encumbered—by geopolitical tensions.\n\n[B:wdr2024_part1:p006:c001 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nFigure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712 . Note: Each scatter point indicates an economy’ s 1 990 and 2022 gross national income ( GNI) per capita in current US dollar terms (using the World Bank Atlas method). The blue vertical lines show thresholds to transition to lower-middle-income status, upper-middle-income status, and high-income status in 1990 (US$610, US$2,465, and US$7,620, respectively), while the blue horizontal lines show these thresholds in 2022 (US$1,135, US$4,465, and US$13,845, respectively) based on the World Bank income classifications (https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country -and-lending-groups). The figure includes only economies at middle-income levels in 1990.\n\n[B:wdr2024_part1:p018:c002 | data/raw/doc1.pdf | page 18 | section spotlight]\nIn the twenty-first century, business dynamism, the talent pool, and energy and carbon intensity are much more reliable indicators of the progress an economy is making toward reaching high-income status.",
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p018:c002"
+    ],
+    "context_chars": 2236,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1346,
+      "completion_tokens": 113,
+      "model_calls": 2,
+      "cost_usd": 0.0002697
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.555,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "What income cutoff did the very first World Development Report use to separate poor countries from middle-income ones?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "The very first World Development Report, published in 1978, used an income cutoff of US$250 per capita to separate poor countries (low-income) from middle-income countries, where middle-income countries were defined as those with annual income per capita of over US$250 [B:wdr2024_part1:p004:c001].",
+    "citations": [
+      "B:wdr2024_part1:p004:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.208,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 381,
+          "completion_tokens": 23,
+          "total_tokens": 404,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "first World Development Report income cutoff poor countries middle-income",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.062,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p004:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 4,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p005:c001",
+            "rank": 2,
+            "score": 0.0313,
+            "page": 5,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p007:c004",
+            "rank": 3,
+            "score": 0.0312,
+            "page": 7,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p004:c001",
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p007:c004"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p004:c001",
+          "B:wdr2024_part1:p005:c001",
+          "B:wdr2024_part1:p007:c004"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.555,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1025,
+          "completion_tokens": 102,
+          "total_tokens": 1127,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p004:c001 | data/raw/doc1.pdf | page 4 | section ch1_slowing_growth]\nIntroduction The problem of economic growth in middle- inco me economies has been a concern of development policy practitioners for at least five decades. In the first World Development Report, published in 1978, “middle-income” was an omnibus term applied to countries with diverse economic characteristics at various stages of development.1 Middle-income countries were defined as those with annual income per capita of over US$250.2 By that definition, 58 countries, home to about 900 million people, were designated middle-income. Despite the diversity, World Development Report 1978 identified two characteristics that distinguished middle-income from low- incom e countries: • Their growth prospects were more sen-sitive to economic conditions in the industrialized (high-income) countries, particularly the environment for trade and commercial capital flows. • They had more resources available to raise the living standards of the poor.\n\n[B:wdr2024_part1:p005:c001 | data/raw/doc1.pdf | page 5 | section ch1_slowing_growth]\nAccording to the World Bank’s 2023 income classifications, the 108 current middle-income countries are split evenly between lower- and upper-middle-income countries. Representing about 40 percent of the global economy, middle-income countries are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor. In other words, more than 400 million of the extreme poor globally live in middle-income countries, a statistic that should concern wealth-ier countries. They also contribute nearly two-thirds of global carbon dioxide (CO 2) emissions (see table P1.1), a statistic that is of global concern. Over the last three decades, the world’s two most populous countries, China and India, joined the club of middle-income countries, in 1997 and 2007 , respectively. It is not surprising, then, that growth in middle-income countries will play a pivotal role in international development.\n\n[B:wdr2024_part1:p007:c004 | data/raw/doc1.pdf | page 7 | section ch1_slowing_growth]\nCountry definitions are based on the first World Development Report (World Bank 1978), in which low-income countries have gross national income (GNI) per capita of US$250 or less, and middle-income countries have GNI per capita of more than US$250; industrialized (high-income) countries consist of member countries of the Organisation for Economic Co-operation and Development (OECD), except for Greece, Portugal, Spain, and Türkiye, which are classified as middle-income countries. Share of US GNI per capita (%) Middle-income countries Middle-income countries, excluding China",
+    "context_ids": [
+      "B:wdr2024_part1:p004:c001",
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p007:c004"
+    ],
+    "context_chars": 2706,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1406,
+      "completion_tokens": 125,
+      "model_calls": 2,
+      "cost_usd": 0.00028589999999999996
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.825,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "At what value was the high-income threshold originally set in the 1989 Board paper?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "The high-income threshold was originally set at GNI per capita of US$6,000 in 1987 prices in a paper presented to the World Bank’s Board of Executive Directors in January 1989. This level has been updated over time for international inflation. [B:wdr2024_part1:p009:c001]",
+    "citations": [
+      "B:wdr2024_part1:p009:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.07,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 379,
+          "completion_tokens": 21,
+          "total_tokens": 400,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "high-income threshold 1989 Board paper",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.057,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p009:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 9,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p009:c000",
+            "rank": 2,
+            "score": 0.032,
+            "page": 9,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p008:c003",
+            "rank": 3,
+            "score": 0.0308,
+            "page": 8,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p009:c001",
+          "B:wdr2024_part1:p009:c000",
+          "B:wdr2024_part1:p008:c003"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p009:c001",
+          "B:wdr2024_part1:p009:c000",
+          "B:wdr2024_part1:p008:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.661,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 985,
+          "completion_tokens": 87,
+          "total_tokens": 1072,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "citations_appended_inline",
+        "ids": [
+          "B:wdr2024_part1:p009:c001"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p009:c001 | data/raw/doc1.pdf | page 9 | section ch1_slowing_growth]\nThe high-income threshold does not relate to a cutoff derived from the operational guidelines, but was set at GNI per capita of US$6,000 in 1987 prices in a paper presented to the World Bank’s Board of Executive Directors in January 1989, which also reconfirmed the low- and lower- middle- income threshold levels.f The US$6,000 level has been updated over time for what is called “international inflation,” defined as the average inflation rates of Japan, the United Kingdom, the United States, and the euro area. The choice of the high-income threshold was made to address anomalies in the classification of high-income and industrialized economies used in the World Bank’s World Development Indicators prior to that point. Under this current classification method, Zambia (with income per capita of US$1,170) and Bulgaria (with income per capita of US$13,250) are both middle-income economies.\n\n[B:wdr2024_part1:p009:c000 | data/raw/doc1.pdf | page 9 | section ch1_slowing_growth]\nannually in US dollars based on a three-year average exchange rate and were expanded to four categories: • Low-income. The low-income threshold was officially set in 1988, still based on the value of the IDA’s “civil works preference” and updated for inflation.d • Lower-middle-income. The lower-middle-income threshold is based on the operational guidelines cutoff for determining access to 17-year repayment terms for loans through the World Bank Group’s International Bank for Reconstruction and Development (IBRD), although these terms are no longer available. It appears to have first been introduced in the 1983 edition of the World Development Report .e • Upper-middle-income. The upper-middle-income threshold is the range between lower- middle-income and high-income. • High-income.\n\n[B:wdr2024_part1:p008:c003 | data/raw/doc1.pdf | page 8 | section ch1_slowing_growth]\nThe process of setting thresholds for income per capita began with finding a “stable relationship” between a summary measure of well-being such as poverty incidence and infant mortality, on the one hand, and economic variables, including GNI per capita estimated using the World Bank’s Atlas method, on the other.b Based on such a relationship and the annual availability of the World Bank’s resources, the original income per capita thresholds were established.c They were last updated in 1989, using GNI per capita valued",
+    "context_ids": [
+      "B:wdr2024_part1:p009:c001",
+      "B:wdr2024_part1:p009:c000",
+      "B:wdr2024_part1:p008:c003"
+    ],
+    "context_chars": 2472,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1364,
+      "completion_tokens": 108,
+      "model_calls": 2,
+      "cost_usd": 0.0002694
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.787,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "How does Turkiye's GDP per capita relative to the United States differ when adjusted for PPP versus using market exchange rates?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Türkiye’s GDP per capita relative to the United States is nearly 50 percent when adjusted for purchasing power parity (PPP) but less than 15 percent using market exchange rates. For comparison, Chile’s GDP per capita relative to the United States is 40 percent using PPP and 20 percent using market exchange rates [B:wdr2024_part1:p010:c000].",
+    "citations": [
+      "B:wdr2024_part1:p010:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.086,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 385,
+          "completion_tokens": 25,
+          "total_tokens": 410,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Turkiye GDP per capita PPP market exchange rates comparison United States",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.039,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p010:c000",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 10,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p008:c001",
+            "rank": 2,
+            "score": 0.032,
+            "page": 8,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p015:c000",
+            "rank": 3,
+            "score": 0.0315,
+            "page": 15,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p010:c000",
+          "B:wdr2024_part1:p008:c001",
+          "B:wdr2024_part1:p015:c000"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p010:c000",
+          "B:wdr2024_part1:p008:c001",
+          "B:wdr2024_part1:p015:c000"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.943,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1113,
+          "completion_tokens": 110,
+          "total_tokens": 1223,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p010:c000 | data/raw/doc1.pdf | page 10 | section ch1_slowing_growth]\nhigh-income country. Yet when adjusted for purchasing power, Türkiye’s GDP per capita is higher than Chile’s. The country for which both measures are defined as identical is the United States because purchasing power in any country is measured relative to what a dollar can buy in the United States. Türkiye’s GDP per capita relative to that of the United States is nearly 50 percent when adjusted for PPP but less than 15 percent using market exchange rates. For Chile, the numbers are, respectively, 40 percent and 20 percent. PPP adjustments have been criticized for their inability to reflect the complexity and diversity of economic production and capabilities in indi-vidual economies.12 The adjustments do not consider quality or productivity differences among countries in the production of tradable as well as nontradable goods and services, including infrastructure, health care, and education. However, recent assessments of PPPs appear to be highly correlated with economic activity.\n\n[B:wdr2024_part1:p008:c001 | data/raw/doc1.pdf | page 8 | section ch1_slowing_growth]\n• Quickening the pace of innovation by both fostering entrepreneurial activity and keeping markets open to competition. These tasks have proved to be surprisingly difficult, and they are likely to become even harder. Measuring progress through the middle stages of development What indicates that an economy is developing? Income per capita is the most commonly used metric to measure the pace of economic development. But measures of average income can differ greatly, depending on the measure. For example, the World Bank, other international organizations, and bilateral aid agencies use GDP per capita at market exchange rates for analysis and lending (box 1.1). On the other hand, the use of GDP per capita based on adjustments for purchasing power parity (PPP, which reflects the purchasing power of a consumer for goods and services) can yield different results.11 A comparison of these two sets of measures for Türkiye and Chile illustrates the problem.\n\n[B:wdr2024_part1:p015:c000 | data/raw/doc1.pdf | page 15 | section ch1_slowing_growth]\nFigure 1.5 Growth is expected to slow down as countries approach the economic frontier (United States) Source: WDR 2024 team. Note: The dashed lines represent countries that will experience a divergence from the frontier over 2023–2100, although they were closer to the frontier in 2022. The solid lines indicate a convergence to the frontier over 2023–2100. These projections are based on extrapolation of recent historical trends using the World Bank’s Long Term Growth Model. GDP = gross domestic product. Annual growth in GDP per capita (%) GDP per capita relative to the frontier (United States) (%) Türkiye ChinaBangladesh Indonesia Poland Chile India Argentina Bulgaria Mexico Source: Chikis 2024. Note: The empirical distribution function for growth decelerations is as defined in Kar et al. (2013). Gross domestic product (GDP) is measured using market exchange rates. Proximity to the frontier indicates a country’s GDP per capita relative to US GDP per capita.",
+    "context_ids": [
+      "B:wdr2024_part1:p010:c000",
+      "B:wdr2024_part1:p008:c001",
+      "B:wdr2024_part1:p015:c000"
+    ],
+    "context_chars": 3191,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1498,
+      "completion_tokens": 135,
+      "model_calls": 2,
+      "cost_usd": 0.0003057
+    },
+    "agent_version": 2,
+    "elapsed_s": 3.069,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "How much did Korea's R&D spending rise as a share of GDP between 1980 and 1990?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Korea’s spending on R&D rose from 0.5 percent of GDP in 1980 to 1.6 percent in 1990, indicating an increase of 1.1 percentage points over that decade [B:wdr2024_part1:p012:c002].",
+    "citations": [
+      "B:wdr2024_part1:p012:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.194,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 384,
+          "completion_tokens": 28,
+          "total_tokens": 412,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Korea R&D spending rise share of GDP 1980 1990",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.048,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p012:c002",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 12,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p012:c001",
+            "rank": 2,
+            "score": 0.0323,
+            "page": 12,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p028:c003",
+            "rank": 3,
+            "score": 0.0313,
+            "page": 28,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p012:c002",
+          "B:wdr2024_part1:p012:c001",
+          "B:wdr2024_part1:p028:c003"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p012:c002",
+          "B:wdr2024_part1:p012:c001",
+          "B:wdr2024_part1:p028:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.602,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1072,
+          "completion_tokens": 92,
+          "total_tokens": 1164,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p012:c002 | data/raw/doc1.pdf | page 12 | section ch1_slowing_growth]\nKorea’s spending on R&D jumped from 0.5 percent of GDP in 1980 to 1.6 percent in 1990 when Korea was still an upper-middle-income country. Private R&D expenditures increased by an unprecedented 26 times from 1980 to 1990 and exceeded 80 percent of total R&D spending by the end of the 1990s. In parallel, Korea invested heavily in human capital and ensured that job creation was matched with the needed supply of skills at the different stages of development— vocational and technical secondary, STEM (science, technology, engineering, and mathematics) education, and R&D accelerators—which was carried out more effectively than by much richer countries. Third, Korea got better at regulating the relationships among large, medium, and small firms. Initially, large firms were favored as the instrument for infusing new technologies into the economy.\n\n[B:wdr2024_part1:p012:c001 | data/raw/doc1.pdf | page 12 | section ch1_slowing_growth]\nIt also promoted private enterprises through policies that first favored the growth and expansion of large conglomerates (efficiency-driven) and then shifted to favor smaller firms and entrepreneurs (equity-driven). Investments in infrastructure helped its rapid economic growth, with physical capital accounting for about 60 percent of growth in the gross domestic product (GDP) between 1990 and 1997 . Early investments in information and communication technology infrastructure, amounting to US$32.5 billion between 1995 and 2005 and an additional US$2.6 billion between 2005 and 2014, enabled Korea to leverage new sources of growth driven by digital and technology adoption. Second, Korea devised public policies to ensure contestability. The government rewarded firms for investments in research and development (R&D) and exports through R&D; it promoted science, technology, and innovation policies; it offered tax incentives; and it adopted export facilitation measures.\n\n[B:wdr2024_part1:p028:c003 | data/raw/doc1.pdf | page 28 | section ch2_structural_stasis]\nThe time, manner and drawing, specification and other technical document as well (a) CO., LTD. AND Sources: Panel a: National Archives of Korea, https://www.archives.go.kr/english/index.jsp . Panel b: Choi and Shim 2024. Note: Panel b shows the adoption subsidy rate alongside the innovation (R&D) subsidy rate, calculated using the tax credit rate and the corporate tax rate. For example, a 30 percent subsidy rate indicates that firms can receive a reimbursement equivalent to 30 percent of their expenditures on adoption fees or R&D. R&D = research and development. Figure 2.5 Calibrating policies to a country’s stage of development: From imitation to innovation in the Republic of Korea",
+    "context_ids": [
+      "B:wdr2024_part1:p012:c002",
+      "B:wdr2024_part1:p012:c001",
+      "B:wdr2024_part1:p028:c003"
+    ],
+    "context_chars": 2787,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1456,
+      "completion_tokens": 120,
+      "model_calls": 2,
+      "cost_usd": 0.00029039999999999996
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.844,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "How do Eichengreen, Park, and Shin define a growth slowdown?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Eichengreen, Park, and Shin define a growth slowdown as a decline in the seven-year average growth rate of gross domestic product (GDP) per capita by at least 2 percentage points, with growth being higher than 3.5 percent in the preceding years. They also limit slowdowns to cases where GDP per capita is greater than US$10,000 in 2005 constant international prices adjusted for purchasing power parity (PPP) [B:wdr2024_part1:p013:c000].",
+    "citations": [
+      "B:wdr2024_part1:p013:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.993,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 376,
+          "completion_tokens": 22,
+          "total_tokens": 398,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Eichengreen Park Shin growth slowdown definition",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.041,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p013:c000",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 13,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p013:c001",
+            "rank": 2,
+            "score": 0.0323,
+            "page": 13,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p003:c000",
+            "rank": 3,
+            "score": 0.0303,
+            "page": 3,
+            "section": "part1_overview"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p013:c000",
+          "B:wdr2024_part1:p013:c001",
+          "B:wdr2024_part1:p003:c000"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p013:c000",
+          "B:wdr2024_part1:p013:c001",
+          "B:wdr2024_part1:p003:c000"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 2.452,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1145,
+          "completion_tokens": 137,
+          "total_tokens": 1282,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p013:c000 | data/raw/doc1.pdf | page 13 | section ch1_slowing_growth]\nBox 1.3 Identifying growth slowdowns Several studies have examined the reasons for growth slowdowns. Eichengreen, Park, and Shin (2011) identify frequent slowdowns in middle-income countries. They define a slowdown as a decline in the seven-year average growth rate of gross domestic product (GDP) per capita by at least 2 percentage points, with growth being higher than 3.5 percent in the preceding years. In addition, they limit slowdowns to cases in which GDP per capita is greater than US$10,000 in 2005 constant international prices adjusted for purchasing power parity (PPP). They discover slowdowns when GDP per capita reaches about US$16,540 (in 2005 constant international PPP prices). Extensions of the analysis indicate that growth in middle-income countries slows even at points early in the middle-income stage: specifically, in the range of US$10,000–US$11,000 GDP per capita (in 2005 constant prices) and in the range of US$15,000–US$16,000 (in 2005 constant prices).\n\n[B:wdr2024_part1:p013:c001 | data/raw/doc1.pdf | page 13 | section ch1_slowing_growth]\nEichengreen, Park, and Shin (2011) find that slowdowns are driven largely by low productivity growth. They also find that the probability of middle-income traps is higher in countries with high investment rates, high old-age dependency ratios,a and undervalued real exchange rates that translate into a barrier to move up the technology ladder. In addition, they find that the level and structure of human capital, the level and structure of exports (specifically, the relative importance of low- and high-tech exports), financial and political stability, and external shocks are among the significant correlates of slowdowns. Aiyar et al. (2013) define the middle-income trap as a special case of growth slowdowns. They distinguish between natural slowdowns in growth and unusually severe slowdowns. Although economies in all income groups experience growth slowdowns, based on their analysis covering 1960–2005 middle-income countries are especially vulnerable to growth slowdowns.\n\n[B:wdr2024_part1:p003:c000 | data/raw/doc1.pdf | page 3 | section part1_overview]\nodds of achieving high-income statu s because of growth trajectories suggestive of a “middle-income trap.” Part 1 of this Report examines the evidence for the middle-income trap and asks three questions. First, is growth in middle-income countries slower, with investment-led growth running out of steam (chapter 1, Slowing Growth)? Second, is growth in middle-income countries different , requiring a significant change in growth strat egies ( chapt er 2, Structural Stasis)? And, third, is growth in middle- income countries now harder ( chapt er 3, Shrinking Spaces)? Chapter 1 summarizes the evidence on growth slowdowns and highlights that in middle- incom e countries a majority of growth slowdowns take place as the returns from capital investment diminish sharply. The median growth slowdown episode occurs when a country reaches a little more than 11 percent of the gross domestic product (GDP) per capita level of the United States.",
+    "context_ids": [
+      "B:wdr2024_part1:p013:c000",
+      "B:wdr2024_part1:p013:c001",
+      "B:wdr2024_part1:p003:c000"
+    ],
+    "context_chars": 3168,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1521,
+      "completion_tokens": 159,
+      "model_calls": 2,
+      "cost_usd": 0.00032355000000000003
+    },
+    "agent_version": 2,
+    "elapsed_s": 3.486,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Compared with rich countries, how much more prone are middle-income countries to growth slowdowns?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Middle-income countries are three times as likely to experience a growth slowdown compared with high-income countries [B:wdr2024_part1:p014:c001].",
+    "citations": [
+      "B:wdr2024_part1:p014:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.271,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 379,
+          "completion_tokens": 23,
+          "total_tokens": 402,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "middle-income countries growth slowdowns compared with rich countries",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.04,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p014:c001",
+            "rank": 1,
+            "score": 0.0323,
+            "page": 14,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p003:c000",
+            "rank": 2,
+            "score": 0.0318,
+            "page": 3,
+            "section": "part1_overview"
+          },
+          {
+            "id": "B:wdr2024_part1:p004:c000",
+            "rank": 3,
+            "score": 0.0311,
+            "page": 4,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p014:c001",
+          "B:wdr2024_part1:p003:c000",
+          "B:wdr2024_part1:p004:c000"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p014:c001",
+          "B:wdr2024_part1:p003:c000",
+          "B:wdr2024_part1:p004:c000"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.305,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1029,
+          "completion_tokens": 66,
+          "total_tokens": 1095,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p014:c001 | data/raw/doc1.pdf | page 14 | section ch1_slowing_growth]\nThe median growth slowdown episode occurs in a country-year with just 11 percent proximity to the frontier, and the mean episode occurs at 21 percent proximity to the frontier—approximately the 75th percentile in the distribution. Together, these median and mean measures imply that a majority of growth slowdowns take place in middle-income countries (figure 1.4). In fact, a middle-income country is three times as likely to experience a growth slowdown compared with a high-income country. Using the World Bank’s Long Term Growth Model (LTGM),18 figure 1.5 sheds more light on growth slowdowns in low- and middle-income countries.\n\n[B:wdr2024_part1:p003:c000 | data/raw/doc1.pdf | page 3 | section part1_overview]\nodds of achieving high-income statu s because of growth trajectories suggestive of a “middle-income trap.” Part 1 of this Report examines the evidence for the middle-income trap and asks three questions. First, is growth in middle-income countries slower, with investment-led growth running out of steam (chapter 1, Slowing Growth)? Second, is growth in middle-income countries different , requiring a significant change in growth strat egies ( chapt er 2, Structural Stasis)? And, third, is growth in middle- income countries now harder ( chapt er 3, Shrinking Spaces)? Chapter 1 summarizes the evidence on growth slowdowns and highlights that in middle- incom e countries a majority of growth slowdowns take place as the returns from capital investment diminish sharply. The median growth slowdown episode occurs when a country reaches a little more than 11 percent of the gross domestic product (GDP) per capita level of the United States.\n\n[B:wdr2024_part1:p004:c000 | data/raw/doc1.pdf | page 4 | section ch1_slowing_growth]\nSlowing Growth Key messages • Today’s 108 middle-income countries represent about 40 percent of the global economy, are home to about 75 percent of the world’s population and more than 60 percent of the world’s poor, and contribute nearly two-thirds of global carbon dioxide emissions. • Middle-income countries are prone to systematic growth slowdowns—a concept termed the “middle-income trap.” The median growth slowdown episode occurs when a country reaches about 11 percent of the gross domestic product per capita of the United States. • Although income per capita is the metric most commonly used to measure the pace of economic development, measures of average income can differ greatly, depending on the measure. • Countries with weaker institutions—and especially those with lower levels of economic and political freedom—are more susceptible to slowdowns at even lower levels of income.",
+    "context_ids": [
+      "B:wdr2024_part1:p014:c001",
+      "B:wdr2024_part1:p003:c000",
+      "B:wdr2024_part1:p004:c000"
+    ],
+    "context_chars": 2730,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1408,
+      "completion_tokens": 89,
+      "model_calls": 2,
+      "cost_usd": 0.0002646
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.616,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "In the Spotlight section, how much of productivity growth in developing countries comes from efficient allocation of factors of production?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Efficient allocation of the factors of production accounts for about 25 percent of productivity growth in developing countries. This efficiency boosts job and output growth and creates positive spillovers for other businesses along the value chain. Additionally, reducing productivity-constraining distortions encourages productive firms to infuse new technologies and grow [B:wdr2024_part1:p017:c002].",
+    "citations": [
+      "B:wdr2024_part1:p017:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.969,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 383,
+          "completion_tokens": 26,
+          "total_tokens": 409,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Spotlight section productivity growth developing countries efficient allocation of factors of production",
+        "filter": {
+          "section": "spotlight"
+        },
+        "top_k": 3,
+        "latency_s": 0.051,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p017:c002",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 17,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p017:c001",
+            "rank": 2,
+            "score": 0.032,
+            "page": 17,
+            "section": "spotlight"
+          },
+          {
+            "id": "B:wdr2024_part1:p018:c001",
+            "rank": 3,
+            "score": 0.0313,
+            "page": 18,
+            "section": "spotlight"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p017:c002",
+          "B:wdr2024_part1:p017:c001",
+          "B:wdr2024_part1:p018:c001"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p017:c002",
+          "B:wdr2024_part1:p017:c001",
+          "B:wdr2024_part1:p018:c001"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.705,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1008,
+          "completion_tokens": 108,
+          "total_tokens": 1116,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p017:c002 | data/raw/doc1.pdf | page 17 | section spotlight]\nAt this stage of growth, countries also need to improve the allocation of resources to their most productive firms. In fact, efficient allocation of the factors of production accounts for about 25 percent of productivity growth in developing countries.4 Efficiency in allocating resources boosts job and output growth as well as creates positive spillovers for other businesses along the value chain.5 By reducing productivity-constraining distortions—defined as policy measures that curb the expansion and growth of productive firms— countries can encourage productive firms to infuse new technologies and grow. Finally, when countries focus on innovation, there is a rise in the number of their patents and the importance of these patents in the global production of knowledge. Talent Countries need a more skilled workforce as their production processes become more complex with\n\n[B:wdr2024_part1:p017:c001 | data/raw/doc1.pdf | page 17 | section spotlight]\nBecause of these limitations, better indicators are needed to provide a clear picture of the underlying structure of an economy, much like an MRI provides three-dimensional images of the human body, going beyond the less-detailed view provided by an X-ray. To that end, the first step is to examine the dynamism of a country’s enterprises, its talent, and its changing carbon emissions profile. The second step is to examine specific factors that drive progress and identify those that hold it back. Enterprise Middle-income growth requires a shift from investment in physical capital to infusion of technology and innovation. At this stage, countries need to improve their capabilities to produce a range of sophisticated products. The Economic Complexity Index (ECI) provides a measure of a country’s productive capabilities based on the diversity and complexity of its export basket.\n\n[B:wdr2024_part1:p018:c001 | data/raw/doc1.pdf | page 18 | section spotlight]\nUnreliable supply disrupts production and creates additional pressures on firms to invest in alternate backup sources. Further, growing energy use often exacer-bates emissions. The ultimate impact of rising energy demand on carbon emissions will depend on the carbon intensity of production, reflecting both the energy mix and the energy intensity of production. Middle-income countries will need to enhance energy access and reliability while “decoupling” from their economic growth and carbon emissions. The indicators suggested in table S.1 complement the use of GNI per capita to understand a country’s economic structure. The selected countries in table S.1 account for 62 percent of the global population and 72 percent of global GDP. The proposed indicators can help policy makers gain a clearer and more complete picture of their countries’ economic health.",
+    "context_ids": [
+      "B:wdr2024_part1:p017:c002",
+      "B:wdr2024_part1:p017:c001",
+      "B:wdr2024_part1:p018:c001"
+    ],
+    "context_chars": 2870,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1391,
+      "completion_tokens": 134,
+      "model_calls": 2,
+      "cost_usd": 0.00028905
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.726,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "By 2008, how productive was the average Brazilian manufacturing worker compared with an American worker?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "By 2008, the average Brazilian manufacturing worker was 17 percent as productive as his American counterpart. This represents a decline from over 40 percent in the early 1970s. [B:wdr2024_part1:p021:c002]",
+    "citations": [
+      "B:wdr2024_part1:p021:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.065,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 380,
+          "completion_tokens": 25,
+          "total_tokens": 405,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Brazilian manufacturing worker productivity compared to American worker 2008",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.043,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p021:c002",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 21,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p021:c003",
+            "rank": 2,
+            "score": 0.0323,
+            "page": 21,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p023:c002",
+            "rank": 3,
+            "score": 0.0308,
+            "page": 23,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p021:c002",
+          "B:wdr2024_part1:p021:c003",
+          "B:wdr2024_part1:p023:c002"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p021:c002",
+          "B:wdr2024_part1:p021:c003",
+          "B:wdr2024_part1:p023:c002"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 2.05,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 993,
+          "completion_tokens": 86,
+          "total_tokens": 1079,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p021:c002 | data/raw/doc1.pdf | page 21 | section ch2_structural_stasis]\nIntroduction In Brazil in the early 1970s, after several decades of impressive output growth, the average worker in the manufacturing sector was more than 40 percen t as productive as his American coun terpart. By 2008, this ratio had fallen to 17 percent. Up until about 1980, Brazil implemented protectionist policies from foreign competition and provided incentives to substitute imports by domestic manufacturers. Although all these policies were intended to make Brazil more competitive, they led to a decline in the productivity of Brazilian workers, and enterprises became less competitive than those in the United States.1 Meanwhile, in Northeast Asia something completely different was happening in the Republic of Korea and Taiwan, China. In the 1970s, the productivity of Korea’s manufacturing workers was less than one-tenth of their American counterparts.\n\n[B:wdr2024_part1:p021:c003 | data/raw/doc1.pdf | page 21 | section ch2_structural_stasis]\nBy 2008, their productivity was greater than 70 percent that of the average American worker in the same sector. 2 Their enterprises became well known globally because their economies reinvented themselves after they had reached middle-income status— not once, but twice. Both economies grew rapidly to the upper-middle-income level, followed by the high-income level, and subsequently to levels of income and standards of living similar to those of advanced economies such as\n\n[B:wdr2024_part1:p023:c002 | data/raw/doc1.pdf | page 23 | section ch2_structural_stasis]\nIn fact, much of the growth in the United States between 1909 and 1949—when it was a middle-income country—stemmed from technical change, not an increase in capital per worker.5 If much of growth everywhere is the result of technical change, then conventional thinking would follow that every middle-income country needs to figure out how to quickly institute arrangements that foster technical progress, not only (or primarily) the accumulation of capital. But this interpretation is not helpful for policy making because of the ongoing importance of capital deepening across all categories Source: WDR 2024 team using data from Lange, Wodon, and Carey (2018); PWT (Penn World Table) (database version 10.1), Groningen Growth and Development Centre, Faculty of Economics and Business, University of Groningen, Groningen, the Netherlands, https://www.rug.nl/ggdc/productivity/pwt/ . Note: GDP = gross domestic product.",
+    "context_ids": [
+      "B:wdr2024_part1:p021:c002",
+      "B:wdr2024_part1:p021:c003",
+      "B:wdr2024_part1:p023:c002"
+    ],
+    "context_chars": 2535,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1373,
+      "completion_tokens": 111,
+      "model_calls": 2,
+      "cost_usd": 0.00027254999999999993
+    },
+    "agent_version": 2,
+    "elapsed_s": 3.158,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "If capital endowments were the only difference between middle-income and high-income countries, what would a typical middle-income country's GNI be relative to the United States?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "If capital endowments were the only difference between middle-income and high-income countries, the gross national income (GNI) of a typical middle-income country would be about 75 percent that of the United States. [B:wdr2024_part1:p023:c000]",
+    "citations": [
+      "B:wdr2024_part1:p023:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.964,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 394,
+          "completion_tokens": 26,
+          "total_tokens": 420,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "middle-income countries GNI relative to United States capital endowments",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.045,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p023:c000",
+            "rank": 1,
+            "score": 0.0325,
+            "page": 23,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p007:c003",
+            "rank": 2,
+            "score": 0.03,
+            "page": 7,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p007:c004",
+            "rank": 3,
+            "score": 0.0294,
+            "page": 7,
+            "section": "ch1_slowing_growth"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p023:c000",
+          "B:wdr2024_part1:p007:c003",
+          "B:wdr2024_part1:p007:c004"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p023:c000",
+          "B:wdr2024_part1:p007:c003",
+          "B:wdr2024_part1:p007:c004"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.559,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 960,
+          "completion_tokens": 91,
+          "total_tokens": 1051,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p023:c000 | data/raw/doc1.pdf | page 23 | section ch2_structural_stasis]\nEconomic development = structural change As described in chapter 1, the term “middle- income trap” refers to the risk of an economic slowdown or stagnation if a country fails to adapt its policies and institutions to changing economic and structural needs.3 Strategies based on factor accumulation alone are likely to steadily worsen results—a natural occurrence as the marginal productivity of capital declines. Even if all middle -income countries enjoyed the enabling conditions of peace, freedom, factor mobility, and rule of law, the returns from capital investment alone would decline too sharply to support the countries’ sustained and ongoing economic growth.4 If capital endowments were the only economi-cally relevant difference between middle- income and high-income countries today, the gross national income (GNI) of a typical middle-income country would be about 75 percent that of the United States.\n\n[B:wdr2024_part1:p007:c003 | data/raw/doc1.pdf | page 7 | section ch1_slowing_growth]\nFigure 1.2 Income per capita of middle-income countries relative to that of the United States has been stagnant for decades Source: WDR 2024 team using data from WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org/search/dataset/0037712 . Note: The plotted lines indicate the trend of average income per capita in middle-income countries and in middle-income countries, excluding China, relative to income per capita in the United States (considered as the economic frontier country).\n\n[B:wdr2024_part1:p007:c004 | data/raw/doc1.pdf | page 7 | section ch1_slowing_growth]\nCountry definitions are based on the first World Development Report (World Bank 1978), in which low-income countries have gross national income (GNI) per capita of US$250 or less, and middle-income countries have GNI per capita of more than US$250; industrialized (high-income) countries consist of member countries of the Organisation for Economic Co-operation and Development (OECD), except for Greece, Portugal, Spain, and Türkiye, which are classified as middle-income countries. Share of US GNI per capita (%) Middle-income countries Middle-income countries, excluding China",
+    "context_ids": [
+      "B:wdr2024_part1:p023:c000",
+      "B:wdr2024_part1:p007:c003",
+      "B:wdr2024_part1:p007:c004"
+    ],
+    "context_chars": 2304,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1354,
+      "completion_tokens": 117,
+      "model_calls": 2,
+      "cost_usd": 0.00027330000000000003
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.569,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "What fraction of the world's science and engineering graduates now come from middle-income countries?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Three-quarters of STEM graduates are now in middle-income countries [B:wdr2024_part1:p026:c001].",
+    "citations": [
+      "B:wdr2024_part1:p026:c001"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.985,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 377,
+          "completion_tokens": 23,
+          "total_tokens": 400,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "fraction of world's science and engineering graduates middle-income countries",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.036,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p027:c003",
+            "rank": 1,
+            "score": 0.0325,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p026:c001",
+            "rank": 2,
+            "score": 0.032,
+            "page": 26,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c004",
+            "rank": 3,
+            "score": 0.031,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p027:c003",
+          "B:wdr2024_part1:p026:c001",
+          "B:wdr2024_part1:p027:c004"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p027:c003",
+          "B:wdr2024_part1:p026:c001",
+          "B:wdr2024_part1:p027:c004"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.318,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 867,
+          "completion_tokens": 60,
+          "total_tokens": 927,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p027:c003 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nMiddle-income countries lag noticeably behind high-income countries in terms of the “novelty” of their knowledge, as well as in producing new Source: WDR 2024 team. Note: The primary data for the calculation of the percentage share of science, technology, engineering, and mathematics (STEM) graduates in tertiary education are from UIS.Stat (dashboard), Institute for Statistics, United Nations Educational, Scientific, and Cultural Organization, Montreal, http://data.uis.unesco.org/. The STEM data set covers 144 countries.\n\n[B:wdr2024_part1:p026:c001 | data/raw/doc1.pdf | page 26 | section ch2_structural_stasis]\nEncouragingly, three-quarters of STEM graduates are now in middle-income countries, and Chinese and Indian STEM graduates make up about half of global STEM graduates (figure 2.4). The example of Korea, the only country ever to sustain economic growth that averaged more than 5 percent for more than 50 years, is especially illustrative. How did Korean industry do it? Domestic firms such as Samsung embarked on a journey that began with infusion. By licensing technologies from Sanyo and NEC in Japan, Samsung transitioned from making noodles Source: WDR 2024 team using DataBank: Jobs, World Bank, Washington, DC, https://databank.worldbank.org/source / jobs; WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https://datacatalog.worldbank.org / search/dataset/0037712 .\n\n[B:wdr2024_part1:p027:c004 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nFigure 2.4 STEM graduates are increasingly concentrated in middle-income countries, thereby increasing opportunities for technology infusion Low-income Lower-middle-incom e Upper-middle-incom e High-income Share of global STEM graduates (%)",
+    "context_ids": [
+      "B:wdr2024_part1:p027:c003",
+      "B:wdr2024_part1:p026:c001",
+      "B:wdr2024_part1:p027:c004"
+    ],
+    "context_chars": 1840,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1244,
+      "completion_tokens": 83,
+      "model_calls": 2,
+      "cost_usd": 0.00023639999999999997
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.34,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "According to the Structural Stasis chapter, how did Korea subsidize the adoption of foreign technologies and innovation?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "Korea subsidized the adoption of foreign technologies and innovation through tax credits for royalty payments and research and development (R&D) expenditures. Initially, this policy focused on technology adoption when the technology gap with foreign firms was significant, but it gradually shifted towards supporting innovation as Korean conglomerates caught up with their foreign counterparts. Additionally, public support for these initiatives was monitored and evaluated, with data on innovation grants made publicly available.  \n\n[B:wdr2024_part1:p025:c001, B:wdr2024_part1:p025:c002] [B:wdr2024_part1:p025:c001][B:wdr2024_part1:p025:c002]",
+    "citations": [
+      "B:wdr2024_part1:p025:c001",
+      "B:wdr2024_part1:p025:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.857,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 382,
+          "completion_tokens": 26,
+          "total_tokens": 408,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Korea subsidize adoption of foreign technologies innovation Structural Stasis chapter",
+        "filter": {
+          "section": "ch2_structural_stasis"
+        },
+        "top_k": 3,
+        "latency_s": 0.036,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p028:c003",
+            "rank": 1,
+            "score": 0.0323,
+            "page": 28,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p025:c001",
+            "rank": 2,
+            "score": 0.0315,
+            "page": 25,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p025:c002",
+            "rank": 3,
+            "score": 0.0315,
+            "page": 25,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p028:c003",
+          "B:wdr2024_part1:p025:c001",
+          "B:wdr2024_part1:p025:c002"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p028:c003",
+          "B:wdr2024_part1:p025:c001",
+          "B:wdr2024_part1:p025:c002"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 2.107,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1057,
+          "completion_tokens": 159,
+          "total_tokens": 1216,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "citations_appended_inline",
+        "ids": [
+          "B:wdr2024_part1:p025:c001",
+          "B:wdr2024_part1:p025:c002"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p028:c003 | data/raw/doc1.pdf | page 28 | section ch2_structural_stasis]\nThe time, manner and drawing, specification and other technical document as well (a) CO., LTD. AND Sources: Panel a: National Archives of Korea, https://www.archives.go.kr/english/index.jsp . Panel b: Choi and Shim 2024. Note: Panel b shows the adoption subsidy rate alongside the innovation (R&D) subsidy rate, calculated using the tax credit rate and the corporate tax rate. For example, a 30 percent subsidy rate indicates that firms can receive a reimbursement equivalent to 30 percent of their expenditures on adoption fees or R&D. R&D = research and development. Figure 2.5 Calibrating policies to a country’s stage of development: From imitation to innovation in the Republic of Korea\n\n[B:wdr2024_part1:p025:c001 | data/raw/doc1.pdf | page 25 | section ch2_structural_stasis]\n• Postwar Europe. The onset of the European Golden Age was powered by infusion. The two world wars in the first half of the twen-tieth century destroyed much of Europe’s capital stock and skills. And the exodus of talent in the interwar years meant that Europe lagged behind the United States in technology. 7 The Marshall Plan was developed to transfer technologies from the United States to Europe. European managers were sent to the United States to acquire skills, and businesses could obtain loans to purchase technologically advanced American capital goods under the US Productivity Program. As a result, Europe rapidly adopted modern technologies and best practices, allowing Western European countries to accomplish in 30 years what might otherwise have taken twice as long.8 • Korea. An important component of industrial policy in Korea was incentives for technological investment. In particular, Korea subsidized the adoption of foreign technologies and innovation through tax credits.\n\n[B:wdr2024_part1:p025:c002 | data/raw/doc1.pdf | page 25 | section ch2_structural_stasis]\nSpecifically, firms received tax credits for royalty payments or research and development (R&D) expenditures. The policy first subsidized technology adoption when the technology gap with foreign firms was large. But as Korean conglomerates caught up with foreign firms, the approach gradually shifted toward supporting innovation. Korean policy makers ensured that public support was monitored and evaluated, and data on innovation grants were made publicly available. • Malaysia. Malaysia became a successful industrialized country through infusion-centered and export-oriented growth that replaced import substitution policies in the mid-1980s. Technology embodied in foreign direct investment (FDI) was important for developing and structuring the country’s industrial base. Malaysia offered a spectrum of tax incentives to attract FDI through the Promotion of Investment Act in 1986.9 Malaysia’s growth in the 1980s was marked by large productivity gains from adopting and diffusing technology.",
+    "context_ids": [
+      "B:wdr2024_part1:p028:c003",
+      "B:wdr2024_part1:p025:c001",
+      "B:wdr2024_part1:p025:c002"
+    ],
+    "context_chars": 2958,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1439,
+      "completion_tokens": 185,
+      "model_calls": 2,
+      "cost_usd": 0.00032685
+    },
+    "agent_version": 2,
+    "elapsed_s": 3.001,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "How long is it estimated to take today's middle-income countries to move from an aging society to an aged society?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "It is estimated to take about 26 years for today's middle-income countries to transition from an aging society to an aged society. This is significantly faster than the historical transitions experienced by high-income countries, which took about 61 years on average. [B:wdr2024_part1:p036:c000]",
+    "citations": [
+      "B:wdr2024_part1:p036:c000"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.906,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 383,
+          "completion_tokens": 22,
+          "total_tokens": 405,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "middle-income countries aging society aged society transition duration",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.047,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p036:c000",
+            "rank": 1,
+            "score": 0.0325,
+            "page": 36,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p036:c001",
+            "rank": 2,
+            "score": 0.0323,
+            "page": 36,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p037:c003",
+            "rank": 3,
+            "score": 0.0306,
+            "page": 37,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p036:c000",
+          "B:wdr2024_part1:p036:c001",
+          "B:wdr2024_part1:p037:c003"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p036:c000",
+          "B:wdr2024_part1:p036:c001",
+          "B:wdr2024_part1:p037:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.481,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1061,
+          "completion_tokens": 82,
+          "total_tokens": 1143,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "citations_appended_inline",
+        "ids": [
+          "B:wdr2024_part1:p036:c000"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p036:c000 | data/raw/doc1.pdf | page 36 | section ch3_shrinking_spaces]\nBox 3.1 Graying growth Historically, demographic dividends have fostered economic growth in many countries. An increase in the working-age population and a consequent decrease in dependency ratios free up resources to be spent on education, health care, employment, and social protection schemes.a However, the world is aging rapidly and fertility rates are declining rapidly,b which will especially affect middle-income countries projected to face labor crunches in the coming decades. In fact, today’s middle-income countries are aging more rapidly than high-income countries did in the past. Transitioning from an aging society to an aged society took about 61 years in today’s high-income countries and as long as 69 years in the United States and 115 years in France.c By contrast, transitioning from an aging society to an aged society is estimated to take about 26 years for today’s middle-income countries (figure B3.1.1).\n\n[B:wdr2024_part1:p036:c001 | data/raw/doc1.pdf | page 36 | section ch3_shrinking_spaces]\nFigure B3.1.1 Today’s middle-income countries are aging more rapidly than high-income countries did in the past Sources: WDR 2024 team using data of World Population Prospects (dashboard), Population Division, Department of Economic and Social Affairs, United Nations, New York, https://population .un.org/wpp/; World Bank (2016). Note: The bars indicate beginning and end years for transitioning from 7 percent (aging) to 14 percent (aged) of the population age 65 and older. The number corresponding to each bar shows total number of years to transition from aging to aged. Aging and aged thresholds are based on definitions by the Population Division of the United Nations Department of Economic and Social Affairs (UN DESA). Bars for income groups represent the averages of countries included in the corresponding income group. The dashed vertical line indicates the year 2023.\n\n[B:wdr2024_part1:p037:c003 | data/raw/doc1.pdf | page 37 | section ch3_shrinking_spaces]\nLee and Mason (2006); UN DESA (2022). c. Aging society and aged society thresholds are based on the definition of the Population Division of the United Nations Department of Economic and Social Affairs (UN DESA). According to the definition, the share of people age 65 and older exceeds 7 percent of the population in an aging society, and a country qualifies as an aged society if this share exceeds 14 percent. d. UN DESA (2022). e. Moss (2017). f. Wakeman-Linn et al. (2015). g. Green (2023). h. World Bank (2023b). i. Prato (2023). Box 3.1 Graying growth (continued)",
+    "context_ids": [
+      "B:wdr2024_part1:p036:c000",
+      "B:wdr2024_part1:p036:c001",
+      "B:wdr2024_part1:p037:c003"
+    ],
+    "context_chars": 2652,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 104,
+      "model_calls": 2,
+      "cost_usd": 0.000279
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.433,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "question": "How has the yearly count of new harmful trade measures changed over the past ten years?",
+    "answerable": true,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "answered",
+    "answer": "The number of new harmful trade measures enacted per year has doubled over the last decade. This indicates a significant increase in harmful trade policies during this period [B:wdr2024_part1:p038:c002].",
+    "citations": [
+      "B:wdr2024_part1:p038:c002"
+    ],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.115,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 378,
+          "completion_tokens": 24,
+          "total_tokens": 402,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "yearly count of new harmful trade measures past ten years",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.039,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p038:c002",
+            "rank": 1,
+            "score": 0.0325,
+            "page": 38,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p039:c003",
+            "rank": 2,
+            "score": 0.0325,
+            "page": 39,
+            "section": "ch3_shrinking_spaces"
+          },
+          {
+            "id": "B:wdr2024_part1:p038:c003",
+            "rank": 3,
+            "score": 0.0317,
+            "page": 38,
+            "section": "ch3_shrinking_spaces"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p038:c002",
+          "B:wdr2024_part1:p039:c003",
+          "B:wdr2024_part1:p038:c003"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p038:c002",
+          "B:wdr2024_part1:p039:c003",
+          "B:wdr2024_part1:p038:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.353,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 835,
+          "completion_tokens": 77,
+          "total_tokens": 912,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "context": "[B:wdr2024_part1:p038:c002 | data/raw/doc1.pdf | page 38 | section ch3_shrinking_spaces]\nincreasing: the number of new harmful trade measures enacted per year doubled over the last decade (figure 3.1). Source: WDR 2024 team using the GTA (Global Trade Alert) database, St. Gallen Endowment for Prosperity through Trade, University of St. Gallen, St. Gallen, Switzerland, https://www.globaltradealert.org/data_extraction . Note: Measuring trade policies is fraught with challenges, and the GTA database may overrepresent countries that issue a relatively high quantity of legislative documents or those with greater regulatory transparency. The plotted lines indicate global trade policies that were introduced in the corresponding year. Helpful trade policies include interventions that liberalize on a nondiscriminatory basis or improve the transparency of a relevant policy. Harmful trade policies include interventions that discriminate against foreign commercial interests.\n\n[B:wdr2024_part1:p039:c003 | data/raw/doc1.pdf | page 39 | section ch3_shrinking_spaces]\nFigure 3.2 Harmful interventions in the global semiconductor trade have skyrocketed since 2019 8541 semiconductors 8542 semiconductors 100Number of new interventions Number of new interventions a. New helpful trade interventions in critical technologies per year b. New harmful trade interventions in critical technologies per year\n\n[B:wdr2024_part1:p038:c003 | data/raw/doc1.pdf | page 38 | section ch3_shrinking_spaces]\nSee Harmonized System (dashboard), World Customs Organization, Brussels, https://www.wcotradetools.org/en/harmonized-system . Figure 3.1 Globally, harmful trade policies outnumber helpful trade policies Number of new global trade policies Helpful trade policies Harmful trade policies",
+    "context_ids": [
+      "B:wdr2024_part1:p038:c002",
+      "B:wdr2024_part1:p039:c003",
+      "B:wdr2024_part1:p038:c003"
+    ],
+    "context_chars": 1774,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1213,
+      "completion_tokens": 101,
+      "model_calls": 2,
+      "cost_usd": 0.00024255
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.508,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "By which year does Thailand aim to reach high-income status?",
+    "answerable": false,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "The documents do not contain enough evidence.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 1.079,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 373,
+          "completion_tokens": 19,
+          "total_tokens": 392,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Thailand high-income status target year",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.043,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p006:c001",
+            "rank": 1,
+            "score": 0.0313,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p006:c000",
+            "rank": 2,
+            "score": 0.0311,
+            "page": 6,
+            "section": "ch1_slowing_growth"
+          },
+          {
+            "id": "B:wdr2024_part1:p024:c003",
+            "rank": 3,
+            "score": 0.0296,
+            "page": 24,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p024:c003"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p006:c001",
+          "B:wdr2024_part1:p006:c000",
+          "B:wdr2024_part1:p024:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.006,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 998,
+          "completion_tokens": 30,
+          "total_tokens": 1028,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "context": "[B:wdr2024_part1:p006:c001 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nFigure 1.1 A handful of economies have transitioned from middle-income to high-income status over the last three decades Source: WDR 2024 team using WDI (World Development Indicators) (Data Catalog), World Bank, Washington, DC, https:// datacatalog.worldbank.org/search/dataset/0037712 . Note: Each scatter point indicates an economy’ s 1 990 and 2022 gross national income ( GNI) per capita in current US dollar terms (using the World Bank Atlas method). The blue vertical lines show thresholds to transition to lower-middle-income status, upper-middle-income status, and high-income status in 1990 (US$610, US$2,465, and US$7,620, respectively), while the blue horizontal lines show these thresholds in 2022 (US$1,135, US$4,465, and US$13,845, respectively) based on the World Bank income classifications (https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country -and-lending-groups). The figure includes only economies at middle-income levels in 1990.\n\n[B:wdr2024_part1:p006:c000 | data/raw/doc1.pdf | page 6 | section ch1_slowing_growth]\nthe nation into a developed economy by 2047— the hundredth year of independence. In Viet Nam, its Socio-Economic Development Strategy 2021–2030 outlines a plan to sustain GDP per capita growth of 7 percent through this decade, with a transition to high-income status by 2045. In South Africa, the 2030 National Development Plan has prioritized raising its income per capita from US$2,800 in 2010 to US$7 ,000 by 2030. Other middle-income countries have similar aspirations. But the growth prospects of middle-income countries are not improving. Over the last decade, the global economy has gone from healthy to hobbling and from largely integrated to increasingly fragmented.7 Foreign trade and investment channels are also becoming more constricted—or at least encumbered—by geopolitical tensions.\n\n[B:wdr2024_part1:p024:c003 | data/raw/doc1.pdf | page 24 | section ch2_structural_stasis]\nFigure 2.2 A middle-income country will need to engineer two successive transitions to achieve high-income status: Infusion, followed by innovation 2i Investment + Infusion 1i Investment 3i Investment + Infusion + Innovation Capital Productivity Relative contribution to growth Proximity to the frontier",
+    "context_ids": [
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p024:c003"
+    ],
+    "context_chars": 2348,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1371,
+      "completion_tokens": 49,
+      "model_calls": 2,
+      "cost_usd": 0.00023505000000000002
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.127
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "What was Bulgaria's R&D expenditure as a share of GDP in 2021?",
+    "answerable": false,
+    "retrieval_config": "hybrid_k3",
+    "model": "gpt-4o-mini",
+    "status": "abstain",
+    "answer": "The document does not contain enough evidence regarding Bulgaria's R&D expenditure as a share of GDP in 2021.",
+    "citations": [],
+    "events": [
+      {
+        "event": "model_call",
+        "latency_s": 0.992,
+        "tool_calls": [
+          "search_documents"
+        ],
+        "usage": {
+          "prompt_tokens": 378,
+          "completion_tokens": 25,
+          "total_tokens": 403,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "method": "hybrid",
+        "query": "Bulgaria R&D expenditure share of GDP 2021",
+        "filter": null,
+        "top_k": 3,
+        "latency_s": 0.038,
+        "results": [
+          {
+            "id": "B:wdr2024_part1:p030:c001",
+            "rank": 1,
+            "score": 0.0328,
+            "page": 30,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p027:c002",
+            "rank": 2,
+            "score": 0.0313,
+            "page": 27,
+            "section": "ch2_structural_stasis"
+          },
+          {
+            "id": "B:wdr2024_part1:p031:c003",
+            "rank": 3,
+            "score": 0.0308,
+            "page": 31,
+            "section": "ch2_structural_stasis"
+          }
+        ],
+        "added_to_context": [
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p031:c003"
+        ],
+        "dropped": [],
+        "context_ids": [
+          "B:wdr2024_part1:p030:c001",
+          "B:wdr2024_part1:p027:c002",
+          "B:wdr2024_part1:p031:c003"
+        ]
+      },
+      {
+        "event": "model_call",
+        "latency_s": 1.218,
+        "tool_calls": [
+          "submit_answer"
+        ],
+        "usage": {
+          "prompt_tokens": 1194,
+          "completion_tokens": 45,
+          "total_tokens": 1239,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "context": "[B:wdr2024_part1:p030:c001 | data/raw/doc1.pdf | page 30 | section ch2_structural_stasis]\nThe magnitude of FDI inflows to Estonia during the 1990s was seven times that to Bulgaria and three times that to Poland.c Estonia maintained its status as a leading innovator in the region, with the highest research and development (R&D) intensity—1.75 percent of its gross domestic product (GDP) in 2021—and a high ranking in the Global Innovation Index (GII).d As for Poland, early “big bang” reforms, trade competition, and hard budget constraints for state-owned enterprises (SOEs) systematically activated a cycle of creative destruction, closing the gap with advanced countries, as evidenced by an increase in R&D expenditure to 1.3 percent of GDP in 2021, as well as higher GII scores. Policy insight 2: Incentives for incumbents to drive innovation are crucial Productivity growth is a dominant driver of income convergence. Between 1996 and 2021, Estonia displayed robust annual productivity growth of 3.8 percent, followed by Poland at 2.6 percent and Bulgaria at 1.4 percent.\n\n[B:wdr2024_part1:p027:c002 | data/raw/doc1.pdf | page 27 | section ch2_structural_stasis]\nTo reach this point, however, governments must have done everything possible in the infusion phase to not just prepare the economic structure for the different next stage, but also reform and strengthen supporting institutions. Those who falter in infusion or try to leapfrog will find it much more challenging to transition toward innovation. A comparison of Estonia, Poland, and Bulgaria is illustrative. Transitioning from central planning, Estonia reached 80 percent of Western European income by 2021, Poland 75 percent, and Bulgaria 50 percent (box 2.2). Estonian independence in 1991 catalyzed a swift transition to high levels of innovation. By contrast, Bulgaria pro-tected many incumbent state-owned enterprises (SOEs) from competition and stymied efficient resource allocation, preventing the contrac-tion of low- producti vity sectors. As for Poland, it privatized many of its SOEs and champi oned competition.\n\n[B:wdr2024_part1:p031:c003 | data/raw/doc1.pdf | page 31 | section ch2_structural_stasis]\nGross national income (GNI) per capita and gross domestic product (GDP) per capita data in this report are as of July 2023. As of July 2023, Bulgaria was classified by the World Bank as an upper-middle-income country, with a GNI per capita (Atlas method, current US dollars) of US$13,350, short of crossing the high-income country threshold of US$13,846. b. These figures are measured using purchasing power parity for the four largest EU economies. c. These figures capture net FDI per capita accumulated by the end of 1999. d. See GII (Global Innovation Index) (dashboard), World Intellectual Property Organization, Geneva, https://www.wipo.int / global_inn ovation_index/en/. e. Pinto, Belka, and Krajewski (1993). f. Kolasa (2008). g. Gradzewicz et al. (2018). h. Bukowski et al. (2006). Box 2.2 Three ways to evade the middle-income trap: Swiftly (Estonia), steadily (Poland), or slowly (Bulgaria) (continued)",
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p031:c003"
+    ],
+    "context_chars": 3097,
+    "searches": 1,
+    "usage": {
+      "prompt_tokens": 1572,
+      "completion_tokens": 70,
+      "model_calls": 2,
+      "cost_usd": 0.0002778
+    },
+    "agent_version": 2,
+    "elapsed_s": 2.248
+  }
+]

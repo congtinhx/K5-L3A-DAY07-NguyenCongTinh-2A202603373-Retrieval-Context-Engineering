@@ -1,0 +1,78 @@
+[
+  {
+    "query_id": "n01",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n02",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n03",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n04",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n05",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence."
+  },
+  {
+    "query_id": "n06",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "reason": "Đúng ý đáp án chuẩn, đủ điều kiện; chunk được trích chứa nguyên văn evidence. BM25 trong hybrid tìm được p018:c001 ngay lượt 1 (khớp \"table S.1\")."
+  },
+  {
+    "query_id": "x01",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "reason": "Từ chối đúng, không khẳng định thêm."
+  },
+  {
+    "query_id": "x02",
+    "labeled_by": "Claude (AI hỗ trợ) đề xuất sau khi đọc trace và nguyên văn chunk; sinh viên kiểm tra lại",
+    "citation_support": [],
+    "abstention_correct": true,
+    "context_grade": null,
+    "reason": "Từ chối đúng, không khẳng định thêm."
+  }
+]

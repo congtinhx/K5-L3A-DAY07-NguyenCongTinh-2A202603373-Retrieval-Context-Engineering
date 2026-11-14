@@ -1,0 +1,390 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test_v1",
+    "question": "What was Estonia's R&D intensity as a share of GDP in 2021?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 445.6,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p030:c001",
+        "rank": 1,
+        "score": 0.89757,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p027:c002",
+        "rank": 2,
+        "score": 0.84592,
+        "page": 27,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p030:c000",
+        "rank": 3,
+        "score": 0.8283,
+        "page": 30,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p030:c001",
+      "B:wdr2024_part1:p027:c002",
+      "B:wdr2024_part1:p030:c000"
+    ],
+    "context_chars": 2677,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "t02",
+    "split": "test_v1",
+    "question": "How expensive could technology decoupling be for many economies, in terms of output?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 133.9,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p038:c001",
+        "rank": 1,
+        "score": 0.86511,
+        "page": 38,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p039:c001",
+        "rank": 2,
+        "score": 0.84602,
+        "page": 39,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p039:c000",
+        "rank": 3,
+        "score": 0.83994,
+        "page": 39,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p038:c001",
+      "B:wdr2024_part1:p039:c001",
+      "B:wdr2024_part1:p039:c000"
+    ],
+    "context_chars": 2849,
+    "dropped": [],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 3,
+    "context_hit": true
+  },
+  {
+    "query_id": "t03",
+    "split": "test_v1",
+    "question": "In the Shrinking Spaces chapter, how does energy intensity in middle-income countries compare with high-income countries?",
+    "filter": {
+      "section": "ch3_shrinking_spaces"
+    },
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 117.0,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p042:c000",
+        "rank": 1,
+        "score": 0.89956,
+        "page": 42,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p041:c002",
+        "rank": 2,
+        "score": 0.89302,
+        "page": 41,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p035:c000",
+        "rank": 3,
+        "score": 0.86816,
+        "page": 35,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p042:c000",
+      "B:wdr2024_part1:p041:c002",
+      "B:wdr2024_part1:p035:c000"
+    ],
+    "context_chars": 2493,
+    "dropped": [],
+    "hit1": false,
+    "hit3": true,
+    "first_hit_rank": 2,
+    "context_hit": true
+  },
+  {
+    "query_id": "t04",
+    "split": "test_v1",
+    "question": "What share of transitions from middle-income to high-income status over the last three decades happened during or shortly after investment accelerations?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 97.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p005:c002",
+        "rank": 1,
+        "score": 0.87557,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p003:c001",
+        "rank": 2,
+        "score": 0.85965,
+        "page": 3,
+        "section": "part1_overview",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c001",
+        "rank": 3,
+        "score": 0.85196,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p005:c002",
+      "B:wdr2024_part1:p003:c001",
+      "B:wdr2024_part1:p006:c001"
+    ],
+    "context_chars": 3124,
+    "dropped": [],
+    "hit1": false,
+    "hit3": false,
+    "first_hit_rank": null,
+    "context_hit": false
+  },
+  {
+    "query_id": "t05",
+    "split": "test_v1",
+    "question": "In the Slowing Growth chapter, what share of the world's population lives in middle-income countries?",
+    "filter": {
+      "section": "ch1_slowing_growth"
+    },
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 93.3,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p005:c001",
+        "rank": 1,
+        "score": 0.88167,
+        "page": 5,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p004:c000",
+        "rank": 2,
+        "score": 0.88085,
+        "page": 4,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p014:c001",
+        "rank": 3,
+        "score": 0.87759,
+        "page": 14,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p005:c001",
+      "B:wdr2024_part1:p004:c000",
+      "B:wdr2024_part1:p014:c001"
+    ],
+    "context_chars": 2713,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "t06",
+    "split": "test_v1",
+    "question": "Which country is given as an example of using immigration to cope with low fertility and labor shortages?",
+    "filter": null,
+    "answerable": true,
+    "config": "dense_k3",
+    "latency_ms": 103.3,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p037:c002",
+        "rank": 1,
+        "score": 0.84187,
+        "page": 37,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p022:c002",
+        "rank": 2,
+        "score": 0.81829,
+        "page": 22,
+        "section": "ch2_structural_stasis",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p013:c002",
+        "rank": 3,
+        "score": 0.81212,
+        "page": 13,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p037:c002",
+      "B:wdr2024_part1:p022:c002",
+      "B:wdr2024_part1:p013:c002"
+    ],
+    "context_chars": 3104,
+    "dropped": [],
+    "hit1": true,
+    "hit3": true,
+    "first_hit_rank": 1,
+    "context_hit": true
+  },
+  {
+    "query_id": "u03",
+    "split": "test_v1",
+    "question": "What is Indonesia's official target year for becoming a high-income country?",
+    "filter": null,
+    "answerable": false,
+    "config": "dense_k3",
+    "latency_ms": 93.3,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 1,
+        "score": 0.84577,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p043:c001",
+        "rank": 2,
+        "score": 0.83501,
+        "page": 43,
+        "section": "ch3_shrinking_spaces",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p008:c000",
+        "rank": 3,
+        "score": 0.82583,
+        "page": 8,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p043:c001",
+      "B:wdr2024_part1:p008:c000"
+    ],
+    "context_chars": 2981,
+    "dropped": []
+  },
+  {
+    "query_id": "u04",
+    "split": "test_v1",
+    "question": "What was Viet Nam's unemployment rate in 2022?",
+    "filter": null,
+    "answerable": false,
+    "config": "dense_k3",
+    "latency_ms": 88.8,
+    "results": [
+      {
+        "id": "B:wdr2024_part1:p006:c000",
+        "rank": 1,
+        "score": 0.85057,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p006:c001",
+        "rank": 2,
+        "score": 0.83825,
+        "page": 6,
+        "section": "ch1_slowing_growth",
+        "components": null,
+        "pre_rerank_rank": null
+      },
+      {
+        "id": "B:wdr2024_part1:p019:c001",
+        "rank": 3,
+        "score": 0.82807,
+        "page": 19,
+        "section": "spotlight",
+        "components": null,
+        "pre_rerank_rank": null
+      }
+    ],
+    "context_ids": [
+      "B:wdr2024_part1:p006:c000",
+      "B:wdr2024_part1:p006:c001",
+      "B:wdr2024_part1:p019:c001"
+    ],
+    "context_chars": 3032,
+    "dropped": []
+  }
+]

@@ -1,0 +1,536 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "direct",
+  "question": "At what level of GDP per capita relative to the United States does the median growth slowdown episode occur?",
+  "expected_answer": "About 11 percent of US GDP per capita",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 4,
+    "evidence": "The median growth slowdown episode occurs when a country reaches about 11 percent of the gross domestic product per capita of the United States."
+   },
+   {
+    "source_id": "wdr2024_part1",
+    "page": 14,
+    "evidence": "The median growth slowdown episode occurs in a country-year with just 11 percent proximity to the frontier"
+   },
+   {
+    "source_id": "wdr2024_part1",
+    "page": 3,
+    "evidence": "The median growth slowdown episode occurs when a country reaches a little more than 11 percent of the gross domestic product (GDP) per capita level of the United States."
+   }
+  ]
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "direct",
+  "question": "How many middle-income economies have become high-income since 1990?",
+  "expected_answer": "34 economies",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 5,
+    "evidence": "Since 1990, 34 middle-income economies have transitioned to high-income status"
+   },
+   {
+    "source_id": "wdr2024_part1",
+    "page": 7,
+    "evidence": "the 34 economies that reached high-income status between 1990 and 2021"
+   },
+   {
+    "source_id": "wdr2024_part1",
+    "page": 2,
+    "evidence": "the 34 economies that reached high-income status between 1990 and 2021"
+   }
+  ]
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "direct",
+  "question": "By which year does Viet Nam plan to reach high-income status?",
+  "expected_answer": "2045",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 6,
+    "evidence": "with a transition to high-income status by 2045"
+   }
+  ]
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What income cutoff did the very first World Development Report use to separate poor countries from middle-income ones?",
+  "expected_answer": "US$250 GNI per capita",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 8,
+    "evidence": "using a threshold of US$250 gross national income (GNI) per capita between the groups"
+   },
+   {
+    "source_id": "wdr2024_part1",
+    "page": 4,
+    "evidence": "Middle-income countries were defined as those with annual income per capita of over US$250."
+   }
+  ]
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "direct",
+  "question": "At what value was the high-income threshold originally set in the 1989 Board paper?",
+  "expected_answer": "GNI per capita of US$6,000 in 1987 prices",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 9,
+    "evidence": "was set at GNI per capita of US$6,000 in 1987 prices"
+   }
+  ]
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "conditional",
+  "question": "How does Turkiye's GDP per capita relative to the United States differ when adjusted for PPP versus using market exchange rates?",
+  "expected_answer": "Nearly 50 percent with PPP, less than 15 percent at market exchange rates",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 10,
+    "evidence": "is nearly 50 percent when adjusted for PPP but less than 15 percent using market exchange rates"
+   }
+  ]
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much did Korea's R&D spending rise as a share of GDP between 1980 and 1990?",
+  "expected_answer": "From 0.5 percent of GDP in 1980 to 1.6 percent in 1990",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 12,
+    "evidence": "spending on R&D jumped from 0.5 percent of GDP in 1980 to 1.6 percent in 1990"
+   }
+  ]
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "type": "conditional",
+  "question": "How do Eichengreen, Park, and Shin define a growth slowdown?",
+  "expected_answer": "A decline in the seven-year average GDP per capita growth rate by at least 2 percentage points, with prior growth above 3.5 percent",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 13,
+    "evidence": "They define a slowdown as a decline in the seven-year average growth rate of gross domestic product (GDP) per capita by at least 2 percentage points"
+   }
+  ]
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Compared with rich countries, how much more prone are middle-income countries to growth slowdowns?",
+  "expected_answer": "Three times as likely",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 14,
+    "evidence": "is three times as likely to experience a growth slowdown compared with a high-income country"
+   }
+  ]
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "filter",
+  "question": "In the Spotlight section, how much of productivity growth in developing countries comes from efficient allocation of factors of production?",
+  "expected_answer": "About 25 percent",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 17,
+    "evidence": "efficient allocation of the factors of production accounts for about 25 percent of productivity growth in developing countries"
+   }
+  ],
+  "filter": {
+   "section": "spotlight"
+  }
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "direct",
+  "question": "By 2008, how productive was the average Brazilian manufacturing worker compared with an American worker?",
+  "expected_answer": "17 percent",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 21,
+    "evidence": "By 2008, this ratio had fallen to 17 percent."
+   }
+  ]
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "type": "conditional",
+  "question": "If capital endowments were the only difference between middle-income and high-income countries, what would a typical middle-income country's GNI be relative to the United States?",
+  "expected_answer": "About 75 percent of the United States",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 23,
+    "evidence": "would be about 75 percent that of the United States"
+   }
+  ]
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What fraction of the world's science and engineering graduates now come from middle-income countries?",
+  "expected_answer": "Three-quarters",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 26,
+    "evidence": "three-quarters of STEM graduates are now in middle-income countries"
+   }
+  ]
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "filter",
+  "question": "According to the Structural Stasis chapter, how did Korea subsidize the adoption of foreign technologies and innovation?",
+  "expected_answer": "Through tax credits for royalty payments or R&D expenditures",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 25,
+    "evidence": "Korea subsidized the adoption of foreign technologies and innovation through tax credits"
+   }
+  ],
+  "filter": {
+   "section": "ch2_structural_stasis"
+  }
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "direct",
+  "question": "How long is it estimated to take today's middle-income countries to move from an aging society to an aged society?",
+  "expected_answer": "About 26 years",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 36,
+    "evidence": "transitioning from an aging society to an aged society is estimated to take about 26 years for today’s middle-income countries"
+   }
+  ],
+  "note": "Evidence sửa cho khớp nguyên văn PDF (dấu nháy cong/gạch ngang) so với Day 6."
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How has the yearly count of new harmful trade measures changed over the past ten years?",
+  "expected_answer": "It doubled",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 38,
+    "evidence": "the number of new harmful trade measures enacted per year doubled over the last decade"
+   }
+  ]
+ },
+ {
+  "id": "t01",
+  "split": "test_v1",
+  "type": "direct",
+  "question": "What was Estonia's R&D intensity as a share of GDP in 2021?",
+  "expected_answer": "1.75 percent of GDP",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 30,
+    "evidence": "research and development (R&D) intensity—1.75 percent of its gross domestic product (GDP) in 2021"
+   }
+  ],
+  "note": "Evidence sửa cho khớp nguyên văn PDF (dấu nháy cong/gạch ngang) so với Day 6. Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "t02",
+  "split": "test_v1",
+  "type": "paraphrase",
+  "question": "How expensive could technology decoupling be for many economies, in terms of output?",
+  "expected_answer": "As high as 5 percent of GDP",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 39,
+    "evidence": "the costs associated with technological fragmentation are estimated to be as high as 5 percent of the gross domestic product (GDP) for many economies"
+   }
+  ],
+  "note": "Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "t03",
+  "split": "test_v1",
+  "type": "filter",
+  "question": "In the Shrinking Spaces chapter, how does energy intensity in middle-income countries compare with high-income countries?",
+  "expected_answer": "About double",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 41,
+    "evidence": "in middle-income countries is about double that in high-income countries"
+   }
+  ],
+  "filter": {
+   "section": "ch3_shrinking_spaces"
+  },
+  "note": "Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "t04",
+  "split": "test_v1",
+  "type": "conditional",
+  "question": "What share of transitions from middle-income to high-income status over the last three decades happened during or shortly after investment accelerations?",
+  "expected_answer": "82 percent",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 33,
+    "evidence": "82 percent of the transitions from middle-income status to high-income status that occurred over the last three decades happened during or shortly after investment accelerations"
+   }
+  ],
+  "note": "Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "t05",
+  "split": "test_v1",
+  "type": "filter",
+  "question": "In the Slowing Growth chapter, what share of the world's population lives in middle-income countries?",
+  "expected_answer": "About 75 percent",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 4,
+    "evidence": "home to about 75 percent of the world’s population"
+   },
+   {
+    "source_id": "wdr2024_part1",
+    "page": 5,
+    "evidence": "home to about 75 percent of the world’s population"
+   }
+  ],
+  "filter": {
+   "section": "ch1_slowing_growth"
+  },
+  "note": "Evidence sửa cho khớp nguyên văn PDF (dấu nháy cong/gạch ngang) so với Day 6. Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "t06",
+  "split": "test_v1",
+  "type": "paraphrase",
+  "question": "Which country is given as an example of using immigration to cope with low fertility and labor shortages?",
+  "expected_answer": "Canada",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 37,
+    "evidence": "Canada has successfully relied on immigration as a strategy to manage its low fertility rates and labor shortages"
+   }
+  ],
+  "note": "Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "type": "unanswerable",
+  "question": "By which year does Thailand aim to reach high-income status?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Thailand không xuất hiện ở bất kỳ trang nào (grep 'Thailand' trên 157 chunk và toàn văn pdftotext = 0). Câu gần chủ đề với q03 (Viet Nam 2045) và mục tiêu của India 2047 ở p6."
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "type": "unanswerable",
+  "question": "What was Bulgaria's R&D expenditure as a share of GDP in 2021?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Box 2.2 (p30) chỉ nêu R&D intensity của Estonia (1,75%) và Poland (1,3%) năm 2021; với Bulgaria chỉ có tăng năng suất 1,4%/năm (bẫy gần nghĩa). grep 'Bulgaria' toàn văn: không có số R&D cho Bulgaria."
+ },
+ {
+  "id": "u03",
+  "split": "test_v1",
+  "type": "unanswerable",
+  "question": "What is Indonesia's official target year for becoming a high-income country?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Indonesia chỉ xuất hiện trong bảng/biểu đồ (p15, p19, p36, p43), không có mục tiêu thu nhập cao. Đã grep 'Indonesia' toàn văn.",
+  "note": "Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "u04",
+  "split": "test_v1",
+  "type": "unanswerable",
+  "question": "What was Viet Nam's unemployment rate in 2022?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Không trang nào nói về tỷ lệ thất nghiệp (grep 'unemploy' toàn văn = 0); Viet Nam chỉ có kế hoạch tăng trưởng 7% và mục tiêu 2045 (p6) và một dòng bảng p19.",
+  "note": "Test v1: đã chạy và xem kết quả trước khi sửa agent v2, không còn là test độc lập."
+ },
+ {
+  "id": "n01",
+  "split": "test",
+  "type": "direct",
+  "question": "By 2021, what share of Western European income had Estonia reached?",
+  "expected_answer": "80 percent of Western European income",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 29,
+    "evidence": "By 2021, Estonia had reached 80 percent of Western European income"
+   }
+  ],
+  "note": "Test v2 (mới): viết sau khi phát hiện lỗi agent trên dev, trước khi chạy agent v2; chưa từng chạy hệ thống trên câu này."
+ },
+ {
+  "id": "n02",
+  "split": "test",
+  "type": "direct",
+  "question": "In Poland, what share of the contribution to total factor productivity growth came from labor alone?",
+  "expected_answer": "20 percent",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 31,
+    "evidence": "A notable 20 percent of the contribution came from labor alone"
+   }
+  ],
+  "note": "Test v2 (mới): viết sau khi phát hiện lỗi agent trên dev, trước khi chạy agent v2; chưa từng chạy hệ thống trên câu này."
+ },
+ {
+  "id": "n03",
+  "split": "test",
+  "type": "conditional",
+  "question": "Between 2000 and 2012, how did the proportion of 25- to 34-year-olds with a tertiary education change in Poland?",
+  "expected_answer": "It increased from 15 percent to 42 percent",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 31,
+    "evidence": "increased from 15 percent to 42 percent between 2000 and 2012"
+   }
+  ],
+  "note": "Test v2 (mới): viết sau khi phát hiện lỗi agent trên dev, trước khi chạy agent v2; chưa từng chạy hệ thống trên câu này."
+ },
+ {
+  "id": "n04",
+  "split": "test",
+  "type": "direct",
+  "question": "What was Denmark's rank in the Economic Complexity Index in 2021?",
+  "expected_answer": "Twenty-fourth (24th)",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 11,
+    "evidence": "in 2021, Denmark was ranked twenty-fourth in the Economic Complexity Index"
+   }
+  ],
+  "note": "Test v2 (mới): viết sau khi phát hiện lỗi agent trên dev, trước khi chạy agent v2; chưa từng chạy hệ thống trên câu này."
+ },
+ {
+  "id": "n05",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "What was the name of the Meiji-era Japanese government project to promote industrial development?",
+  "expected_answer": "Shokusan Kogyo",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 28,
+    "evidence": "The govern ment embarked on a project, Shokusan Kogyo (industrial development and promotion of industries)"
+   }
+  ],
+  "note": "Test v2 (mới): viết sau khi phát hiện lỗi agent trên dev, trước khi chạy agent v2; chưa từng chạy hệ thống trên câu này."
+ },
+ {
+  "id": "n06",
+  "split": "test",
+  "type": "filter",
+  "question": "In the Spotlight section, what shares of the global population and global GDP do the countries selected in table S.1 account for?",
+  "expected_answer": "62 percent of the global population and 72 percent of global GDP",
+  "answerable": true,
+  "gold": [
+   {
+    "source_id": "wdr2024_part1",
+    "page": 18,
+    "evidence": "The selected countries in table S.1 account for 62 percent of the global population and 72 percent of global GDP"
+   }
+  ],
+  "note": "Test v2 (mới): viết sau khi phát hiện lỗi agent trên dev, trước khi chạy agent v2; chưa từng chạy hệ thống trên câu này.",
+  "filter": {
+   "section": "spotlight"
+  }
+ },
+ {
+  "id": "x01",
+  "split": "test",
+  "type": "unanswerable",
+  "question": "What was Estonia's R&D intensity as a share of GDP in 2010?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Tài liệu chỉ nêu R&D intensity của Estonia năm 2021 (1,75%, p30); regex 'Estonia' + năm 2000-2019 trên 157 chunk = 0. Bẫy gần nghĩa với test_v1 t01."
+ },
+ {
+  "id": "x02",
+  "split": "test",
+  "type": "unanswerable",
+  "question": "What carbon tax rate does the report recommend for middle-income countries?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Không có 'carbon tax' hay 'carbon pricing' trong toàn văn (grep pdftotext = 0); tài liệu chỉ nói về energy/carbon intensity (p18, p41)."
+ }
+]
